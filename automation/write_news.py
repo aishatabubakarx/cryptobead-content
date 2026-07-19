@@ -164,7 +164,7 @@ def main():
     image_filename = f"{article_id}.jpg"
     image_path = os.path.join(IMAGES_DIR, image_filename)
     generate_article_cover_image(article_data["title"], image_path)
-    image_url = f"{SITE_URL}/{image_path}"
+    image_url = f"https://raw.githubusercontent.com/aishatabubakarx/cryptobead-content/main/{image_path}"
 
     new_article = {
         "id": article_id,
