@@ -1,0 +1,35 @@
+name: 3 - Publish Weekly Guide
+
+on:
+  schedule:
+    - cron: '0 15 * * 4'   # Thursday, 11:00 AM Eastern
+  workflow_dispatch:
+
+jobs:
+  publish-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install google-generativeai
+
+      - name: Write and publish guide
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python automation/write_guide.py
+
+      - name: Update sitemap
+        run: python automation/update_sitemap.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "Automation Engine"
+          git config --global user.email "automation@cryptobead.com"
+          git add guides/ sitemap.xml
+          git commit -m "Publish: weekly guide" || exit 0
+          git push
