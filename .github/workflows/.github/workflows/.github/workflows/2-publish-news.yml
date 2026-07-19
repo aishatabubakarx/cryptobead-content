@@ -1,0 +1,41 @@
+name: 2 - Publish News Article
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 8:00 AM Eastern
+    - cron: '0 14 * * *'   # 10:00 AM Eastern
+    - cron: '0 16 * * *'   # 12:00 PM Eastern
+    - cron: '0 18 * * *'   # 2:00 PM Eastern
+    - cron: '0 20 * * *'   # 4:00 PM Eastern
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install google-generativeai requests
+
+      - name: Write and publish article
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: python automation/write_news.py
+
+      - name: Update sitemap
+        run: python automation/update_sitemap.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "Automation Engine"
+          git config --global user.email "automation@cryptobead.com"
+          git add news/ sitemap.xml
+          git commit -m "Publish: new article" || exit 0
+          git push
