@@ -1,5 +1,59 @@
 [
   {
+    "id": "afx-trade-drained-of-24-15-million-in-arbitrum-exploit-offers-hacker-3-202607231555",
+    "title": "AFX Trade Drained of $24.15 Million in Arbitrum Exploit, Offers Hacker 30% Bounty",
+    "subtitle": "Decentralized perpetuals exchange on Arbitrum loses funds via compromised custody bridge, seeking recovery with a white hat offer.",
+    "summary": "AFX Trade, an Arbitrum-based perp DEX, was drained of $24.15M in an exploit, offering a 30% white hat bounty.",
+    "content": "AFX Trade, a decentralized perpetuals exchange operating on Arbitrum, experienced an exploit on Wednesday resulting in a loss of $24.15 million. This incident, which targeted a bridge operated by the protocol, was confirmed by security firm Blockaid. The on-chain money trail shows the attacker bridged the stolen USDC to Ethereum and then swapped it for 12,468 ETH, now residing in a single wallet, according to PeckShield. AFX stated in a tweet that the exact attack vector remains under investigation.\n\nThis incident marks another significant security event in the decentralized finance sector.\n\n### What was the nature of the exploit?\nSecurity firm Blockaid stated that AFX Trade, a decentralized perpetuals exchange on Arbitrum, was drained of $24.15 million on Wednesday. The exploit specifically targeted a bridge operated by the protocol, which settles in the stablecoin USDC. AFX acknowledged an incident involving its USDC custody bridge on Arbitrum, stating that bridge operations were immediately suspended upon detection, according to a public statement.\n\nThe exact attack vector remains under investigation, AFX said in a tweet. On-chain analysis by PeckShield revealed that the attacker bridged the stolen USDC to Ethereum and subsequently swapped it for 12,468 ETH, which now resides in a single wallet. This detailed money trail provides key information for tracking the illicit funds.\n\nArbitrum moved quickly to distance itself from the exploit. Steven Goldfeder, a co-founder of Arbitrum, clarified that the network's native bridge \"has not been hacked or exploited in any way,\" emphasizing that the transaction originated from a third-party protocol. This distinction is crucial, as a breach of Arbitrum's own bridge would have widespread implications across the entire layer-2 ecosystem, while a compromised application operating on top of it represents a more contained failure.\n\nAFX confirmed its engineering and security teams are actively investigating the root cause of the incident and have initiated incident response procedures. The firm noted the damage appeared \"isolated to the AFX-operated custody bridge,\" assuring users that neither its trading infrastructure and mainnet, nor the Arbitrum network itself, had been compromised. AFX added that it is working with ecosystem partners and security firms to trace the stolen assets, aiming to facilitate recovery and strengthen future defenses.\n\n### What actions has AFX taken since the incident?\nFollowing the exploit, AFX's head of growth, Ken C, publicly offered the attacker a \"white hat bounty.\" This proposal entails the attacker returning 70% of the stolen funds while being permitted to keep the remaining 30% as a reward for identifying the vulnerability. Such public appeals have become a recurring feature in the crypto space, reflecting a strategy some protocols employ to mitigate losses following a hack.\n\nThe firm immediately suspended bridge operations upon detecting the incident, a standard first step in containing potential further losses. AFX\u2019s active investigation by its engineering and security teams aims to pinpoint the exact mechanism of the exploit, providing insights necessary for preventing future attacks. This proactive approach seeks to restore trust and secure the platform\u2019s future operations.\n\nAFX is also working collaboratively with various ecosystem partners and security firms. This collaboration is designed to enhance the tracing of the stolen assets, leveraging collective expertise to follow the on-chain money trail. The hope is that through these joint efforts, a significant portion of the $24.15 million can be recovered, minimizing the long-term impact on the protocol and its users.\n\n### What is the broader context for this exploit?\nThis theft contributes to what has been a challenging period for decentralized finance, with total losses from hacks in 2026 exceeding $840 million, according to data available. The consistent occurrence of such exploits underscores persistent security vulnerabilities across the DeFi landscape. These incidents highlight the ongoing need for robust security audits and vigilant monitoring within the ecosystem.\n\nThe incident also lands close to home within the Arbitrum ecosystem. Just a week prior, Ostium, another perpetuals venue operating on Arbitrum, was drained of $18 million. That exploit involved a compromised oracle key, illustrating the diverse range of attack vectors that protocols can face. The occurrence of two significant exploits on Arbitrum-based perpetuals platforms in quick succession suggests a heightened focus on security within this specific sector may be warranted.\n\nThe recent exploit follows a trend of security incidents impacting decentralized finance protocols. For example, [AFX and Verus Bridges Lose $31.6 Million in Dual Exploits](https://cryptobead.com/article/afx-and-verus-bridges-lose-31-6-million-in-dual-exploits-202607231442) details other related breaches. These repeated security challenges emphasize the critical need for continuous innovation in security measures and incident response frameworks across the entire decentralized finance industry, as protocols strive to protect user assets and maintain operational integrity amidst evolving threats.\n\n### FAQs\n### What was the total amount stolen from AFX Trade?\nThe total amount stolen from AFX Trade was $24.15 million in USDC, according to security firm Blockaid.\n### Which network was affected by the exploit?\n### What is a \"white hat bounty\"?\nTickers: USDC ETH ARB\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "DeFi",
+    "date": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T15:55:25.977783+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "arbitrum",
+      "exploit",
+      "defi",
+      "usdc",
+      "perpetuals"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/afx-trade-drained-of-24-15-million-in-arbitrum-exploit-offers-hacker-3-202607231555.jpg",
+    "featured": false,
+    "wordCount": 819,
+    "keyInsights": [
+      "AFX Trade, a decentralized perpetuals exchange, was exploited for $24.15 million via its USDC custody bridge.",
+      "Arbitrum's native bridge was unaffected, confirming the exploit was isolated to a third-party protocol.",
+      "AFX has offered the attacker a 30% bounty to return 70% of the stolen funds."
+    ],
+    "author": {
+      "name": "Sarah Jenkins",
+      "role": "Lead Blockchain Architect",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "DeFi Protocol Exploits",
+      "subtitle": "Reported Losses in Recent Hacks",
+      "yAxisLabel": "Amount (Millions USD)",
+      "sourceLabel": "Blockaid, PeckShield, Decrypt",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "AFX Trade",
+          "value": 24.15
+        },
+        {
+          "label": "Ostium",
+          "value": 18.0
+        },
+        {
+          "label": "Total DeFi 2026",
+          "value": 840.0
+        }
+      ]
+    }
+  },
+  {
     "id": "afx-and-verus-bridges-lose-31-6-million-in-dual-exploits-202607231442",
     "title": "AFX and Verus Bridges Lose $31.6 Million in Dual Exploits",
     "subtitle": "Decentralized exchanges AFX and Verus Protocol experienced separate bridge attacks on Wednesday, resulting in multi-million dollar losses.",
