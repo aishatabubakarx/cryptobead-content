@@ -1,5 +1,51 @@
 [
   {
+    "id": "bitmex-to-shut-down-operations-by-2026-hackers-exploit-bridges-for-ove-202607231714",
+    "title": "BitMEX to Shut Down Operations by 2026, Hackers Exploit Bridges for Over $31.6 Million",
+    "subtitle": "A major derivatives exchange announces its closure while two cross-chain bridges are breached, amid new proposed federal ethics rules.",
+    "summary": "BitMEX announces 2026 shutdown as hackers steal $31.6M from two bridges; Senate proposes ethics rules for federal officials' crypto.",
+    "content": "BitMEX, a pioneer in cryptocurrency derivatives trading, announced its intention to cease operations by September 23, 2026, following a strategic review. This announcement coincides with reports of hackers stealing over $31.6 million in two separate crypto bridge exploits spaced just seven hours apart.\n\nThese events underscore significant shifts in the digital asset market, from evolving infrastructure to persistent security vulnerabilities and increasing regulatory scrutiny.\n\n### What Led to BitMEX's Shutdown?\nBitMEX, one of the pioneers of cryptocurrency derivatives trading, has announced its decision to shut down operations. Owner and operator HDR Global Trading Limited determined to close the company following a strategic review. BitMEX stated Thursday that it will cease all exchange services on September 23, 2026, at 04:00 UTC. The platform has urged its users to close positions and withdraw all funds before this specified deadline.\n\nIn a direct statement to its users, BitMEX provided reassurance, confirming that \"your assets remain fully safe and under your control during this transition period.\" The exchange did not, however, disclose additional details concerning the specific factors that led to HDR Global Trading Limited\u2019s decision to conclude operations after its strategic review. BitMEX declined to offer further comment on the matter, and HDR Global Trading did not immediately respond to Cointelegraph\u2019s request for additional information.\n\nBitMEX's departure occurs from a market landscape it was instrumental in shaping and defining. Its exit is notable as decentralized derivatives platforms are increasingly capturing a larger share of overall trading activity, shifting momentum away from centralized exchanges (CEXs). According to CoinGecko\u2019s Q2 2026 Crypto Industry Report, CEX perpetual futures volume experienced a 10% decrease, falling to $12.7 trillion during the quarter. Concurrently, decentralized platforms continued to gain significant ground in market share. Hyperliquid, for instance, has emerged as a prominent decentralized perpetual exchange, now ranking second by open interest, only behind Binance. This ongoing evolution indicates a persistent trend towards decentralized financial services within the crypto derivatives space.\n\n### How Did Hackers Exploit Cross-Chain Bridges?\nHackers successfully stole more than $31.6 million across two unrelated crypto bridge exploits that occurred just seven hours apart. These back-to-back attacks specifically targeted cross-chain bridges operated by the decentralized perpetual exchange AFX and Verus Protocol, highlighting ongoing security vulnerabilities within the interconnected blockchain ecosystem.\n\nAccording to Blockaid, AFX, a decentralized perpetual exchange operating on Arbitrum, reportedly lost $24.15 million on Wednesday. This substantial sum was stolen through a hack targeting one of its cross-chain bridges. [AFX Trade Drained of $24.15 Million in Arbitrum Exploit, Offers Hacker 30% Bounty](https://cryptobead.com/article/afx-trade-drained-of-24-15-million-in-arbitrum-exploit-offers-hacker-3-202607231555). Just hours after the AFX incident, Blockaid confirmed it detected a subsequent exploit. This second attack targeted the Verus Ethereum Bridge, resulting in the theft of approximately $7.5 million in crypto assets.\n\nThe rapid succession of these exploits underscores the persistent and significant security risks inherent in cross-chain bridges. These systems are critical infrastructure components, designed to move funds between separate blockchains, and they often hold large pools of assets, making them attractive targets for malicious actors. Onchain investigator TheCrypticWolf expressed concerns in a post on X, stating, \"Another bridge, another exploit. Bridges will always be a weak link, until security is upgraded.\" The repeated incidents demonstrate the critical need for enhanced security measures and continuous vigilance to protect assets within the multi-chain environment.\n\n### What Are the Implications of the Proposed CLARITY Act?\nThe Senate\u2019s proposed CLARITY Act introduces a set of new ethics rules aimed at addressing potential conflicts of interest among US federal officials. This 616-page market structure bill would temporarily prohibit these officials, including President Donald Trump, from issuing or sponsoring digital assets. The White House described these provisions as its broadest ethics measures to date.\n\nThe proposed restrictions extend broadly, encompassing public officials, government employees, and their spouses. Additionally, the legislation aims to prevent crypto platforms from listing tokens that have been issued or sponsored by federal officials. Senator Cynthia Lummis clarified that the language of the bill is specifically applicable to President Trump\u2019s crypto ventures. However, these restrictions are set to expire on January 20, 2029, aligning with the scheduled end of his second term.\n\nPrimary enforcement responsibility for these new ethics rules is assigned to the Department of Justice. This particular provision has already drawn criticism from some Democrats. With the Senate expected to vote on the legislation as early as next week, securing stronger ethics safeguards remains a key demand among Democrats. Their support is crucial to overcome the chamber\u2019s 60-vote threshold required for the bill's passage, indicating its potential to significantly influence the intersection of public office and the digital asset sector.\n\n### FAQs\n### When is BitMEX scheduled to cease operations?\nBitMEX is scheduled to cease all exchange services on Sept. 23, 2026, at 04:00 UTC, advising users to close positions and withdraw funds before this deadline.\n### Which crypto bridges were targeted by recent exploits?\n### What does the CLARITY Act propose for federal officials?\n\nTickers: BTC\nDisclaimer: This article provides factual information and should not be considered financial advice.",
+    "category": "Regulation",
+    "date": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T17:14:16.179361+00:00",
+    "readTime": "4 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "BitMEX",
+      "Crypto Exploits",
+      "CLARITY Act",
+      "DeFi",
+      "Regulation"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/bitmex-to-shut-down-operations-by-2026-hackers-exploit-bridges-for-ove-202607231714.jpg",
+    "featured": false,
+    "wordCount": 828,
+    "keyInsights": [
+      "BitMEX will cease operations by September 23, 2026, following a strategic review.",
+      "Hackers stole over $31.6 million from AFX and Verus Protocol bridge exploits.",
+      "The Senate's CLARITY Act proposes ethics restrictions on federal officials regarding crypto ventures."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "CEX Perpetual Futures Volume Change",
+      "subtitle": "Q2 2026 Volume Compared to Previous Quarter",
+      "yAxisLabel": "Percentage of Previous Quarter's Volume",
+      "sourceLabel": "CoinGecko\u2019s Q2 2026 Crypto Industry Report",
+      "chartType": "radial",
+      "data": [
+        {
+          "label": "Q2 2026 Volume",
+          "value": 90.0
+        }
+      ]
+    }
+  },
+  {
     "id": "afx-trade-drained-of-24-15-million-in-arbitrum-exploit-offers-hacker-3-202607231555",
     "title": "AFX Trade Drained of $24.15 Million in Arbitrum Exploit, Offers Hacker 30% Bounty",
     "subtitle": "Decentralized perpetuals exchange on Arbitrum loses funds via compromised custody bridge, seeking recovery with a white hat offer.",
