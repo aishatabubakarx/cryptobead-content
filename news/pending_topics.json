@@ -1,11 +1,5 @@
 [
   {
-    "title": "Hackers steal $31.6M in 2 crypto bridge attacks within 7 hours",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hackers steal $31.6M in 2 crypto bridge attacks within 7 hours\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hack.jpg\" /></p><p>AFX, a decentralized perpetual exchange operating on Arbitrum, reportedly lost $24.15 million on Wednesday, while the Verus Ethereum bridge was attacked hours later. </p>",
-    "link": "https://cointelegraph.com/news/afx-protocol-reportedly-loses-24m-in-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "Cointelegraph.com News"
-  },
-  {
     "title": "Arbitrum Perp DEX AFX Trade Drained of $24M, Offers Hacker 30% to Return It",
     "summary": "The exploit hit a custody bridge AFX operates rather than the Arbitrum network itself, with the stolen funds quickly moved to Ethereum.",
     "link": "https://decrypt.co/374133/arbitrum-perp-dex-afx-trade-drained-of-24m-offers-hacker-30-to-return-it",
