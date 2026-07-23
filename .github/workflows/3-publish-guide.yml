@@ -33,3 +33,7 @@ jobs:
           git add guides/ sitemap.xml
           git commit -m "Publish: weekly guide" || exit 0
           git push
+
+      - name: Purge jsDelivr cache so the new guide shows up immediately
+        run: |
+          curl "https://purge.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/guides/guides.json"

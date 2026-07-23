@@ -39,3 +39,7 @@ jobs:
           git add news/ sitemap.xml
           git commit -m "Publish: new article" || exit 0
           git push
+
+      - name: Purge jsDelivr cache so the new article shows up immediately
+        run: |
+          curl "https://purge.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/articles.json"
