@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "title": "Hackers steal $31.6M in 2 crypto bridge attacks within 7 hours",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Hackers steal $31.6M in 2 crypto bridge attacks within 7 hours\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hack.jpg\" /></p><p>AFX, a decentralized perpetual exchange operating on Arbitrum, reportedly lost $24.15 million on Wednesday, while the Verus Ethereum bridge was attacked hours later. </p>",
+    "link": "https://cointelegraph.com/news/afx-protocol-reportedly-loses-24m-in-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News"
+  },
+  {
+    "title": "Arbitrum Perp DEX AFX Trade Drained of $24M, Offers Hacker 30% to Return It",
+    "summary": "The exploit hit a custody bridge AFX operates rather than the Arbitrum network itself, with the stolen funds quickly moved to Ethereum.",
+    "link": "https://decrypt.co/374133/arbitrum-perp-dex-afx-trade-drained-of-24m-offers-hacker-30-to-return-it",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Bitcoin will get \u2018lift\u2019 from Hyperliquid, Robinhood in next crypto bull market: Bitwise exec",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin will get \u2018lift\u2019 from Hyperliquid, Robinhood in next crypto bull market: Bitwise exec\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/gym-crypto-bitcoin.png\" /></p><p>Bitwise predicted that Hyperliquid and Robinhood TradFi ventures should form the basis for a crypto bull-market comeback that would lift Bitcoin and Ether.</p>",
+    "link": "https://cointelegraph.com/markets/bitcoin-will-get-lift-from-hyperliquid-robinhood-in-next-crypto-bull-market-bitwise-exec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News"
+  },
+  {
+    "title": "Bitcoin may have bottomed before its traditional cycle low: Grayscale\u2019s Pandl",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin may have bottomed before its traditional cycle low: Grayscale\u2019s Pandl\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/market-red-graph-falling-danger-stones-bitcoin-3.jpg\" /></p><p>Grayscale\u2019s head of research said that Bitcoin may have bottomed, arguing that macro factors, such as interest rate decisions as increasingly driving the price action of this maturing asset class.</p>",
+    "link": "https://cointelegraph.com/markets/grayscale-bitcoins-price-bottomed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News"
+  },
+  {
+    "title": "Bitcoin ETFs approach $1B in 7-session inflow run",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin ETFs approach $1B in 7-session inflow run\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf.jpg\" /></p><p>US spot Bitcoin ETFs recorded $69 million in inflows on Wednesday, extending their inflow streak to seven sessions and bringing total inflows during the period to nearly $1 billion</p>",
+    "link": "https://cointelegraph.com/markets/bitcoin-etfs-1-billion-7-session-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News"
+  }
+]
