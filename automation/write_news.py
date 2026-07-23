@@ -84,12 +84,33 @@ def pick_internal_links(existing_articles, count=2):
     return [f"[{a['title']}](https://cryptobead.com/article/{a['id']})" for a in picks]
 
 
+def strip_fabricated_internal_links(content, existing_articles):
+    """
+    Gemini was asked to use only real internal links, but models can still
+    fabricate a plausible-looking one. Rather than trust that, verify every
+    cryptobead.com/article/:id link against real article IDs afterward, and
+    demote any fake one to plain text so it can never point to a dead page.
+    """
+    real_ids = {a["id"] for a in existing_articles}
+
+    def replace_if_fake(match):
+        link_text, article_id = match.group(1), match.group(2)
+        if article_id in real_ids:
+            return match.group(0)  # real link, keep as-is
+        return link_text  # fabricated - drop the link, keep just the text
+
+    pattern = r"\[([^\]]+)\]\(https://cryptobead\.com/article/([^\)]+)\)"
+    return re.sub(pattern, replace_if_fake, content)
+
+
 def write_article(topic, existing_articles):
     source_text = topic.get("full_text") or topic.get("summary", "")
     internal_links = pick_internal_links(existing_articles)
     internal_hint = (
         f"If it fits naturally, you may weave in one of these internal links using this exact "
-        f"markdown format: {internal_links[0]}. Do not force it if it doesn't fit."
+        f"markdown format: {internal_links[0]}. Do not force it if it doesn't fit. Do NOT invent, "
+        f"combine, or paraphrase a different link, headline, or URL of your own, use this exact "
+        f"one verbatim or omit internal links entirely."
         if internal_links else
         "No internal links are available yet, skip internal links entirely."
     )
@@ -210,6 +231,7 @@ CONTENT:
     chart_source = extract("CHART_SOURCE", "CHART_DATA")
     chart_data_raw = extract("CHART_DATA", "CONTENT")
     content = extract("CONTENT")
+    content = strip_fabricated_internal_links(content, existing_articles)
 
     if chart_type not in ["bar", "line", "area", "pie", "radial"]:
         chart_type = "bar"
