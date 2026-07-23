@@ -16,7 +16,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install feedparser requests beautifulsoup4
 
       - name: Run research script
         run: python automation/research_topics.py
