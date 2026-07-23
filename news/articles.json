@@ -1,5 +1,55 @@
 [
   {
+    "id": "afx-and-verus-bridges-lose-31-6-million-in-dual-exploits-202607231442",
+    "title": "AFX and Verus Bridges Lose $31.6 Million in Dual Exploits",
+    "subtitle": "Decentralized exchanges AFX and Verus Protocol experienced separate bridge attacks on Wednesday, resulting in multi-million dollar losses.",
+    "summary": "Two crypto bridge exploits targeting AFX and Verus Protocol led to over $31.6 million stolen within hours.",
+    "content": "Hackers stole more than $31.6 million across two unrelated crypto bridge exploits that transpired within a seven-hour span on Wednesday, targeting bridges operated by decentralized perpetual exchange AFX and Verus Protocol. The first incident involved AFX, which reportedly lost $24.15 million, followed hours later by an attack on the Verus Ethereum Bridge resulting in approximately $7.5 million in stolen crypto.\n\nThese back-to-back incidents underscore persistent security challenges within the cross-chain bridge ecosystem.\n\n### What happened during the AFX bridge exploit?\nAccording to Blockaid, a firm specializing in web3 security, AFX, a decentralized perpetual exchange operating on the Arbitrum network, reportedly lost $24.15 million on Wednesday. The loss occurred through a hack targeting one of its cross-chain bridges. Blockaid specified that it detected this exploit at 9:30 pm UTC.\n\nFollowing the incident, Stephen Goldfeder, co-founder of Offchain Labs, which supports Arbitrum, confirmed a bridge hack had affected a third-party protocol. Goldfeder stated in a post on X that his team was aware of the report and was investigating, clarifying that the Arbitrum native bridge itself was not compromised. He added that the transaction in question originated from a third-party protocol.\n\nSunSec, founder of the Web3 security community DeFiHackLabs and a contributor to SEAL, provided insights into the exploit's nature. SunSec suggested that the evidence pointed to compromised keys rather than a smart contract logic bug as the root cause of the incident.\n\nThis assessment was consistent with reports indicating that five hot validator keys had been compromised, according to Ido Ben-Natan, co-founder and CEO of Blockaid. Ben-Natan conveyed to Cointelegraph that Blockaid\u2019s evaluation suggested an \"operational security incident rather than a smart contract vulnerability.\"\n\nHe further explained that the unauthorized withdrawal carried genuine validator signatures. This meant the bridge\u2019s on-chain verification mechanism functioned exactly as designed and was not bypassed. Ben-Natan added that the required validator quorum had been satisfied using authentic signatures. This implies the compromise took place within the bridge\u2019s off-chain signing infrastructure rather than within the bridge contract itself. Such findings necessitate a renewed focus on the robust protection of off-chain components and key management practices for bridge operators.\n\n### How was the Verus Ethereum Bridge affected?\nHours after the AFX incident, Blockaid reported detecting a separate exploit targeting the Verus Ethereum Bridge. This attack led to approximately $7.5 million in crypto being stolen from its reserves. The assets drained included a variety of tokens such as Ether, tBTC, which is a Bitcoin-backed ERC-20 token, USDC, USDt, EURC, MKR, and scrvUSD.\n\nBlockaid indicated that this specific attack appears to be similar in method to a previous Verus Ethereum Bridge incident that occurred in May, which resulted in $11.58 million being drained. While the attack method remained consistent, Blockaid confirmed that a different attacker wallet was involved in the latest incident. The company explained that an attacker utilized the bridge import path to trigger unbacked Ethereum-side payouts. The repeated targeting of specific vulnerabilities, even with different actors, highlights ongoing challenges for protocols in securing their cross-chain mechanisms against persistent and evolving threats.\n\n### What are the broader implications for cross-chain bridge security?\nThese incidents collectively emphasize the continued and significant security risks facing cross-chain bridges. Bridges serve a critical function within the blockchain ecosystem, as they hold substantial pools of assets and facilitate the movement of funds between otherwise distinct blockchains. On-chain investigator TheCrypticWolf articulated concerns in a post on X, stating, \"Another bridge, another exploit. Bridges will always be a weak link, until security is upgraded.\"\n\nThe back-to-back nature of these exploits within a single day underscores the urgent need for enhanced security measures and continuous vigilance across the entire bridge landscape.\nThe details surrounding the AFX hack, particularly the compromise of operational security rather than a smart contract flaw, suggest that comprehensive security strategies must extend beyond code audits. These strategies should include robust key management, infrastructure protection, and real-time threat detection.\nIndustry stakeholders will likely face increasing pressure to invest in advanced security technologies and collaborative intelligence sharing to fortify these vital pieces of decentralized infrastructure. [Crypto Bridges Under Siege: $31.6M Vanishes in Twin Attacks Within Hours](https://cryptobead.com/article/crypto-bridges-under-siege-31-6m-vanishes-in-twin-attacks-within-hours-202607231137) The ongoing threats pose significant risks to user funds and ecosystem stability, requiring proactive and adaptive security frameworks.\n\n### FAQs\n### What is a crypto bridge?\nA crypto bridge is a protocol that enables the transfer of assets and information between different blockchain networks, effectively connecting otherwise isolated blockchains.\n\n### Which assets were stolen from the Verus Ethereum Bridge?\n### Who is Blockaid?\n\nTickers: ETH USDC MKR\nDisclaimer: This article provides factual information and should not be considered financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T14:42:31.081657+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Crypto Bridge",
+      "Exploit",
+      "AFX",
+      "Verus Protocol",
+      "Blockaid"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/afx-and-verus-bridges-lose-31-6-million-in-dual-exploits-202607231442.jpg",
+    "featured": false,
+    "wordCount": 761,
+    "keyInsights": [
+      "Two separate crypto bridge exploits occurred on Wednesday.",
+      "AFX lost $24.15 million, and the Verus Ethereum Bridge lost $7.5 million.",
+      "The attacks highlight ongoing security vulnerabilities in cross-chain bridge infrastructure."
+    ],
+    "author": {
+      "name": "Marcus Aurelius",
+      "role": "Chief Macro Strategist",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "Crypto Bridge Exploit Losses",
+      "subtitle": "AFX and Verus Protocol incidents, Wednesday",
+      "yAxisLabel": "Loss Amount (USD)",
+      "sourceLabel": "Blockaid",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "AFX",
+          "value": 24150000.0
+        },
+        {
+          "label": "Verus Ethereum Bridge",
+          "value": 7500000.0
+        }
+      ]
+    }
+  },
+  {
     "id": "crypto-bridges-under-siege-31-6m-vanishes-in-twin-attacks-within-hours-202607231137",
     "title": "Crypto Bridges Under Siege: $31.6M Vanishes in Twin Attacks Within Hours",
     "subtitle": "A decentralized perpetual exchange on Arbitrum and the Verus Ethereum bridge were exploited for millions, highlighting persistent vulnerabilities in cross-chain infrastructure.",
