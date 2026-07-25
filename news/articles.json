@@ -1,5 +1,38 @@
 [
   {
+    "id": "hyperliquid-rwa-markets-surpass-all-other-categories-with-25-1b-volume-202607252053",
+    "title": "Hyperliquid RWA markets surpass all other categories with $25.1B volume",
+    "subtitle": "The decentralized exchange's RWA market reached $25.1 billion in weekly trading volume, becoming its largest asset class.",
+    "summary": "Hyperliquid's tokenized Real-World Asset markets broke new ground, accounting for 52% of its total weekly trading volume.",
+    "content": "Hyperliquid\u2019s tokenized Real-World Asset (RWA) markets became the platform\u2019s largest trading category by volume for the first time, recording $25.1 billion in weekly volume. This milestone, achieved between July 13 and July 19, marked the first instance where RWAs surpassed all other asset categories combined on the decentralized exchange.\n\nThe significant shift in trading activity was highlighted by market analysis and recent user growth data.\n\n### What led to Hyperliquid's RWA volume surge?\nTokenized RWAs generated $25.1 billion in trading volume from July 13 to July 19, according to Blockworks data. This volume accounted for 52% of Hyperliquid\u2019s total weekly volume, which stood at $48.2 billion for the period. The platform's RWA markets have rapidly expanded their share of trading activity.\n\nLorenzo Valente, research director for digital assets at ARK Invest, stated in a Thursday X post that Hyperliquid\u2019s RWA market alone exceeded the combined crypto perpetual volume of every other decentralized exchange (DEX). This suggests a concentrated demand for RWA trading on Hyperliquid specifically. The platform has positioned itself to capture a significant portion of the emerging RWA trading landscape.\n\n### How has demand for tokenized assets developed?\nThe milestone reflects growing demand for tokenized assets on Hyperliquid. Over the past month, the number of RWA holders on the platform increased by 32% to 1.25 million users, according to data aggregator RWA.xyz. Simultaneously, the total value of tokenized RWAs rose by 3.5% to $36.7 billion within the same period.\n\nThis growth contrasts with recent trends observed in other traditional crypto investment products. For instance, US spot Ethereum exchange-traded funds (ETFs) logged $70.62 million in net outflows on Friday, ending a five-day inflow streak, according to SoSoValue data. Despite ending the week with $103.9 million in net inflows, Ethereum ETFs end five-day inflow streak with $70.62M Friday outflow, the reversal followed a similar pattern in Bitcoin ETFs, which recorded $240.08 million in net outflows on Friday.\n\nThe market structure bill known as the CLARITY Act, currently being urged for a Senate vote by three leading US crypto advocacy groups, aims to establish a comprehensive federal framework for digital assets. Coinbase CEO Brian Armstrong said the legislation would strengthen consumer protections and law enforcement while encouraging innovation to remain in the US. Orest Gavryliak, chief legal officer at DeFi platform 1inch, said the bill would better recognize non-custodial protocols instead of forcing them into traditional financial rules. Industry groups argue this framework is crucial for the broader digital asset market, including tokenized RWAs, to mature.\n\n### What is the outlook for Hyperliquid's RWA growth?\nHyperliquid\u2019s strong trading performance translated into substantial revenue for the platform. The decentralized exchange generated $7.6 million in revenue over the past week, according to DefiLlama data. This places Hyperliquid as the third-highest crypto application by weekly revenue.\n\nThe platform\u2019s revenue performance trailed only stablecoin issuers Tether and Circle, which generated $112 million and $45 million, respectively, during the same period. This indicates Hyperliquid's competitive position within the broader crypto application ecosystem, particularly as it diversifies its trading categories. The continued growth in RWA holders and the total value of tokenized RWAs suggest further potential for revenue generation.\n\n### FAQs\n### What is Hyperliquid?\nHyperliquid is a perpetual decentralized exchange (DEX) that has seen its tokenized Real-World Asset (RWA) markets become its largest trading category by volume.\n### What are tokenized Real-World Assets (RWAs)?\n### How does Hyperliquid compare to other decentralized exchanges?\nTickers: ETH\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "DeFi",
+    "date": "Jul 25, 2026",
+    "publishedAt": "2026-07-25T20:53:15.613840+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Hyperliquid",
+      "RWAs",
+      "Decentralized Exchange",
+      "Trading Volume",
+      "DeFi"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/hyperliquid-rwa-markets-surpass-all-other-categories-with-25-1b-volume-202607252053.jpg",
+    "featured": false,
+    "wordCount": 580,
+    "keyInsights": [
+      "Hyperliquid's RWA markets recorded $25.1 billion in trading volume from July 13 to July 19.",
+      "The RWA trading volume represented 52% of Hyperliquid's total weekly volume, surpassing all other categories.",
+      "Hyperliquid generated $7.6 million in revenue over the past week, ranking third among crypto applications."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "ethereum-etfs-end-five-day-inflow-streak-with-70-62m-friday-outflow-202607251912",
     "title": "Ethereum ETFs end five-day inflow streak with $70.62M Friday outflow",
     "subtitle": "US-listed spot Ethereum exchange-traded funds recorded net outflows after a period of consistent inflows.",
