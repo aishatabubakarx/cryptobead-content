@@ -1,4 +1,6 @@
-google-genai
+google-generativeai
 requests
-pillow
+feedparser
+beautifulsoup4
+Pillow
 python-dotenv

@@ -1,205 +1,406 @@
 import os
-import json
 import re
-import argparse
-import urllib.request
-from datetime import datetime
+import json
+from datetime import datetime, timezone
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ARTICLES_PATH = os.path.join(BASE_DIR, 'news', 'articles.json')
-PENDING_PATH = os.path.join(BASE_DIR, 'news', 'pending_topics.json')
-ROTATION_PATH = os.path.join(BASE_DIR, 'news', 'author_rotation.json')
+import google.generativeai as genai
+from generate_article_image import generate_article_cover_image
 
-AISHAT_AUTHOR = {
-    "name": "Aishat Abubakar",
-    "role": "Senior DeFi Journalist & Trader",
-    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80"
-}
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
-ROTATION_PANEL = [
-    {
-        "name": "Marcus Aurelius",
-        "role": "Chief Macro Strategist",
-        "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"
-    },
-    {
-        "name": "Sarah Jenkins",
-        "role": "Lead Blockchain Architect",
-        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"
-    },
-    {
-        "name": "Robert Vance",
-        "role": "Chief On-Chain Analyst",
-        "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"
-    },
-    {
-        "name": "Elena Rostova",
-        "role": "Senior Protocol Analyst",
-        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80"
-    },
-    {
-        "name": "Dr. Alistair Sterling",
-        "role": "Director of Policy",
-        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
-    }
+PENDING_PATH = "news/pending_topics.json"
+ARTICLES_JSON = "news/articles.json"
+ROTATION_STATE_PATH = "news/author_rotation.json"
+IMAGES_DIR = "news/images"
+
+JSDELIVR_BASE = "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main"
+
+VALID_CATEGORIES = ["DeFi", "Emerging Tech", "Macro", "Regulation", "Infrastructure"]
+
+AISHAT = {"name": "Aishat Abubakar", "role": "Senior DeFi Journalist & Trader",
+          "avatar": "/aishat_profile.jpg"}
+
+OTHER_AUTHORS = [
+    {"name": "Marcus Aurelius", "role": "Chief Macro Strategist",
+     "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"},
+    {"name": "Sarah Jenkins", "role": "Lead Blockchain Architect",
+     "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"},
+    {"name": "Robert Vance", "role": "Chief On-Chain Analyst",
+     "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"},
+    {"name": "Elena Rostova", "role": "Senior Protocol Analyst",
+     "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80"},
+    {"name": "Dr. Alistair Sterling", "role": "Director of Policy",
+     "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"},
 ]
 
-def load_json(filepath, fallback):
-    if os.path.exists(filepath):
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"Error reading {filepath}: {e}")
-    return fallback
+AISHAT_SLOTS = {1, 4}
 
-def save_json(filepath, data):
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
 
-def get_next_author(slot_num=None):
-    rotation_data = load_json(ROTATION_PATH, {"rotation_index": 0, "daily_slot": 1})
-    
-    rot_idx = rotation_data.get("rotation_index", 0)
-    current_slot = slot_num or rotation_data.get("daily_slot", 1)
+def load_json(path, default):
+    if not os.path.exists(path):
+        return default
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    if current_slot in [1, 4]:
-        selected_author = AISHAT_AUTHOR
+
+def save_json(path, data):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+
+def get_todays_slot_and_author(existing_articles):
+    """
+    Determines which of the 5 daily slots this run is by counting how many
+    articles have already been published today, rather than relying on a
+    separate counter file that could fail to persist and silently reset to
+    slot 1 (always Aishat) every run.
+    """
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    todays_count = sum(
+        1 for a in existing_articles
+        if a.get("publishedAt", "").startswith(today)
+    )
+    slot = todays_count + 1
+
+    state = load_json(ROTATION_STATE_PATH, {"rotation_index": 0})
+
+    if slot in AISHAT_SLOTS:
+        author = AISHAT
     else:
-        selected_author = ROTATION_PANEL[rot_idx % len(ROTATION_PANEL)]
-        rot_idx += 1
+        author = OTHER_AUTHORS[state["rotation_index"] % len(OTHER_AUTHORS)]
+        state["rotation_index"] += 1
+        save_json(ROTATION_STATE_PATH, state)
 
-    next_slot = (current_slot % 5) + 1
-    rotation_data["rotation_index"] = rot_idx
-    rotation_data["daily_slot"] = next_slot
-    
-    save_json(ROTATION_PATH, rotation_data)
-    return selected_author
+    return slot, author
 
-def call_gemini_api(prompt, api_key):
-    try:
-        from google import genai
-        client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt
-        )
-        return response.text
-    except Exception:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-        headers = {"Content-Type": "application/json"}
-        payload = json.dumps({"contents": [{"parts": [{"text": prompt}]}]}).encode('utf-8')
-        req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            return data['candidates'][0]['content']['parts'][0]['text']
 
-def write_news(slot=None):
-    api_key = os.environ.get('GEMINI_API_KEY')
-    pending_topics = load_json(PENDING_PATH, [])
-    articles = load_json(ARTICLES_PATH, [])
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:70]
 
-    topic_data = None
-    if pending_topics:
-        topic_data = pending_topics.pop(0)
-        save_json(PENDING_PATH, pending_topics)
 
-    topic_title = topic_data.get('title') if topic_data else "Institutional Capital Expands Across On-Chain RWA Protocols"
-    category = topic_data.get('category') if topic_data else "DeFi"
+def pick_internal_links(existing_articles, count=2):
+    picks = existing_articles[:count]
+    return [f"[{a['title']}](https://cryptobead.com/article/{a['id']})" for a in picks]
 
-    author = get_next_author(slot)
-    print(f"Writing article for topic '{topic_title}' under author '{author['name']}'...")
 
-    now = datetime.utcnow()
-    timestamp_slug = now.strftime('%Y%m%d%H%M')
+def strip_fabricated_internal_links(content, existing_articles):
+    """
+    Gemini was asked to use only real internal links, but models can still
+    fabricate a plausible-looking one. Rather than trust that, verify every
+    cryptobead.com/article/:id link against real article IDs afterward, and
+    demote any fake one to plain text so it can never point to a dead page.
+    """
+    real_ids = {a["id"] for a in existing_articles}
 
-    if api_key:
-        prompt = f"""You are {author['name']}, {author['role']} for Cryptobead.
-Write a comprehensive, highly analytical, and engaging cryptocurrency journalism article on: "{topic_title}".
+    def replace_if_fake(match):
+        link_text, article_id = match.group(1), match.group(2)
+        if article_id in real_ids:
+            return match.group(0)  # real link, keep as-is
+        return link_text  # fabricated - drop the link, keep just the text
 
-Category: {category}
+    pattern = r"\[([^\]]+)\]\(https://cryptobead\.com/article/([^\)]+)\)"
+    return re.sub(pattern, replace_if_fake, content)
 
-Respond strictly in valid JSON format with the following fields:
-{{
-  "title": "A strong, captivating news headline",
-  "subtitle": "A clear 1-sentence analytical subtitle",
-  "summary": "A concise 2-sentence executive summary",
-  "content": "Full markdown text (600-800 words) with section headings (###), key analysis, data points, and FAQs section at the bottom",
-  "sentiment": "bullish" | "bearish" | "neutral",
-  "reliabilityScore": integer between 85 and 98,
-  "category": "{category}",
-  "tags": ["Tag1", "Tag2", "Tag3", "Tag4"],
-  "keyInsights": ["Key insight 1", "Key insight 2", "Key insight 3"]
-}}
-Do not include any code block formatting markdown around the raw JSON object."""
 
-        try:
-            raw_text = call_gemini_api(prompt, api_key)
-            json_match = re.search(r'\{.*\}', raw_text, re.DOTALL)
-            parsed = json.loads(json_match.group(0)) if json_match else json.loads(raw_text)
-        except Exception as e:
-            print(f"Gemini API call failed, using fallback template: {e}")
-            parsed = {
-                "title": topic_title,
-                "subtitle": "Institutional momentum accelerates across decentralized liquidity pools.",
-                "summary": "Market telemetry highlights sustained inflows into on-chain yield infrastructure.",
-                "content": f"### Market Analysis\n\nRecent protocol data indicates expanding institutional participation in {category}. Network fundamentals remain strong.\n\n### Strategic Takeaways\n\nCross-chain liquidity bridges and decentralized security frameworks continue demonstrating resilience.\n\n### FAQs\n### What is driving this growth?\nSustained institutional interest and clearer regulatory guidelines.",
-                "sentiment": "bullish",
-                "reliabilityScore": 92,
-                "category": category,
-                "tags": [category, "Crypto", "Web3"],
-                "keyInsights": ["Institutional adoption reaches new highs", "On-chain metrics remain strongly positive"]
+def write_article(topic, existing_articles):
+    source_text = topic.get("full_text") or topic.get("summary", "")
+    internal_links = pick_internal_links(existing_articles)
+    internal_hint = (
+        f"If it fits naturally, you may weave in one of these internal links using this exact "
+        f"markdown format: {internal_links[0]}. Do not force it if it doesn't fit. Do NOT invent, "
+        f"combine, or paraphrase a different link, headline, or URL of your own, use this exact "
+        f"one verbatim or omit internal links entirely."
+        if internal_links else
+        "No internal links are available yet, skip internal links entirely."
+    )
+
+    prompt = f"""
+You are a crypto news writer. Write ONE news article based only on the real source
+material below. Do not fabricate quotes, sources, names, or figures not present in
+this material. If a specific detail is missing, either omit it or state that it is
+unconfirmed, never invent it.
+
+Match the tone, pacing, and structure of this real example exactly (this is a
+reference for STYLE only, do not reuse its facts):
+
+---EXAMPLE START---
+TITLE: Empery Digital sells 1,400 BTC for $65M to fund AI pivot
+- **Empery Digital sold 1,400 Bitcoins at an average of $62,200 to raise about $87.1 million.**
+- **The proceeds have been used to repay $10 million in debt and fund a $65 million stake in a Midwest AI data center.**
+- **The Nasdaq-listed firm, which peaked above 4,000 BTC and now holds 1,514, is abandoning its Bitcoin treasury strategy.**
+
+Empery Digital (NASDAQ: EMPD) sold 1,400 Bitcoins from the stash it built throughout 2025 at an average of $62,200 a coin, raising about $87.1 million to invest in AI data centers and pay down debt. The Nasdaq-listed company started the sale in May and is now left holding 1,514 BTC.
+
+### Why did Empery Digital sell its Bitcoin?
+Barely one year ago, Empery Digital rebranded from Volcon Inc. and changed its whole business plan from electric vehicles to focusing on holding Bitcoin. Now, it is walking away from that strategy to chase the booming demand for AI computing power.
+
+The company revealed in an 8-K filing that it sold 1,400 coins at an average price of $62,200 each starting from May 7, and raised about $87.1 million. $10 million of the total raised was used to pay off debt on July 7, $65 million was used for a stake in a data center project.
+
+An activist investor named Tice P. Brown pushed hard for this change. Brown, who runs a family office called Woodmont Partners, built a roughly 10% stake in Empery. In a February filing, he said keeping Bitcoin made no business sense because there are cheaper ways to get exposure to cryptocurrency.
+---EXAMPLE END---
+
+Notice in that example: short 1-3 sentence paragraphs, every claim tied to a named
+source or filing, no adjectives doing emotional work, numbers carrying the weight,
+question-style section headers, and it just moves forward, it never circles back
+to summarize itself.
+
+HEADLINE LENGTH: aim for roughly 9-14 words, matching the pacing of headlines like
+"Japan's Progmat moves $2B+ of tokenized securities to Avalanche" or "Tom Lee's
+Bitmine endures stock slide as firm hits 96% of 'Alchemy of 5%' target".
+
+GOOD HEADLINE: "Uniswap founder touts $5.2M daily fee haul amid Robinhood Chain momentum"
+BAD HEADLINE (too generic, avoid this): "Uniswap sees strong growth"
+
+CURRENCY: if the source material states a figure in a currency other than US
+dollars, convert it and show the USD equivalent in parentheses right after it
+(for example "$500,000 (approximately $650,000 USD)").
+
+SOURCE HEADLINE: {topic['title']}
+SOURCE TEXT: {source_text}
+SOURCE LINK: {topic.get('link', '')}
+SOURCE OUTLET: {topic.get('source', '')}
+
+STRUCTURE (follow exactly, this is non-negotiable, especially the bullets):
+- Headline: specific entity plus a specific number or action, not generic.
+- The article body MUST begin with exactly 3 bold TL;DR bullet points, no exceptions,
+  every single article needs these, right under the headline, before any other text.
+  Each one a complete factual sentence, styled as markdown bullets starting with
+  "- **" and ending "**". Do not skip this even if the story feels simple.
+- Opening paragraph: restates the headline claim with one added concrete detail
+  (a number, date, or name). Do not just repeat the bullets.
+- One short bridge sentence connecting the lede to the body, ideally naming the
+  second-most-important fact or the source that corroborates the first one.
+- STAY FOCUSED ON ONE STORY. If the source material mentions other companies,
+  people, or related announcements, use them only as brief supporting context in
+  a sentence or two, never as their own equal-weight section. Do not let a
+  tangential related announcement (e.g. a different company's separate but similar
+  move) grow into its own subsection, that produces a sprawling article that reads
+  like three stories stitched together instead of one focused one.
+- Body organized under exactly 2 to 3 section headers written as questions, using
+  markdown ### (for example "### What is the significance of this ruling?"). Never
+  use statement headers. Where they genuinely fit this story, favor this pattern:
+  one header on the cause or origin of the event ("What led to..."), one on the
+  technical/forensic mechanics or legal ramifications ("How did..." / "What are
+  the legal implications of..."), and one on the future outlook or what's next.
+  Skip whichever of these three doesn't genuinely fit rather than forcing it.
+- Each section: short paragraphs of 1 to 3 sentences, ends on a forward looking or
+  consequence oriented line, never a flat summary.
+- {internal_hint}
+- Do NOT write a conclusion. When the news ends, stop. Do not tie it up, do not
+  summarize, do not add a closing thought. This specifically means: never end a
+  section or the article with a sentence that steps back to summarize what was
+  just said or frame its broader significance. Banned closing patterns include
+  phrasing like "underscores," "highlights the importance of," "aim to bridge,"
+  "indicating a growing focus," "reflects a broader trend," or any sentence whose
+  only job is to wrap up what came before. Instead end on a specific fact, an
+  unresolved detail, or what happens next.
+- After the body, add a line containing exactly "### FAQs" and then 2 to 3 FAQ
+  entries as markdown ### question headers. Fully answer only the FIRST question
+  (1 to 2 sentences). For the remaining questions, write ONLY the question header
+  with no answer text beneath it at all.
+- After the FAQs, add one line starting with "Tickers:" followed by 1 to 3 relevant
+  ticker symbols separated by spaces (for example "Tickers: BTC ETH").
+- After that, add one line starting with "Disclaimer:" with a short one sentence
+  factual disclaimer (not investment advice).
+
+VOICE (follow exactly):
+- Flat, declarative, just the facts. No adjectives doing emotional work (never
+  "shocking," "massive," "stunning").
+- Every claim attributed to a named person, account, firm, or filing using phrasing
+  like "according to," "X wrote," "Y said in a statement," "data from Z shows."
+- Numbers over adjectives: exact dollar figures, percentages, dates, named sources.
+- Quotes are short, sourced, and used sparingly, mostly paraphrase.
+- No first person. No reader address except none at all.
+- Neutral framing for contested claims: "observers allege," "critics say," "the
+  company has not responded."
+- NEVER use an em dash or en dash. Use a comma, period, or restructure the sentence
+  instead. Do not use a colon or semicolon unless strictly necessary.
+
+LENGTH: the article body (not counting TL;DR bullets, FAQs, tickers, or disclaimer)
+must be between 650 and 750 words. This is a hard requirement.
+
+CATEGORY: choose exactly one of: DeFi, Emerging Tech, Macro, Regulation, Infrastructure.
+
+Then provide optional enrichment. Only include a tweet URL if you are genuinely
+confident a real, correctly formatted tweet exists that is directly relevant. If
+you are not fully confident, write NONE. Never guess or invent a plausible looking
+URL.
+
+Only include chart data if the source material contains real, specific numeric
+data worth charting. If no such real data exists, write NONE. Never invent numbers.
+
+If you do include chart data, also choose the chart type that best fits the shape
+of that specific data:
+- "bar": comparing distinct separate things (e.g. sentence lengths across cases,
+  fees across different protocols).
+- "line" or "area": a trend changing over time (e.g. price history, adoption
+  growth over months).
+- "pie": a share-of-total breakdown (e.g. market dominance split, vote results).
+- "radial": a single percentage or progress-toward-target metric (e.g. "96% of
+  target reached"). For radial, provide exactly ONE data point, its value must
+  be a number from 0 to 100.
+
+Format your entire response EXACTLY like this, with these exact labels on their
+own lines:
+TITLE: [headline]
+SUBTITLE: [one sentence subtitle]
+SUMMARY: [one sentence, plain text, under 140 characters]
+CATEGORY: [one of the 5 categories]
+TAGS: [3-5 comma separated tags]
+SENTIMENT: [bullish, bearish, or neutral]
+KEY_INSIGHTS: [3 direct, complete, active sentences, each ending with a period, each
+containing one concrete factual metric, name, or action, no jargon or filler,
+separated by " | "]
+TWEET_URL: [a real tweet URL, or NONE]
+CHART_TITLE: [chart title, or NONE]
+CHART_SUBTITLE: [chart subtitle, or NONE]
+CHART_TYPE: [bar, line, area, pie, or radial - or NONE]
+CHART_YAXIS: [y axis label, or NONE]
+CHART_SOURCE: [source line, or NONE]
+CHART_DATA: [comma separated label:value pairs, or NONE]
+CONTENT:
+[the full article following the structure and voice rules above]
+"""
+
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    response = model.generate_content(prompt)
+    text = response.text.strip()
+
+    def extract(label, next_label=None):
+        pattern = rf"{label}:\s*(.*?)(?=\n{next_label}:|$)" if next_label else rf"{label}:\s*(.*)"
+        m = re.search(pattern, text, re.DOTALL)
+        return m.group(1).strip() if m else ""
+
+    title = extract("TITLE", "SUBTITLE")
+    subtitle = extract("SUBTITLE", "SUMMARY")
+    summary = extract("SUMMARY", "CATEGORY")
+    category = extract("CATEGORY", "TAGS")
+    tags_raw = extract("TAGS", "SENTIMENT")
+    sentiment = extract("SENTIMENT", "KEY_INSIGHTS").lower()
+    insights_raw = extract("KEY_INSIGHTS", "TWEET_URL")
+    tweet_url = extract("TWEET_URL", "CHART_TITLE")
+    chart_title = extract("CHART_TITLE", "CHART_SUBTITLE")
+    chart_subtitle = extract("CHART_SUBTITLE", "CHART_TYPE")
+    chart_type = extract("CHART_TYPE", "CHART_YAXIS").lower()
+    chart_yaxis = extract("CHART_YAXIS", "CHART_SOURCE")
+    chart_source = extract("CHART_SOURCE", "CHART_DATA")
+    chart_data_raw = extract("CHART_DATA", "CONTENT")
+    content = extract("CONTENT")
+    content = strip_fabricated_internal_links(content, existing_articles)
+
+    if not content.strip().startswith("- **"):
+        print("WARNING: generated article is missing the required opening TL;DR bullets.")
+
+    if chart_type not in ["bar", "line", "area", "pie", "radial"]:
+        chart_type = "bar"
+
+    if category not in VALID_CATEGORIES:
+        category = "Emerging Tech"
+    if sentiment not in ["bullish", "bearish", "neutral"]:
+        sentiment = "neutral"
+
+    tags = [t.strip() for t in tags_raw.split(",") if t.strip()]
+    key_insights = [k.strip() for k in insights_raw.split("|") if k.strip()]
+    word_count = len(content.split())
+
+    result = {
+        "title": title,
+        "subtitle": subtitle,
+        "summary": summary,
+        "content": content,
+        "category": category,
+        "tags": tags,
+        "sentiment": sentiment,
+        "key_insights": key_insights,
+        "word_count": word_count,
+    }
+
+    if tweet_url and tweet_url.upper() != "NONE" and tweet_url.startswith("http"):
+        result["tweet_url"] = tweet_url
+
+    if chart_data_raw and chart_data_raw.upper() != "NONE" and chart_title.upper() != "NONE":
+        pairs = []
+        for pair in chart_data_raw.split(","):
+            if ":" in pair:
+                label, _, value = pair.partition(":")
+                try:
+                    pairs.append({"label": label.strip(), "value": float(value.strip())})
+                except ValueError:
+                    continue
+        if pairs:
+            result["chart_data"] = {
+                "title": chart_title,
+                "subtitle": chart_subtitle,
+                "yAxisLabel": chart_yaxis,
+                "sourceLabel": chart_source,
+                "chartType": chart_type,
+                "data": pairs,
             }
-    else:
-        parsed = {
-            "title": topic_title,
-            "subtitle": "Institutional momentum accelerates across decentralized liquidity pools.",
-            "summary": "Market telemetry highlights sustained inflows into on-chain yield infrastructure.",
-            "content": f"### Market Analysis\n\nRecent protocol data indicates expanding institutional participation in {category}. Network fundamentals remain strong.\n\n### Strategic Takeaways\n\nCross-chain liquidity bridges and decentralized security frameworks continue demonstrating resilience.\n\n### FAQs\n### What is driving this growth?\nSustained institutional interest and clearer regulatory guidelines.",
-            "sentiment": "bullish",
-            "reliabilityScore": 92,
-            "category": category,
-            "tags": [category, "Crypto", "Web3"],
-            "keyInsights": ["Institutional adoption reaches new highs", "On-chain metrics remain strongly positive"]
-        }
 
-    slug = re.sub(r'[^a-z0-9]+', '-', parsed.get('title', topic_title).lower()).strip('-')
-    article_id = f"{slug[:60]}-{timestamp_slug}"
+    return result
 
-    cover_images = [
-        "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1622979135225-d2ba269bc1bd?auto=format&fit=crop&w=1200&q=80"
-    ]
-    image_url = cover_images[hash(article_id) % len(cover_images)]
+
+def main():
+    pending = load_json(PENDING_PATH, [])
+    if not pending:
+        print("No pending topics left for today, nothing to publish this run.")
+        return
+
+    topic = pending.pop(0)
+    save_json(PENDING_PATH, pending)
+
+    existing_articles = load_json(ARTICLES_JSON, [])
+
+    slot, author = get_todays_slot_and_author(existing_articles)
+    print(f"Slot {slot} today, assigned to {author['name']}")
+    print(f"Writing article for: {topic['title']}")
+
+    article_data = write_article(topic, existing_articles)
+
+    now = datetime.now(timezone.utc)
+    article_id = slugify(article_data["title"]) + "-" + now.strftime("%Y%m%d%H%M")
+
+    image_filename = f"{article_id}.jpg"
+    image_path = os.path.join(IMAGES_DIR, image_filename)
+    image_ok = generate_article_cover_image(
+        article_data["title"], image_path,
+        category=article_data["category"], article_summary=article_data["summary"]
+    )
+    image_url = f"{JSDELIVR_BASE}/{image_path}" if image_ok else ""
 
     new_article = {
         "id": article_id,
-        "title": parsed.get("title", topic_title),
-        "subtitle": parsed.get("subtitle", ""),
-        "summary": parsed.get("summary", ""),
-        "content": parsed.get("content", ""),
-        "category": parsed.get("category", category),
-        "date": now.strftime('%b %d, %Y'),
-        "publishedAt": now.isoformat() + "Z",
-        "readTime": "4 min read",
-        "sentiment": parsed.get("sentiment", "bullish"),
-        "reliabilityScore": parsed.get("reliabilityScore", 92),
-        "tags": parsed.get("tags", [category, "Crypto", "Web3"]),
+        "title": article_data["title"],
+        "subtitle": article_data["subtitle"],
+        "summary": article_data["summary"],
+        "content": article_data["content"],
+        "category": article_data["category"],
+        "date": now.strftime("%b %d, %Y"),
+        "publishedAt": now.isoformat(),
+        "readTime": f"{max(1, round(article_data['word_count'] / 200))} min read",
+        "sentiment": article_data["sentiment"],
+        "reliabilityScore": 85,
+        "tags": article_data["tags"],
         "image": image_url,
         "featured": False,
-        "wordCount": len(parsed.get("content", "").split()),
-        "keyInsights": parsed.get("keyInsights", []),
-        "author": author
+        "wordCount": article_data["word_count"],
+        "keyInsights": article_data["key_insights"],
+        "author": author,
     }
 
-    articles.insert(0, new_article)
-    save_json(ARTICLES_PATH, articles)
-    print(f"Successfully published article: {new_article['title']} (ID: {article_id})")
+    if "tweet_url" in article_data:
+        new_article["tweetUrl"] = article_data["tweet_url"]
+    if "chart_data" in article_data:
+        new_article["chartData"] = article_data["chart_data"]
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--slot', type=int, choices=[1, 2, 3, 4, 5], help='Daily author rotation slot number (1-5)')
-    args = parser.parse_args()
-    write_news(slot=args.slot)
+    all_articles = load_json(ARTICLES_JSON, [])
+    all_articles.insert(0, new_article)
+    save_json(ARTICLES_JSON, all_articles)
+
+    print(f"Published: {new_article['title']} ({new_article['id']}) by {author['name']}")
+    print(f"Word count: {article_data['word_count']}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,112 +1,162 @@
 import os
-import json
 import re
-import urllib.request
-from datetime import datetime
+import json
+from datetime import datetime, timezone
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-GUIDES_PATH = os.path.join(BASE_DIR, 'guides', 'guides.json')
+import google.generativeai as genai
 
-def load_json(filepath, fallback):
-    if os.path.exists(filepath):
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"Error reading {filepath}: {e}")
-    return fallback
+genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
-def save_json(filepath, data):
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+GUIDES_JSON = "guides/guides.json"
 
-def call_gemini_api(prompt, api_key):
-    try:
-        from google import genai
-        client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt
-        )
-        return response.text
-    except Exception:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-        headers = {"Content-Type": "application/json"}
-        payload = json.dumps({"contents": [{"parts": [{"text": prompt}]}]}).encode('utf-8')
-        req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            return data['candidates'][0]['content']['parts'][0]['text']
 
-def write_guide(topic="DeFi Yield Farming & Automated Market Makers"):
-    api_key = os.environ.get('GEMINI_API_KEY')
-    guides = load_json(GUIDES_PATH, [])
+def load_guides():
+    if not os.path.exists(GUIDES_JSON):
+        return []
+    with open(GUIDES_JSON, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    if api_key:
-        prompt = f"""You are a Lead Blockchain Architect writing an in-depth educational guide for Cryptobead Academy.
-Topic: "{topic}"
 
-Respond strictly in valid JSON format:
-{{
-  "title": "Clear educational guide title",
-  "seriesLevel": "Beginner" | "Intermediate" | "Advanced",
-  "readTime": "10 min read",
-  "summary": "Clear executive summary of what readers will learn",
-  "popular": true,
-  "content": "Comprehensive markdown tutorial with detailed technical sections, architecture diagrams, and best practice rules."
-}}
-Do not wrap in markdown code blocks."""
+def save_guides(guides):
+    os.makedirs(os.path.dirname(GUIDES_JSON), exist_ok=True)
+    with open(GUIDES_JSON, "w", encoding="utf-8") as f:
+        json.dump(guides, f, indent=2)
 
-        try:
-            raw_text = call_gemini_api(prompt, api_key)
-            json_match = re.search(r'\{.*\}', raw_text, re.DOTALL)
-            parsed = json.loads(json_match.group(0)) if json_match else json.loads(raw_text)
-        except Exception as e:
-            print(f"Gemini API call failed, using template: {e}")
-            parsed = {
-                "title": topic,
-                "seriesLevel": "Intermediate",
-                "readTime": "10 min read",
-                "summary": "Master automated market makers and decentralized yield strategies.",
-                "popular": True,
-                "content": f"# {topic}\n\n## Overview\nUnderstanding liquidity pools and smart contract interaction."
-            }
-    else:
-        parsed = {
-            "title": topic,
-            "seriesLevel": "Intermediate",
-            "readTime": "10 min read",
-            "summary": "Master automated market makers and decentralized yield strategies.",
-            "popular": True,
-            "content": f"# {topic}\n\n## Overview\nUnderstanding liquidity pools and smart contract interaction."
-        }
 
-    slug = re.sub(r'[^a-z0-9]+', '-', parsed.get('title', topic).lower()).strip('-')
-    guide_id = f"{slug}-{datetime.utcnow().strftime('%Y%m%d')}"
+def pick_topic(existing_titles):
+    prompt = f"""
+You write beginner-friendly educational crypto/blockchain guides for a finance/tech news site.
+
+Guides already published (do not repeat these or anything too similar):
+{chr(10).join('- ' + t for t in existing_titles) if existing_titles else '(none yet)'}
+
+Suggest ONE new guide topic that would genuinely help someone understand an important
+crypto/blockchain/DeFi concept. Reply with ONLY the topic title, nothing else.
+"""
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    response = model.generate_content(prompt)
+    return response.text.strip().strip('"')
+
+
+def strip_markdown_symbols(text):
+    """
+    Belt-and-braces cleanup: even with instructions not to use them, models
+    can slip in a stray # or * now and then. Strip markdown heading hashes
+    and any asterisks (bold/italic/bullets) so the stored content is always
+    plain text, regardless of what the model actually returned.
+    """
+    text = re.sub(r"^\s*#{1,6}\s*", "", text, flags=re.MULTILINE)
+    text = text.replace("*", "")
+    return text
+
+
+def write_guide(topic):
+    prompt = f"""
+You write in-depth, genuinely useful educational crypto/blockchain guides for a
+finance/tech news site. Readers are smart but new to this specific topic - they
+are not crypto beginners in general, but they haven't studied this concept before.
+
+Write a complete guide on this topic: "{topic}"
+
+STRICT FORMATTING RULE (non-negotiable): do NOT use the characters # or * anywhere
+in your output, for any reason. No markdown headings, no bold, no italics, no bullet
+points written with *. Section headings must be plain text on their own line (for
+example "Why liquidity pools exist" on its own line, followed by a blank line, then
+the paragraph), with no symbols before or after them. If you need a list, write it
+as plain numbered lines like "1. First step" rather than markdown bullets.
+
+CONTENT DEPTH AND QUALITY RULES:
+- Exactly around 3000 words (2800-3200 acceptable). Do not pad with filler to hit
+  the count, every paragraph should teach something.
+- Open with a short, concrete hook: a real scenario, number, or question that shows
+  why this topic actually matters, before any formal definition.
+- Explain jargon the very first time it appears, in plain language, as if talking
+  to a smart friend who has never touched this specific corner of crypto.
+- Structure into 6-10 clearly separated sections (plain text headings as described
+  above), moving from "what is this" to "why it matters" to "how it actually works
+  mechanically" to "risks and common mistakes" to "how to actually get started or
+  apply this" to "how to evaluate whether it's working/safe."
+- Use at least one concrete worked example with realistic numbers (e.g. an actual
+  hypothetical trade, fee, or yield calculation), not just abstract description.
+- Include a short "common mistakes" or "what goes wrong" section grounded in real
+  known failure patterns for this topic, not vague warnings.
+- End with a short, honest summary of what the reader should remember and do next.
+- Clear, encouraging, plain-English tone. No hype, no vague filler like "revolutionize"
+  or "game-changing," no unnecessary superlatives, no false urgency.
+
+Then generate supporting metadata.
+
+Format your entire response EXACTLY like this, with these exact labels on their own
+lines (the labels themselves are the only place colons/labels are allowed, everything
+else must be plain text with no # or * anywhere):
+TITLE: [clean guide title]
+LEVEL: [choose exactly one of: Beginner, Intermediate, Advanced, Professional]
+SUMMARY: [one to two sentence summary of what the reader will learn]
+CONTENT:
+[the full ~3000 word guide body here, plain text only, no # or * characters]
+"""
+    model = genai.GenerativeModel("gemini-2.5-flash")
+    response = model.generate_content(prompt)
+    text = response.text.strip()
+
+    def extract(label, next_label=None):
+        pattern = rf"{label}:\s*(.*?)(?=\n{next_label}:|$)" if next_label else rf"{label}:\s*(.*)"
+        m = re.search(pattern, text, re.DOTALL)
+        return m.group(1).strip() if m else ""
+
+    title = extract("TITLE", "LEVEL")
+    level = extract("LEVEL", "SUMMARY")
+    summary = extract("SUMMARY", "CONTENT")
+    content = extract("CONTENT")
+
+    title = strip_markdown_symbols(title).strip()
+    summary = strip_markdown_symbols(summary).strip()
+    content = strip_markdown_symbols(content).strip()
+
+    valid_levels = ["Beginner", "Intermediate", "Advanced", "Professional"]
+    if level not in valid_levels:
+        level = "Beginner"
+
+    word_count = len(content.split())
+
+    return {
+        "title": title,
+        "seriesLevel": level,
+        "summary": summary,
+        "content": content,
+        "readTime": f"{max(1, round(word_count / 200))} min read",
+    }
+
+
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:70]
+
+
+def main():
+    guides = load_guides()
+    existing_titles = [g["title"] for g in guides]
+
+    topic = pick_topic(existing_titles)
+    print(f"This week's guide topic: {topic}")
+
+    guide_data = write_guide(topic)
+    now = datetime.now(timezone.utc)
+    guide_id = slugify(guide_data["title"]) + "-" + now.strftime("%Y%m%d")
 
     new_guide = {
         "id": guide_id,
-        "title": parsed.get("title", topic),
-        "seriesLevel": parsed.get("seriesLevel", "Intermediate"),
-        "readTime": parsed.get("readTime", "8 min read"),
-        "summary": parsed.get("summary", ""),
-        "popular": parsed.get("popular", True),
-        "content": parsed.get("content", "")
+        "title": guide_data["title"],
+        "seriesLevel": guide_data["seriesLevel"],
+        "readTime": guide_data["readTime"],
+        "summary": guide_data["summary"],
+        "popular": False,
+        "content": guide_data["content"],
     }
 
-    updated = False
-    for idx, g in enumerate(guides):
-        if g.get('id') == guide_id or g.get('title') == new_guide['title']:
-            guides[idx] = new_guide
-            updated = True
-            break
+    guides.insert(0, new_guide)
+    save_guides(guides)
+    print(f"Published guide: {new_guide['title']} ({new_guide['id']})")
 
-    if not updated:
-        guides.insert(0, new_guide)
 
-    save_json(GUIDES_PATH, guides)
-    print(f"Successfully saved guide: {new_guide['title']}")
-
-if __name__ == '__main__':
-    write_guide()
+if __name__ == "__main__":
+    main()
