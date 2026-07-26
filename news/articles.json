@@ -1,5 +1,38 @@
 [
   {
+    "id": "kb-kookmin-bank-to-launch-payments-on-jpmorgan-kinexys-across-10-count-202607261455",
+    "title": "KB Kookmin Bank to launch payments on JPMorgan Kinexys across 10 countries",
+    "subtitle": "South Korea's largest lender will use JPMorgan's blockchain platform for US dollar cross-border payments starting in August.",
+    "summary": "KB Kookmin Bank will use JPMorgan's Kinexys blockchain for US dollar cross-border payments across 10 countries.",
+    "content": "- **South Korea\u2019s KB Kookmin Bank will launch a blockchain-based cross-border payment service in August.**\n- **The service will utilize JPMorgan\u2019s Kinexys network for US dollar transfers.**\n- **It will support import and export businesses across 10 countries.**\n\nSouth Korea\u2019s KB Kookmin Bank will launch a blockchain-based cross-border payment service in August, leveraging JPMorgan\u2019s Kinexys network for import and export businesses. The new service will initially support US dollar transfers across 10 countries, according to multiple local media reports.\n\nThis initiative by South Korea\u2019s largest lender integrates blockchain technology into traditional finance, aiming to enhance the efficiency of international trade payments.\n\n### What is Kinexys and how will it be used?\nKinexys, formerly known as Onyx, is JPMorgan\u2019s blockchain platform specifically designed for institutional payments, tokenization, and digital assets. KB Kookmin Bank will use this platform to facilitate US dollar cross-border transactions for its import and export clients.\n\nThe service will initially support transfers across a selection of 10 countries. These include the United States, Singapore, Saudi Arabia, and the United Arab Emirates, according to the reports. This broad international scope highlights the global application of the new payment system from its inception.\n\nThe integration with the existing SWIFT payment network is intended to facilitate near-instant cross-border payments and foreign exchange settlement, according to Yonhap. This hybrid approach seeks to combine the speed of blockchain with the established reach of traditional financial infrastructure.\n\n### What impact is expected for cross-border payments?\nThe introduction of this blockchain-based service is expected to streamline international payment processes for businesses engaged in import and export. By leveraging Kinexys, KB Kookmin Bank aims to provide more efficient and potentially faster transaction settlement for its customers.\n\nThe focus on US dollar transfers across a significant number of countries suggests an effort to simplify a widely used currency corridor in global trade. Near-instant settlement capabilities, as reported by Yonhap, could reduce liquidity holding periods for businesses.\n\nThis development reflects a broader trend among major financial institutions exploring distributed ledger technology to modernize traditional banking services. The aim is to address common pain points in cross-border transactions such as cost, speed, and transparency.\n\n### What is the context of KB Kookmin Bank's move?\nKB Kookmin Bank is a subsidiary of KB Financial Group, which S&P Global ranked as South Korea\u2019s largest lender by assets in an April research report. The group also holds the position of the 28th-largest bank in the Asia-Pacific region, with total assets amounting to $552.76 billion.\n\nThe decision by a financial institution of this scale to adopt a blockchain platform like Kinexys signals a growing confidence in the technology for real-world financial applications. This move positions KB Kookmin Bank at the forefront of blockchain adoption among South Korean banks for international trade.\n\nThe project aligns with JPMorgan\u2019s ongoing efforts to expand the use of its blockchain technology for institutional clients globally. It showcases how established financial giants are partnering to integrate emerging technologies into their core offerings.\n\n### FAQs\n### What is JPMorgan's Kinexys network?\nKinexys, formerly known as Onyx, is JPMorgan\u2019s blockchain platform developed for institutional payments, tokenization, and digital assets. It provides a foundational infrastructure for distributed ledger technology applications in finance.\n### Which countries will initially be supported by the service?\n### How does the new service integrate with existing payment systems?\nTickers: JPM\nDisclaimer: This article is for informational purposes only and does not constitute financial or investment advice.",
+    "category": "Infrastructure",
+    "date": "Jul 26, 2026",
+    "publishedAt": "2026-07-26T14:55:45.348951+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "KB Kookmin Bank",
+      "JPMorgan",
+      "Kinexys",
+      "Cross-border payments",
+      "Blockchain"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/kb-kookmin-bank-to-launch-payments-on-jpmorgan-kinexys-across-10-count-202607261455.jpg",
+    "featured": false,
+    "wordCount": 569,
+    "keyInsights": [
+      "KB Kookmin Bank plans to launch a blockchain-based payment service in August leveraging JPMorgan's Kinexys network.",
+      "The service will facilitate US dollar transfers for import and export businesses across 10 countries, including the US and UAE.",
+      "S&P Global data shows KB Financial Group, KB Kookmin Bank's parent, holds $552.76 billion in total assets."
+    ],
+    "author": {
+      "name": "Dr. Alistair Sterling",
+      "role": "Director of Policy",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "binance-red-teams-employees-monthly-fires-staff-for-repeated-failures-202607261310",
     "title": "Binance 'Red Teams' Employees Monthly, Fires Staff for Repeated Failures",
     "subtitle": "Binance's Chief Security Officer Jimmy Su confirms monthly internal phishing tests and potential dismissal for repeated failures.",
