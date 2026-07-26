@@ -1,5 +1,38 @@
 [
   {
+    "id": "binance-red-teams-employees-monthly-fires-staff-for-repeated-failures-202607261310",
+    "title": "Binance 'Red Teams' Employees Monthly, Fires Staff for Repeated Failures",
+    "subtitle": "Binance's Chief Security Officer Jimmy Su confirms monthly internal phishing tests and potential dismissal for repeated failures.",
+    "summary": "Binance conducts monthly simulated phishing attacks on its employees, with repeated failures leading to dismissal, to counter rising social engineering breaches.",
+    "content": "Cryptocurrency exchange Binance conducts simulated phishing attacks against its employees on a monthly basis, with Chief Security Officer Jimmy Su stating that staff who repeatedly fail these tests face dismissal. This internal \"red teaming\" strategy aims to bolster the exchange's defenses against evolving cyber threats and consistently improve overall security hygiene among its global workforce.\n\nThis security stance aims to proactively combat social engineering, which a February 2025 AMLBot estimate indicated was responsible for 65% of all crypto security incidents. Binance, the world's largest crypto exchange, supports 323 million registered users and manages assets estimated at $137.7 billion by DefiLlama.\n\n### Why is Binance testing its employees?\n\nBinance Chief Security Officer Jimmy Su emphasized that social engineering has emerged as a predominant source of breaches across the cryptocurrency industry, making rigorous internal security testing essential. He told Cointelegraph the exchange operates these simulated attacks monthly to monitor if its security hygiene is improving among staff. This proactive strategy has been a consistent part of Binance's security operations for the past three to four years, Su noted.\n\nThese stringent measures highlight efforts crypto companies undertake to fortify their systems against sophisticated social engineering campaigns. The financial impact of such attacks can be substantial, as evidenced by recent incidents. For instance, in April 2025, Drift Protocol experienced a $285 million hack, which investigators linked to a prolonged social engineering campaign targeting its users. Another notable case occurred in September 2025, when a major Venus Protocol user lost approximately $13 million after a malicious \"Zoom meeting attack\" client compromised their computer. This method tricked the victim into installing malware disguised as a video conferencing app update, granting an attacker unauthorized control. Venus subsequently recovered assets, returning positions valued at $11.4 million to the victim following an emergency governance vote.\n\n### How does Binance conduct these simulated attacks?\n\nBinance\u2019s red team, an internal ethical hacking unit, is tasked with attempting to breach the exchange's systems and processes, including through simulated phishing attacks on employees. Its objective is to identify and report vulnerabilities, enabling the exchange to remediate weaknesses before external actors exploit them, according to Jimmy Su. The simulated attacks are designed to be diverse and realistic in their approach.\n\nOne primary scenario involves the red team impersonating job recruiters, a common initial vector for social engineering, Su explained. This method exploits the psychological tendency to trust official-looking communications about career opportunities. Such fake job opportunities, alongside fraudulent project funding or partnership proposals, serve as typical lures hackers employ to initiate social engineering campaigns, potentially leading to data breaches or financial losses.\n\nSu detailed additional scenarios, explaining that the red team might create and disseminate seemingly harmless free conference invitations. The goal of these exercises is to trick employees into providing personal information, allowing Binance to gauge vigilance and susceptibility within its workforce. By varying the attack vectors, Binance ensures a comprehensive and ongoing evaluation of its employees' resilience against a wide array of social engineering tactics.\n\n### What are the consequences for failing these tests?\n\nEmployees are incentivized to maintain high vigilance and perform well on monthly security tests, as results are directly integrated into their performance reviews, Jimmy Su confirmed. This link to career progression aims to embed a strong culture of cybersecurity awareness and compliance across the organization.\n\nSu further elaborated that employees who exhibit repeated, severe failures in these simulated attacks face significant professional repercussions. He indicated consistent poor performance could lead to their overall rating to \"bottom out.\" This decline in evaluation, Su stated, could ultimately result in dismissal from Binance, underscoring the company's commitment to stringent security standards among its staff to safeguard its user base and digital assets.\n\n### FAQs\n### What is a red team in cybersecurity?\nA red team is an internal ethical hacking unit within an organization that conducts simulated attacks to identify vulnerabilities in systems and human processes.\n### How prevalent are social engineering attacks in crypto?\n### What kind of assets does Binance hold?\n\nTickers: BNB\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 26, 2026",
+    "publishedAt": "2026-07-26T13:10:56.815588+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Binance",
+      "Cybersecurity",
+      "Social Engineering",
+      "Employee Training",
+      "Jimmy Su"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/binance-red-teams-employees-monthly-fires-staff-for-repeated-failures-202607261310.jpg",
+    "featured": false,
+    "wordCount": 676,
+    "keyInsights": [
+      "Binance conducts monthly simulated phishing attacks against its employees to enhance security.",
+      "Jimmy Su, Binance's Chief Security Officer, confirmed staff face dismissal for repeated failures in these tests.",
+      "AMLBot reported that 65% of crypto security incidents in 2025 were caused by social engineering."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "hyperliquid-rwa-markets-surpass-all-other-categories-with-25-1b-volume-202607252053",
     "title": "Hyperliquid RWA markets surpass all other categories with $25.1B volume",
     "subtitle": "The decentralized exchange's RWA market reached $25.1 billion in weekly trading volume, becoming its largest asset class.",
