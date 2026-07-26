@@ -1,5 +1,56 @@
 [
   {
+    "id": "bitmart-to-cease-trading-by-august-26-ending-all-operations-by-2027-202607261648",
+    "title": "BitMart to cease trading by August 26, ending all operations by 2027",
+    "subtitle": "BitMart will conclude trading operations by August 26 and cease all platform activity by January 31, 2027, following a significant decline in its native token.",
+    "summary": "BitMart is winding down its crypto exchange operations, ending trading on August 26 and fully ceasing by 2027, after its BMX token plunged.",
+    "content": "- **BitMart will halt all trading services by August 26, with full platform operations ceasing on January 31, 2027.**\n- **The decision follows a nearly 70% plunge in its native BMX token and user reports of delayed withdrawals from the exchange.**\n- **Wallets attributed to BitMart held approximately $71 million in crypto assets on Sunday, according to Arkham data.**\n\nCrypto exchange BitMart announced it will wind down its operations, ceasing all trading services on August 26 and concluding its platform entirely by January 31, 2027. The company stated its decision was made after a comprehensive evaluation of its operating conditions, the current market environment, and its future strategic direction.\n\nThis wind-down follows a significant drop in the value of its native BMX token, which lost nearly 70% of its value, and multiple reports from users experiencing delays with withdrawals.\n\n### What factors led to BitMart's wind-down?\nBitMart cited a \"careful evaluation of the Company\u2019s operating conditions, market environment, and future strategic direction\" as the primary basis for its decision to commence an orderly wind-down, according to a Sunday notice. The exchange's native token, BMX, experienced a sharp decline, losing nearly 70% of its value. BMX traded at approximately $0.09464 at the time of writing, down from about $0.31 late Friday. The token had fallen as low as $0.1058 early Saturday before extending its losses after a brief recovery.\n\nSeveral users on X reported that withdrawals from the exchange were taking longer than usual, with some claiming that Tether USDt (USDT) withdrawal requests remained pending for hours. In its wind-down announcement, BitMart stated that some withdrawal requests could be subject to additional compliance and security reviews, potentially extending processing times for users.\n\nFormer CEO Nenter Chow confirmed in an X post on Sunday that he was informed of his employment termination on Friday. Chow stated he was not consulted about the shutdown decision and only learned of it after the company published its announcement, emphasizing his non-involvement in BitMart\u2019s management or decision-making since his termination.\n\n### How are BitMart's operations being managed during the wind-down?\nUnder the announced shutdown plan, BitMart has implemented immediate restrictions on its services. The exchange has stopped accepting new user registrations and new deposits onto its platform. Furthermore, futures trading has transitioned into a reduce-only mode, which permits users to close existing positions but prevents them from opening any new ones. Spot markets on the platform are also no longer accepting new orders.\n\nData from Arkham indicated that wallets attributed to BitMart held approximately $71 million in crypto assets on Sunday. This figure marked a notable decrease from roughly $102 million recorded on July 6, less than three weeks prior. Of the crypto assets held on Sunday, about $41.5 million was in stablecoin banking platform WeFi\u2019s WFI tokens, while the tracked wallets held a comparatively small amount of approximately $91,000 in USDT.\n\nBitMart is among a growing list of crypto trading platforms that have announced plans to close operations in recent months. Both BitMEX and Dango also stated this week they would shut down their respective trading platforms. Some users on X appeared to confuse BitMart and its BMX token with BitMEX and its BMEX token, leading to speculation about whether this confusion impacted BMX trading as BitMEX\u2019s BMEX token fell 90% shortly after its own shutdown notice.\n\n### What is the timeline for BitMart's full cessation?\nThe exchange has established a clear, phased timeline for its complete cessation of operations. All trading services on the platform are scheduled to conclude by August 26. Following the cessation of trading, BitMart aims to conclude its platform operations entirely by January 31, 2027. The company's Sunday notice described this multi-stage process as an \"orderly wind-down\" as it navigates the final closure.\n\n### FAQs\n### What is the final date for BitMart to cease all trading services?\nBitMart will end all trading services on August 26, before ceasing operations entirely on January 31, 2027.\n### What actions has BitMart taken since its wind-down announcement?\n### What caused the significant drop in the BMX token's value?\n\nTickers: BMX\nDisclaimer: This article is for informational purposes only and not investment advice.",
+    "category": "Infrastructure",
+    "date": "Jul 26, 2026",
+    "publishedAt": "2026-07-26T16:48:44.347088+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "BitMart",
+      "BMX",
+      "Crypto Exchange",
+      "Wind-down",
+      "Delisted",
+      "Withdrawal Delays"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/bitmart-to-cease-trading-by-august-26-ending-all-operations-by-2027-202607261648.jpg",
+    "featured": false,
+    "wordCount": 690,
+    "keyInsights": [
+      "BitMart initiated an orderly wind-down of its trading platform, setting an August 26 deadline for all trading services.",
+      "The exchange's native BMX token experienced a nearly 70% value decline, trading at approximately $0.09464.",
+      "BitMart's crypto asset holdings, according to Arkham data, decreased from $102 million on July 6 to $71 million on Sunday."
+    ],
+    "author": {
+      "name": "Marcus Aurelius",
+      "role": "Chief Macro Strategist",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "BitMart Wallet Holdings Decline",
+      "subtitle": "Total Crypto Assets Held by BitMart",
+      "yAxisLabel": "Value (USD)",
+      "sourceLabel": "Arkham data via Cointelegraph",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "July 6",
+          "value": 102000000.0
+        },
+        {
+          "label": "Sunday",
+          "value": 71000000.0
+        }
+      ]
+    }
+  },
+  {
     "id": "kb-kookmin-bank-to-launch-payments-on-jpmorgan-kinexys-across-10-count-202607261455",
     "title": "KB Kookmin Bank to launch payments on JPMorgan Kinexys across 10 countries",
     "subtitle": "South Korea's largest lender will use JPMorgan's blockchain platform for US dollar cross-border payments starting in August.",
