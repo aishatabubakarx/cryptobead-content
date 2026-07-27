@@ -1,5 +1,38 @@
 [
   {
+    "id": "robinhood-chain-s-tokenized-stocks-surge-5x-to-70m-amid-high-daily-vol-202607271422",
+    "title": "Robinhood Chain's tokenized stocks surge 5x to $70M amid high daily volumes",
+    "subtitle": "Tokenized real-world assets on Robinhood Chain have seen significant growth in recent weeks, with trading volumes spiking and overall chain activity increasing ahead of upcoming earnings.",
+    "summary": "Robinhood Chain's tokenized stocks surged fivefold to $70M, with daily trading volumes jumping to $60M, ahead of Robinhood's earnings report.",
+    "content": "- **Robinhood Chain's tokenized stocks have increased fivefold in under two weeks, reaching approximately $70 million.**\n- **Daily trading volumes for tokenized assets on the chain have jumped from $5 million to $60 million per day.**\n- **Total Value Locked (TVL) on Robinhood Chain has tripled since mid-July, now standing at approximately $312 million.**\n\nRobinhood Chain's tokenized stock shares have surged approximately fivefold in under two weeks, with the total value of these assets now reaching around $70 million. This growth includes daily trading volumes spiking from approximately $5 million to $60 million, according to analysis by Tyler Warner in Decrypt's Morning Minute newsletter.\n\nThe expansion in tokenized assets is occurring alongside broader chain growth, including a tripling of its Total Value Locked since mid-July.\n\n### What is driving the growth in tokenized assets?\nWhen Robinhood Chain initially launched on July 1, memecoins dominated activity on the network, attracting speculation. However, this trend has shifted towards tokenized real-world assets (RWAs), specifically stock shares trading on-chain. Over 100 assets have been tokenized on the platform, with the total RWA value nearing $25 million on the tokenization side specifically.\n\nDaily trading volumes for these tokenized assets have seen a significant increase, climbing from about $5 million per day to $60 million per day, as noted in the analysis. This represents the biggest growth story for the chain. Specific tokenized stocks are demonstrating substantial daily volumes; GameStop leads with $26.6 million, followed by Nvidia at $14 million, and SpaceX at $6.4 million. A dozen tokenized stocks each clear more than $500,000 in daily volume, with five of these exceeding $1 million.\n\n### How is Robinhood Chain performing overall?\nBeyond tokenized stocks, the broader Robinhood Chain has scaled rapidly, according to Warner's analysis. The Total Value Locked (TVL) on the chain has roughly tripled since mid-July, now standing at approximately $312 million.\n\nThe chain is also clearing more than $600 million in daily decentralized exchange (DEX) volume. Furthermore, Robinhood Chain has logged over 138 million transactions within the last 30 days, positioning it among the most active networks in the cryptocurrency space. This rapid scaling and high activity underpin the growth observed in its tokenized asset sector.\n\n### What do these numbers mean for Robinhood's earnings?\nThe timing of this growth in tokenized assets and overall chain performance is significant as Robinhood is scheduled to report earnings this week. Robinhood CEO Vlad Tenev has been a prominent voice in promoting the chain, from his \"Robinhood Summer is here\" post to fanning the memecoin frenzy.\n\nTenev is expected to discuss these figures during an upcoming call with Wall Street analysts. Tokenization presents a strategic narrative that justifies the entire chain's development to shareholders, and he has every incentive to highlight the RWA and tokenized-equity numbers. The market is observing whether HOOD stock is currently pricing in this growth and how Tenev will present the data.\n\n### FAQs\n### What are tokenized real-world assets on Robinhood Chain?\nTokenized real-world assets, or RWAs, on Robinhood Chain represent stock shares that are traded on-chain. This allows for traditional financial assets to be digitally represented and transacted on the blockchain, moving from centralized exchanges to decentralized protocols.\n### Who is Tyler Warner?\n### What is Total Value Locked (TVL)?\nTickers: HOOD\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T14:22:46.888407+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Robinhood Chain",
+      "Tokenized Assets",
+      "RWA",
+      "HOOD",
+      "Vlad Tenev"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/robinhood-chain-s-tokenized-stocks-surge-5x-to-70m-amid-high-daily-vol-202607271422.jpg",
+    "featured": false,
+    "wordCount": 556,
+    "keyInsights": [
+      "Robinhood Chain's tokenized stocks have risen fivefold in under two weeks to approximately $70 million.",
+      "Daily trading volumes for tokenized assets on the chain have increased from $5 million to $60 million per day.",
+      "Total Value Locked on Robinhood Chain has tripled since mid-July, now reaching about $312 million."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "bitmart-to-cease-trading-by-august-26-ending-all-operations-by-2027-202607261648",
     "title": "BitMart to cease trading by August 26, ending all operations by 2027",
     "subtitle": "BitMart will conclude trading operations by August 26 and cease all platform activity by January 31, 2027, following a significant decline in its native token.",
