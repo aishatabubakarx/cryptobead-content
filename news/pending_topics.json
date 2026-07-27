@@ -1,12 +1,5 @@
 [
   {
-    "title": "Triple-A confirms treasury-wallet breach after losses reach $11.8M",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Triple-A confirms treasury-wallet breach after losses reach $11.8M \" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/password-fraud-hacker-scam3-2.jpg\" /></p><p>The stablecoin payments company said client funds were unaffected and that the financial impact would be absorbed through its treasury reserves.</p>",
-    "link": "https://cointelegraph.com/news/triple-a-treasury-wallet-breach-11-8-million-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "source": "Cointelegraph.com News",
-    "full_text": "The stablecoin payments company said client funds were unaffected and that the financial impact would be absorbed through its treasury reserves. Stablecoin payments firm Triple-A confirmed that unauthorized access to its treasury wallets resulted in the loss of company-owned digital assets. On Monday, the Singapore-based company said it detected the unauthorized access on Saturday and temporarily placed certain services into maintenance mode for about three hours while it secured the affected infrastructure. Triple-A said client funds were not affected because it does not custody digital assets on behalf of customers and keeps client funds separately in trust accounts with safeguarding institutions. Triple-A did not disclose the amount lost or explain how the wallets were compromised. Onchain investigator Specter previously estimated the losses at about $11.8 million. The company said the financial impact was limited to specific operational accounts and would be absorbed through its treasury reserves. It added that all services had been restored and transactions and settlements were processing normally. Triple-A said it was working with cybersecurity specialists, blockchain forensics firms and authorities, including the Singapore Police Force, to investigate the incident, trace the assets and support recovery efforts. Related: Garden Finance disables app as Blockaid reports $450,000 exploit"
-  },
-  {
     "title": "Thailand's SEC Files Criminal Complaint Against Bitkub Over Undisclosed $47M Hack",
     "summary": "The regulator says the exchange and two former directors left a $47 million theft out of its filings in 2021.",
     "link": "https://decrypt.co/374343/thailands-sec-files-criminal-complaint-against-bitkub-over-undisclosed-47m-hack",

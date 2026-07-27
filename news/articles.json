@@ -1,5 +1,38 @@
 [
   {
+    "id": "triple-a-confirms-treasury-wallet-breach-after-11-8-million-estimated--202607271907",
+    "title": "Triple-A confirms treasury wallet breach after $11.8 million estimated loss",
+    "subtitle": "Singapore-based stablecoin payments firm addresses unauthorized access and asset loss.",
+    "summary": "Stablecoin payments firm Triple-A confirmed a treasury wallet breach, with Specter estimating $11.8M in losses.",
+    "content": "- **Stablecoin payments firm Triple-A confirmed unauthorized access to its treasury wallets resulting in the loss of company-owned digital assets.**\n- **Onchain investigator Specter previously estimated the losses to be approximately $11.8 million.**\n- **The Singapore-based company stated client funds were unaffected and all services have since been restored.**\n\nStablecoin payments firm Triple-A confirmed unauthorized access to its treasury wallets, leading to the loss of company-owned digital assets. The Singapore-based company stated on Monday that client funds were unaffected by the incident. Onchain investigator Specter estimated the total losses from the security event to be approximately $11.8 million.\n\nThe firm detected the unauthorized access on Saturday, according to its official statement released Monday. This detection initiated a swift internal response to secure its infrastructure and manage the breach's immediate aftermath, ensuring operational continuity where possible.\n\n### What prompted the security incident?\nTriple-A, a Singapore-based stablecoin payments company, reported detecting unauthorized access to its treasury wallets on a Saturday. This incident was subsequently confirmed by the company on the following Monday. The unauthorized access specifically resulted in the loss of company-owned digital assets, according to Triple-A.\n\nThese particular wallets contained corporate operational funds. They are distinct from customer assets, which are managed separately. The company did not provide specific details regarding the methods by which the treasury wallets were compromised.\n\nTriple-A also did not disclose the exact amount of digital assets lost from these treasury wallets. However, onchain investigator Specter publicly estimated the financial impact from this security event at approximately $11.8 million.\n\nFollowing the detection of the breach, Triple-A temporarily placed certain services into maintenance mode. This measure was enacted for a duration of about three hours. The temporary shutdown allowed the company to secure the affected infrastructure and prevent further unauthorized activity.\n\n### How did Triple-A address the breach?\nUpon detecting the unauthorized access to its treasury wallets, Triple-A promptly implemented measures to secure its systems. The company placed specific services into a temporary maintenance mode. This status continued for approximately three hours, during which the firm worked to secure the affected infrastructure.\n\nA critical assurance from Triple-A was that client funds remained entirely unaffected by the security incident. The firm explicitly clarified its operational framework. It does not custody digital assets directly on behalf of its customers.\n\nInstead, client funds are maintained in separate trust accounts. These accounts are held with designated safeguarding institutions, which provides an additional layer of security. This architectural separation between company and client funds effectively prevented any impact on client assets from the treasury wallet breach.\n\nTriple-A confirmed that the financial impact was limited solely to its specific operational accounts. The company also stated this impact would be absorbed completely through its existing treasury reserves. This approach prevented any direct financial burden on its clients or external stakeholders. All services were reported as fully restored, with transactions and settlements processing normally.\n\n### What are the ongoing investigations and future steps?\nFollowing the security breach and the successful restoration of its services, Triple-A initiated a comprehensive investigation into the incident. The company is actively collaborating with a range of external experts. These include specialists in cybersecurity and firms specializing in blockchain forensics. This expertise is crucial for a detailed technical examination of the breach.\n\nThis collaborative effort aims to thoroughly understand the precise methods used to compromise the treasury wallets. It also seeks to trace the flow of the stolen digital assets across various blockchain networks. Furthermore, Triple-A is working closely with relevant authorities as part of its broader recovery efforts.\n\nThis engagement includes cooperation with the Singapore Police Force, indicating a formal legal and investigative process is underway. The objective is to support asset recovery. The firm has confirmed that all its services have been fully restored and are now fully operational. Transactions and settlements are processing normally, reflecting the company's return to its standard operations after the temporary disruption caused by the security event. This incident occurs within a context of ongoing security concerns across the crypto industry, highlighted by a separate event where Garden Finance disabled its app following a reported $450,000 exploit.\n\n### FAQs\n### What assets were affected by the Triple-A breach?\nThe breach affected company-owned digital assets held in Triple-A's treasury wallets, which are specifically used for corporate operational funds, not client assets.\n### Were customer funds impacted by the security incident?\n### What steps is Triple-A taking to recover the assets?\nTickers: NONE\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T19:07:39.165029+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Triple-A",
+      "security breach",
+      "stablecoin",
+      "treasury",
+      "cybersecurity"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/triple-a-confirms-treasury-wallet-breach-after-11-8-million-estimated--202607271907.jpg",
+    "featured": false,
+    "wordCount": 750,
+    "keyInsights": [
+      "Triple-A confirmed unauthorized access to its treasury wallets resulting in the loss of company-owned digital assets.",
+      "Onchain investigator Specter estimated the financial impact of the breach to be approximately $11.8 million.",
+      "The Singapore-based company stated that client funds were unaffected as they are held separately in trust accounts."
+    ],
+    "author": {
+      "name": "Robert Vance",
+      "role": "Chief On-Chain Analyst",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "u-s-spot-bitcoin-etfs-shed-465m-over-two-days-blackrock-s-ibit-leads-o-202607271606",
     "title": "U.S. Spot Bitcoin ETFs shed $465M over two days, BlackRock's IBIT leads outflows",
     "subtitle": "Spot Bitcoin funds saw significant withdrawals following a prior inflow streak, primarily driven by institutional shifts.",
