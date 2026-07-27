@@ -1,5 +1,63 @@
 [
   {
+    "id": "u-s-spot-bitcoin-etfs-shed-465m-over-two-days-blackrock-s-ibit-leads-o-202607271606",
+    "title": "U.S. Spot Bitcoin ETFs shed $465M over two days, BlackRock's IBIT leads outflows",
+    "subtitle": "Spot Bitcoin funds saw significant withdrawals following a prior inflow streak, primarily driven by institutional shifts.",
+    "summary": "U.S. spot Bitcoin ETFs experienced $465 million in outflows over two days, led by BlackRock's IBIT, reversing recent inflows.",
+    "content": "- **U.S. spot Bitcoin exchange-traded funds recorded $465 million in net outflows across two days.**\n- **BlackRock's IBIT was the primary driver, accounting for just under $415 million of the total two-day outflow.**\n- **The outflows reversed a prior seven-day inflow streak, though ETFs remained net positive for the week.**\n\nU.S. spot Bitcoin exchange-traded funds (ETFs) experienced net outflows totaling $465 million across Friday and the preceding day, reversing a seven-day streak of inflows. The significant outflows were predominantly driven by BlackRock's IBIT, according to data from Farside Investors. Even with the two days of withdrawals, the ETFs still concluded the week with a net positive inflow of almost $34 million.\n\nThis rapid reversal followed a peak inflow of $227 million on July 20, as demand subsequently faded.\n\n### What drove the Bitcoin ETF outflows?\n\nTim Sun, a Senior Researcher at HashKey, told Decrypt that the rapid reversal suggested institutions were making \"tactical, phased allocations near the temporary price bottom.\" He indicated this reflects a \"lack of a solid foundation\" for a sustained uptrend, rather than conviction buying. Sun highlighted IBIT's outsized role, noting that as a large, liquid fund, heavy outflows from it imply institutions are \"actively reducing their short-term Bitcoin exposure.\"\n\nSun attributed the move to weakening macro conditions. He cited renewed U.S.-Iran tensions, which have lifted oil prices and inflation expectations. Bond markets are also pricing higher odds of a Federal Reserve rate hike later this year, contributing to investor caution. The pullback was not confined to crypto assets, with U.S. stock funds also posting net outflows for a second consecutive week and bond funds breaking a run of inflows. This broader contraction across asset allocations points to investors moving towards cash or other safer assets, according to Sun.\n\nStephen Wundke, strategy and revenue director at Algoz Technologies, agreed that the market trend \"reversed last week.\" He pointed to President Trump signaling renewed action against Iran and Houthi attacks near the Red Sea pushing oil back above $100. These events revived inflation and rate fears, prompting investors to return to cash positions.\n\n### What is the outlook for Bitcoin's price?\n\nSun stated the data confirms Bitcoin's rally \"lacks a firm foundation\" and that capital \"remains on high alert\" over macro risk. He warned that if rate-hike expectations continue to climb, Bitcoin \"could face further capital outflows and downside price pressure.\" Bitcoin is currently trading at $65,300, marking a 1.9% increase on the week, according to CoinGecko data.\n\nConversely, Grayscale's head of research, Zach Pandl, argued in a note last week that Bitcoin's bottom \"may already be in\" if the Fed holds off on further rate hikes. He dismissed the \"four-year cycle\" theory, which typically forecasts a deeper low in September or October. The Fed's next rate decision is scheduled for July 29, representing a near-term test for this perspective, with the CME FedWatch tool currently placing a 34% chance on a 25 basis point rate hike.\n\nWundke offered a more optimistic view on what might follow. He stated that most investors perceive current prices \"near the bottom of the cycle\" and that \"the overall feeling is one of optimism.\" With a pause in U.S.-Iran strikes extending to a third day, he expects oil to stabilize near $80 should the fighting \"fizzle out.\" This would likely cause inflation fears to recede and lead to ETF inflows and prices climbing steadily again. He cautioned that August is typically a \"dull month for crypto,\" suggesting investors should not \"expect fireworks yet,\" but he believes the industry is laying the groundwork for a push towards year-end, ideally supported by a negotiated peace in the Middle East. On prediction market Myriad, owned by Decrypt's parent company Dastan, users now place a 37% chance on BTC's next move taking it to $84,000, which is an increase from lows of 20% at the start of the month.\n\n### FAQs\n### What are U.S. spot Bitcoin ETFs?\nU.S. spot Bitcoin ETFs are investment vehicles that allow investors to gain exposure to Bitcoin's price movements without directly owning the cryptocurrency. These funds hold actual Bitcoin, and their shares trade on traditional stock exchanges.\n### What is the significance of BlackRock's IBIT in the market?\n### How do macro conditions affect Bitcoin ETF flows?\nTickers: BTC IBIT\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Macro",
+    "date": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T16:06:15.107787+00:00",
+    "readTime": "4 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin ETFs",
+      "IBIT",
+      "BlackRock",
+      "Market Outflows",
+      "Macroeconomics"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/u-s-spot-bitcoin-etfs-shed-465m-over-two-days-blackrock-s-ibit-leads-o-202607271606.jpg",
+    "featured": false,
+    "wordCount": 724,
+    "keyInsights": [
+      "U.S. spot Bitcoin ETFs recorded $465 million in net outflows across two days, primarily driven by BlackRock's IBIT.",
+      "HashKey Senior Researcher Tim Sun indicated these outflows suggest tactical allocations and a lack of solid foundation for a sustained uptrend.",
+      "Grayscale's Zach Pandl and Algoz Technologies' Stephen Wundke offered differing views on Bitcoin's price bottom amid evolving macro conditions."
+    ],
+    "author": {
+      "name": "Sarah Jenkins",
+      "role": "Lead Blockchain Architect",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "U.S. Spot Bitcoin ETF Net Flows",
+      "subtitle": "Select Days, July 202X",
+      "yAxisLabel": "Net Flow (Millions USD)",
+      "sourceLabel": "Farside Investors",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "July 20",
+          "value": 227.0
+        },
+        {
+          "label": "July 25",
+          "value": -225.0
+        },
+        {
+          "label": "July 26",
+          "value": -240.0
+        },
+        {
+          "label": "Weekly Net",
+          "value": 34.0
+        }
+      ]
+    }
+  },
+  {
     "id": "robinhood-chain-s-tokenized-stocks-surge-5x-to-70m-amid-high-daily-vol-202607271422",
     "title": "Robinhood Chain's tokenized stocks surge 5x to $70M amid high daily volumes",
     "subtitle": "Tokenized real-world assets on Robinhood Chain have seen significant growth in recent weeks, with trading volumes spiking and overall chain activity increasing ahead of upcoming earnings.",
