@@ -1,5 +1,51 @@
 [
   {
+    "id": "hong-kong-hkma-launches-quantum-index-with-2-3-10-score-targets-2030-r-202607281719",
+    "title": "Hong Kong HKMA launches quantum index with 2.3/10 score, targets 2030 readiness",
+    "subtitle": "The Hong Kong Monetary Authority aims for full quantum preparedness in its banking sector by 2030.",
+    "summary": "Hong Kong's HKMA introduced a Quantum Preparedness Index for banks, with an initial score of 2.3 out of 10.",
+    "content": "The Hong Kong Monetary Authority (HKMA) introduced a framework on Monday to assess banks\u2019 preparedness for quantum-computing threats, as it works to make Hong Kong\u2019s banking sector fully prepared for such risks by 2030. The initiative includes the sector\u2019s first Quantum Preparedness Index (QPI), which initially rated the sector at 2.3 out of 10.\n\nThis development aligns with Hong Kong's ongoing expansion of tokenized finance, digital assets, and blockchain settlement within its financial systems.\n\n### What prompted Hong Kong's quantum initiative?\nThe HKMA is addressing potential security risks as Hong Kong transitions more traditional financial activity onto distributed ledgers. Government figures indicate Hong Kong has issued three batches of tokenized green bonds totaling approximately HK$16.8 billion (about $2.1 billion USD) since 2023. The HKMA is also advancing tokenized deposits and digital-asset settlement through its Project Ensemble.\n\nAccording to the HKMA white paper, distributed ledger applications and payment networks rely on cryptography for core functions. These protections could face severe disruption if compromised by future quantum computing capabilities. The white paper specifies that quantum computers capable of running Shor\u2019s algorithm at scale could eventually break widely used RSA and elliptic-curve cryptography.\n\nSuch a breach could enable attackers to decrypt protected data or forge the digital signatures vital for authorizing transactions, verifying identities, and establishing trust within financial systems. Hong Kong Financial Secretary Paul Chan noted in a Feb. 11, 2026, speech that banks in Hong Kong held more than HK$14 billion (about $1.8 billion USD) in digital assets under custody at the end of 2025, marking a 180% year-over-year increase. Tokenized deposits had reached HK$29 billion (about $3.7 billion USD) by that date.\n\nThis quantum initiative follows the launch of the HKMA\u2019s Fintech 2030 strategy in 2025. This strategy made tokenization one of four strategic pillars in a plan comprising over 40 distinct initiatives. The regulator stated it would accelerate real-world asset (RWA) tokenization and regularize tokenized government bond issuance.\n\n### How is the HKMA addressing quantum risks?\nThe HKMA introduced a white paper on quantum preparedness along with the new QPI on Monday. The index provided the sector with an overall readiness score of 2.3 out of 10, indicating a need for significant improvement. The white paper also revealed that around half of surveyed institutions currently have no formal post-quantum planning in place.\n\nReplacing embedded cryptographic systems often takes several years, according to the HKMA. The authority urged banks to commence inventories, conduct risk assessments, and begin migration planning well before scalable quantum machines become widely available. The HKMA aims to achieve full sector readiness, represented by a QPI score of 10, by 2030.\n\nThe white paper noted that one surveyed institution completed a proof of concept applying post-quantum cryptography to distributed-ledger connectivity. It also cited HSBC\u2019s 2024 use of quantum-safe technology to facilitate the movement of tokenized gold across distributed ledgers. The regulator further intends to explore tokenized Exchange Fund papers, with blockchain settlement supported by e-HKD, tokenized deposits, and regulated stablecoins.\n\n### FAQs\n### What is the Quantum Preparedness Index (QPI)?\nThe Quantum Preparedness Index (QPI) is a framework introduced by the Hong Kong Monetary Authority (HKMA) to assess the readiness of Hong Kong's banking sector for quantum-computing threats. The index provides a score out of 10, measuring institutions' progress in preparing for potential cryptographic vulnerabilities posed by advanced quantum computers.\n\n### What is Shor's algorithm?\n### What are tokenized green bonds?\n\nTickers: NONE\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Regulation",
+    "date": "Jul 28, 2026",
+    "publishedAt": "2026-07-28T17:19:33.914999+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Hong Kong",
+      "HKMA",
+      "Quantum Computing",
+      "Tokenization",
+      "Banking Sector"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/hong-kong-hkma-launches-quantum-index-with-2-3-10-score-targets-2030-r-202607281719.jpg",
+    "featured": false,
+    "wordCount": 580,
+    "keyInsights": [
+      "The Hong Kong Monetary Authority launched a Quantum Preparedness Index (QPI) for its banking sector.",
+      "The sector received an initial QPI score of 2.3 out of 10, with a goal to reach 10 by 2030.",
+      "Around half of surveyed institutions currently lack formal post-quantum planning, according to the HKMA white paper."
+    ],
+    "author": {
+      "name": "Dr. Alistair Sterling",
+      "role": "Director of Policy",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "Hong Kong Banking Sector Quantum Preparedness",
+      "subtitle": "Initial QPI Score vs. 2030 Target",
+      "yAxisLabel": "Preparedness Score (out of 10)",
+      "sourceLabel": "Hong Kong Monetary Authority (HKMA)",
+      "chartType": "radial",
+      "data": [
+        {
+          "label": "QPI Score",
+          "value": 2.3
+        }
+      ]
+    }
+  },
+  {
     "id": "apple-faces-lawsuit-over-alleged-1-8m-bitcoin-wallet-app-losses-202607281557",
     "title": "Apple faces lawsuit over alleged $1.8M Bitcoin wallet app losses",
     "subtitle": "Three users have filed a complaint against Apple, claiming significant Bitcoin losses due to a fake wallet app on the App Store.",
