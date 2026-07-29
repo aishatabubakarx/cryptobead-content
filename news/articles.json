@@ -1,5 +1,38 @@
 [
   {
+    "id": "tether-signs-nairobi-securities-exchange-deal-for-tokenized-securities-202607291704",
+    "title": "Tether signs Nairobi Securities Exchange deal for tokenized securities and USDT settlement",
+    "subtitle": "The agreement with the Nairobi Securities Exchange will explore blockchain infrastructure and the potential for USDT as a settlement layer.",
+    "summary": "Tether and the Nairobi Securities Exchange partner to explore tokenized securities, blockchain infrastructure, and USDT settlement.",
+    "content": "- **Tether and the Nairobi Securities Exchange signed an agreement to explore blockchain infrastructure.**\n- **The memorandum includes plans for tokenized securities and digital asset education.**\n- **The parties will assess the potential use of USDT as a digital settlement layer where permitted.**\n\nTether has signed a memorandum of understanding with the Nairobi Securities Exchange (NSE) to explore blockchain-based market infrastructure, digital asset education, and real-world asset (RWA) tokenization. This agreement, announced by Tether on a Tuesday, also covers the potential use of its USDT stablecoin as a settlement layer within Kenya's regulatory framework.\n\nThe collaboration aims to assess instant settlement mechanisms and the potential integration of Tether's Hadron tokenization platform.\n\n### What does the agreement cover?\nThe memorandum outlines plans for exploring several key areas, according to a Tuesday announcement from Tether. These include the development of blockchain-based market infrastructure and comprehensive digital asset education initiatives. The parties will also investigate real-world asset tokenization.\n\nSpecifically, the agreement considers the potential use of Tether\u2019s Hadron tokenization platform for the issuance and trading of tokenized securities. This platform aims to facilitate the creation of digital representations of real-world assets on a blockchain.\n\nFurthermore, the memorandum calls for the assessment of instant settlement mechanisms and the potential integration of USDT as a digital settlement infrastructure layer. This integration would be implemented where permitted under existing Kenyan regulations, Tether stated.\n\n### Why is this development significant?\nThe agreement comes as tokenized real-world assets continue to gain traction across the digital asset landscape. Data from RWA.xyz indicates that the sector\u2019s onchain value, excluding stablecoins, has grown to approximately $36.8 billion.\n\nRWA.xyz separately tracks nearly $298 billion in stablecoins, which some market participants consider RWAs due to their representation of claims on offchain reserve assets. USDT, with a market capitalization of approximately $184 billion, is currently the world\u2019s largest stablecoin.\n\nThe potential use of USDT as a digital settlement infrastructure layer aligns with broader industry discussions regarding stablecoin utility, as the UK FCA finds cross-border payments are stablecoins' top use case. This initiative could contribute to the modernization of traditional financial systems through blockchain technology.\n\nThe focus on digital asset education and blockchain-based market infrastructure underscores an effort to integrate these technologies into established financial markets. This also follows the trend of RWAs becoming Hyperliquid\u2019s largest trading category, highlighting growing interest in the sector.\n\n### FAQs\n### What is Tether's Hadron tokenization platform?\nTether's Hadron tokenization platform is a system designed for issuing and trading tokenized securities, as outlined in the memorandum of understanding with the Nairobi Securities Exchange. This platform aims to facilitate real-world asset tokenization.\n### What are Real-World Assets (RWAs)?\n### What is the Nairobi Securities Exchange?\nTickers: USDT\nDisclaimer: This article provides general information and is not intended as financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 29, 2026",
+    "publishedAt": "2026-07-29T17:04:57.884197+00:00",
+    "readTime": "2 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Tether",
+      "Nairobi Securities Exchange",
+      "Tokenization",
+      "RWA",
+      "USDT"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/tether-signs-nairobi-securities-exchange-deal-for-tokenized-securities-202607291704.jpg",
+    "featured": false,
+    "wordCount": 460,
+    "keyInsights": [
+      "Tether and the Nairobi Securities Exchange signed a memorandum of understanding to explore blockchain-based market infrastructure.",
+      "The agreement covers digital asset education and the potential use of Tether's Hadron tokenization platform for tokenized securities.",
+      "Parties will assess the potential use of USDT as a digital settlement infrastructure layer, subject to Kenyan regulations."
+    ],
+    "author": {
+      "name": "Robert Vance",
+      "role": "Chief On-Chain Analyst",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "uk-fca-finds-cross-border-payments-are-stablecoins-top-use-case-202607291543",
     "title": "UK FCA finds cross-border payments are stablecoins' top use case",
     "subtitle": "A Financial Conduct Authority initiative determined stablecoins offer significant advantages for international transactions.",
