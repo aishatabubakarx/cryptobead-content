@@ -1,5 +1,38 @@
 [
   {
+    "id": "situational-awareness-hedge-fund-seeks-capital-after-ai-stock-losses-202607302111",
+    "title": "Situational Awareness hedge fund seeks capital after AI stock losses",
+    "subtitle": "The fund, led by ex-OpenAI researcher Leopold Aschenbrenner, faced significant losses amplified by borrowing.",
+    "summary": "Situational Awareness hedge fund seeks capital after heavy AI stock losses, amplified by borrowing.",
+    "content": "- **Situational Awareness hedge fund is seeking fresh capital from investors and lenders.**\n- **The fund incurred significant losses during July's artificial intelligence stock sell-off, amplified by borrowing.**\n- **Founded by Leopold Aschenbrenner, the fund had approximately $1.11 billion in Bitcoin miner stocks as of a March SEC filing.**\n\nSituational Awareness, the hedge fund founded in 2024 by ex-OpenAI researcher Leopold Aschenbrenner, has approached investors and lenders for fresh capital after suffering heavy losses in the recent artificial intelligence (AI) stock sell-off, the Financial Times reported Thursday. The fund, which the Wall Street Journal said had around $20 billion in assets under management as of June 8, also offered some investors the option to buy portfolio assets, based on the FT's report and a July 24 investor letter.\n\nThe firm's strategic focus included substantial investments in power and data centers supporting AI, particularly Bitcoin miners transitioning to AI computing.\n\n### What led to Situational Awareness's capital seek?\nSituational Awareness's capital-raising efforts stem from significant financial setbacks during July\u2019s AI stock market rout, as reported by the Financial Times. The hedge fund, led by founder Leopold Aschenbrenner, engaged in substantial borrowing, which amplified its market bets. This increased exposure led to magnified losses when AI stocks experienced a sharp downturn last month, the FT stated.\n\nPrior to these losses, the fund achieved a 439% gain after fees through June, according to its July 24 investor letter. This preceded the market conditions triggering the subsequent need for capital. The Wall Street Journal had indicated the fund managed approximately $20 billion in assets as of June 8.\n\nThe Financial Times noted the specific magnitude of losses incurred by Situational Awareness was not publicly disclosed. Furthermore, the precise amount of fresh capital the fund seeks from investors and lenders remains unconfirmed. This lack of specific figures was highlighted in the FT's report, citing people familiar with discussions and the July 24 investor letter.\n\n### What were Situational Awareness's investment strategies?\nThe investment strategy employed by Aschenbrenner\u2019s fund involved substantial allocation towards the infrastructure powering artificial intelligence. Cointelegraph previously reported Situational Awareness made significant bets within its portfolio on power and data centers crucial for AI operations. This focus extended to Bitcoin (BTC) mining companies concurrently pivoting towards AI computing services.\n\nA March filing with the US Securities and Exchange Commission (SEC) detailed a notable portion of the fund's holdings. This filing showed approximately $1.11 billion in positions across seven distinct Bitcoin miner stocks. These included IREN, Core Scientific (CORZ), Riot Platforms (RIOT), and CleanSpark (CLSK), reflecting the fund's interest in the synergy between crypto mining and AI infrastructure.\n\nThe fund's approach leveraged growing demand for computational resources required by both cryptocurrency mining and AI development. Other firms, such as Samsung SDS, are exploring similar integrations, examining stablecoin infrastructure and AI payments with operators like Upbit. [Samsung SDS explores stablecoin infrastructure, AI payments with Upbit operator Dunamu](https://cryptobead.com/article/samsung-sds-explores-stablecoin-infrastructure-ai-payments-with-upbit--202607301906).\n\n### What is the outlook for the fund?\nDespite recent setbacks and the need for new capital, Leopold Aschenbrenner expressed a positive outlook on the current market. In the July 24 investor letter, he reportedly contended that the AI stock sell-off had paradoxically created attractive investment opportunities for the fund. This perspective suggests a strategic intent to leverage the market downturn for future gains.\n\nAschenbrenner\u2019s broader vision for technology was articulated in a series of essays on artificial general intelligence (AGI) published in mid-2024, coinciding with the fund's launch. In his writings, Aschenbrenner predicted AGI machines would surpass college graduates by the end of the decade, outlining his long-term conviction in advanced AI.\n\nThe fund's current efforts to secure additional funding highlight a critical juncture following its rapid growth and subsequent losses. Cointelegraph reached out to Situational Awareness for official comment regarding its capital-raising activities. However, no response from the fund had been received by the time the article was published.\n\n### FAQs\n### Why is Situational Awareness seeking capital?\nSituational Awareness is seeking fresh capital from investors and lenders due to heavy losses suffered during July's artificial intelligence stock sell-off, which were amplified by the fund's use of borrowing.\n### Who founded Situational Awareness?\n### What was Situational Awareness's AUM before the sell-off?\nTickers: IREN CORZ RIOT CLSK BTC\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "Emerging Tech",
+    "date": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T21:11:53.702404+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Hedge Fund",
+      "AI",
+      "Bitcoin Miners",
+      "Capital Raise",
+      "Market Rout"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/situational-awareness-hedge-fund-seeks-capital-after-ai-stock-losses-202607302111.jpg",
+    "featured": false,
+    "wordCount": 714,
+    "keyInsights": [
+      "Situational Awareness hedge fund is raising fresh capital following substantial losses from July's AI stock sell-off.",
+      "The fund's strategy involved significant investments in AI computing infrastructure, including approximately $1.11 billion in Bitcoin miner stocks as of March.",
+      "Borrowing amplified the fund's market exposure, contributing to increased losses during the AI market rout."
+    ],
+    "author": {
+      "name": "Sarah Jenkins",
+      "role": "Lead Blockchain Architect",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "samsung-sds-explores-stablecoin-infrastructure-ai-payments-with-upbit--202607301906",
     "title": "Samsung SDS explores stablecoin infrastructure, AI payments with Upbit operator Dunamu",
     "subtitle": "Samsung SDS CEO Lee Jun-hee confirmed discussions on digital asset systems during a Q2 earnings call.",
