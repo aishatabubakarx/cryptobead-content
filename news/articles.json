@@ -1,5 +1,38 @@
 [
   {
+    "id": "robinhood-posts-record-1-31b-revenue-as-prediction-markets-outpace-cry-202607301715",
+    "title": "Robinhood posts record $1.31B revenue as prediction markets outpace crypto\n- **Robinhood reported a record $1.31 billion in net revenue for its latest quarter, marking a 32% increase year-over-year.**\n- **Its event contracts business generated $156 million, surpassing both crypto revenue at $100 million and equities at $129 million for the first time.**\n- **The company's Robinhood Chain processed over $12 billion in DEX volume and recorded 100 million transactions, with a total value locked of approximately $325 million.**\n\nRobinhood (NASDAQ: HOOD) reported its best quarter in history, with net revenue reaching $1.31 billion, representing a 32% increase from the prior year, according to a daily newsletter by Tyler Warner for Decrypt. The financial platform also recorded a net income of $573 million, up 48%, and diluted earnings per share (EPS) of $0.62 against an expected $0.41. Total platform assets climbed to $369 billion, while net deposits set a record near $21.7 billion.\n\nThis financial performance was bolstered by a significant surge in event contracts, which for the first time generated more revenue than crypto and equities, as detailed by Warner's analysis.\n\n### How did Robinhood's business lines perform?\nRobinhood\u2019s event contracts business recorded $156 million in revenue, an increase of more than tenfold year-over-year. This segment exceeded both crypto revenue, which stood at $100 million, and equities revenue at $129 million. Crypto revenue experienced a 38% decline from $160 million a year ago, primarily due to cooling retail trading volumes, according to Warner.\n\nThe company's options trading revenue increased by 29% to $342 million, while equities revenue rose by 95%. Additional revenue streams, including those from Trump Account fees, contributed to a 54% increase in other revenue, as stated by Warner. These segments performed the heavy lifting in revenue generation for the quarter.\n\nCEO Vlad Tenev described Robinhood as consisting of 13 distinct business lines, each generating over $100 million on an annualized basis. These lines operate with a unified goal of \"making everyone an owner,\" Tenev noted.\n\n### What traction has Robinhood Chain seen?\nTenev also addressed the performance of Robinhood Chain during the earnings call, indicating that the network has experienced \"great initial traction.\" The decentralized exchanges (DEXs) operating on Robinhood Chain have processed more than $12 billion in volume. The network became the fastest ever to reach 100 million transactions, according to Tenev.\n\nTotal Value Locked (TVL) on Robinhood Chain currently stands at approximately $325 million. During a public demonstration, Tenev showcased browsing the chain on his phone, explicitly featuring a memecoin identified as CASHCAT. This demonstration was followed by a quick 40% surge in the memecoin\u2019s value.\n\nThe performance metrics suggest growing activity within Robinhood's blockchain ecosystem.\n\n### What is the outlook for Robinhood's business?\nDespite the strong earnings report, HOOD stock sold off on the day and did not recover significantly in after-hours trading. This market reaction appears more closely tied to a hawkish Federal Open Market Committee (FOMC) stance rather than Robinhood's specific earnings beat, Warner observed. The broader economic sentiment influenced investor behavior.\n\nTyler Warner's analysis suggests that, when considering the overall business, Robinhood's position \"feels as strong as ever.\" The company possesses 13 distinct business lines, each contributing over $100 million in revenue, along with multiple major avenues for future growth. Warner characterized this setup as \"quite the bullish setup,\" indicating optimism for the company\u2019s trajectory. The ongoing development of Robinhood Chain and the strong performance of new segments like event contracts suggest potential for sustained expansion.\n\n### FAQs\n### What was Robinhood's net revenue for the quarter?\nRobinhood reported a net revenue of $1.31 billion for the quarter, marking a 32% increase year-over-year.\n### How did crypto revenue perform compared to event contracts?\n### What is Robinhood Chain?\n\nTickers: HOOD\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.\n\nCATEGORY: Infrastructure\nTAGS: Robinhood, Earnings, Crypto, Prediction Markets, Robinhood Chain\nSENTIMENT: Bullish\nKEY_INSIGHTS: Robinhood reported a record $1.31 billion in net revenue, increasing 32% year-over-year. | Event contracts generated $156 million, surpassing crypto revenue of $100 million for the first time. | Robinhood Chain processed over $12 billion in DEX volume and achieved 100 million transactions.\nTWEET_URL: NONE\nCHART_TITLE: Robinhood Q2 Revenue Breakdown by Product\nCHART_SUBTITLE: Event Contracts Surpass Crypto and Equities for the First Time\nCHART_TYPE: bar\nCHART_YAXIS: Revenue ($M)\nCHART_SOURCE: Decrypt (Tyler Warner's \"Morning Minute\")\nCHART_DATA: Event Contracts:$156, Options:$342, Equities:$129, Crypto:$100",
+    "subtitle": "Event Contracts Surpass Crypto and Equities for the First Time\nCHART_TYPE: bar\nCHART_YAXIS: Revenue ($M)\nCHART_SOURCE: Decrypt (Tyler Warner's \"Morning Minute\")\nCHART_DATA: Event Contracts:$156, Options:$342, Equities:$129, Crypto:$100",
+    "summary": "",
+    "content": "",
+    "category": "Infrastructure",
+    "date": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T17:15:30.293582+00:00",
+    "readTime": "1 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Robinhood",
+      "Earnings",
+      "Crypto",
+      "Prediction Markets",
+      "Robinhood Chain"
+    ],
+    "image": "",
+    "featured": false,
+    "wordCount": 0,
+    "keyInsights": [
+      "Robinhood reported a record $1.31 billion in net revenue, increasing 32% year-over-year.",
+      "Event contracts generated $156 million, surpassing crypto revenue of $100 million for the first time.",
+      "Robinhood Chain processed over $12 billion in DEX volume and achieved 100 million transactions."
+    ],
+    "author": {
+      "name": "Marcus Aurelius",
+      "role": "Chief Macro Strategist",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "ethereum-foundation-appoints-pascal-caversaccio-to-board-elevating-pri-202607301545",
     "title": "Ethereum Foundation appoints Pascal Caversaccio to board, elevating privacy strategy",
     "subtitle": "SEAL 911 co-founder joins the Ethereum Foundation board, reinforcing a strategic shift towards enhanced protocol privacy and security.",
