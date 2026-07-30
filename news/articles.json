@@ -1,5 +1,55 @@
 [
   {
+    "id": "bitcoin-etfs-see-inflows-return-ending-streak-as-ether-funds-post-outf-202607301348",
+    "title": "Bitcoin ETFs See Inflows Return, Ending Streak as Ether Funds Post Outflows",
+    "subtitle": "US spot Bitcoin exchange-traded funds recorded $32.1 million in inflows on Wednesday, breaking a four-session outflow trend.",
+    "summary": "Bitcoin ETFs returned to inflows, ending a four-day streak of outflows, while Ether ETFs saw net outflows.",
+    "content": "- **US spot Bitcoin ETFs recorded $32.1 million in inflows on Wednesday, ending a four-session outflow streak.**\n- **This inflow followed more than $500 million in combined outflows over the preceding four trading sessions.**\n- **US-listed spot Ether ETFs registered $18.65 million in net outflows on the same Wednesday.**\n\nUS spot Bitcoin exchange-traded funds (ETFs) recorded $32.1 million in net inflows on Wednesday, ending a four-session streak of outflows. This positive movement occurred despite Bitcoin's price briefly falling below $64,000, according to data from SoSoValue and CoinGecko.\n\nThe return to inflows for Bitcoin ETFs contrasted with the performance of Ether funds on the same day.\n\n### What prompted the shift in Bitcoin ETF flows?\n\nThe $32.1 million in net inflows on Wednesday marked a reversal from a period of significant withdrawals. Over the four preceding trading sessions, US spot Bitcoin ETFs had posted more than $500 million in combined outflows. This outflow streak was concluded by the recent positive capital movement.\n\nBitcoin's price briefly declined to approximately $63,300 during US trading hours on Wednesday. Despite this price dip, the inflows into the spot Bitcoin ETFs were recorded, suggesting a level of market demand. The recovery in inflows indicates a shift from recent investor behavior.\n\n### How do recent Bitcoin and Ether ETF performances compare?\n\nSo far this week, US spot Bitcoin ETFs have recorded net outflows totaling $29.29 million. However, monthly net inflows for these funds have reached $204.7 million, according to available data. Cumulative net inflows across all US spot Bitcoin funds currently stand at $51.36 billion.\n\nIn contrast to Bitcoin funds, US-listed spot Ether ETFs logged net outflows of $18.65 million on Wednesday. Despite this daily decline, spot Ether ETFs have attracted $342.9 million in net inflows so far this month. This figure is notably higher than the $204.7 million recorded by spot Bitcoin ETFs over the same monthly period.\n\nAt the time of publication, Bitcoin traded at $63,990, representing a 0.2% decrease over the past 24 hours. The cryptocurrency has seen a 2.5% decline over the previous seven days. Ether traded at $1,902, which is down 1.1% over the past seven days.\n\n### What is the current market sentiment?\n\nThe broader market sentiment, as measured by the Crypto Fear & Greed Index, registered a \"fear\" reading on Thursday. The index scored 28, a drop of one point from Wednesday's reading. This score indicates a cautious market outlook among investors.\n\nDespite the recent dip, sentiment has improved from a month ago when the index showed an \"extreme fear\" reading. The current \"fear\" score suggests continued uncertainty but a less severe level of apprehension compared to the prior period.\n\n### FAQs\n### What were the net inflows for US spot Bitcoin ETFs on Wednesday?\nUS spot Bitcoin ETFs recorded $32.1 million in net inflows on Wednesday, according to data from SoSoValue and CoinGecko. This marked the end of a four-session outflow streak.\n### How did US spot Ether ETFs perform on Wednesday?\n### What is the current reading of the Crypto Fear & Greed Index?\nTickers: BTC ETH\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Macro",
+    "date": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T13:48:36.788160+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "Ether",
+      "ETFs",
+      "Inflows",
+      "Outflows"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/bitcoin-etfs-see-inflows-return-ending-streak-as-ether-funds-post-outf-202607301348.jpg",
+    "featured": false,
+    "wordCount": 523,
+    "keyInsights": [
+      "US spot Bitcoin ETFs recorded $32.1 million in net inflows on Wednesday, ending a four-session outflow streak.",
+      "US-listed spot Ether ETFs registered $18.65 million in net outflows on the same day, despite monthly inflows of $342.9 million.",
+      "The Crypto Fear & Greed Index showed a \"fear\" reading of 28 on Thursday, reflecting a slight improvement from the previous month."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "US Spot ETF Net Flows (Wednesday)",
+      "subtitle": "Bitcoin vs. Ether",
+      "yAxisLabel": "Net Flow (USD Million)",
+      "sourceLabel": "SoSoValue, CoinGecko",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Bitcoin ETFs",
+          "value": 32.1
+        },
+        {
+          "label": "Ether ETFs",
+          "value": -18.65
+        }
+      ]
+    }
+  },
+  {
     "id": "white-house-aide-gabriel-perez-leaves-government-amid-kalshi-betting-a-202607292057",
     "title": "White House Aide Gabriel Perez Leaves Government Amid Kalshi Betting Accusations",
     "subtitle": "A White House teleprompter operator accused of profiting from prediction market bets is no longer employed by the federal government.",
