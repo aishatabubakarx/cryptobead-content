@@ -1,5 +1,38 @@
 [
   {
+    "id": "rwa-perpetual-futures-volume-nears-bitcoin-on-hyperliquid-binance-at-6-202607312104",
+    "title": "RWA Perpetual Futures Volume Nears Bitcoin on Hyperliquid, Binance at $61.7B",
+    "subtitle": "Tokenized equities propelled real-world asset perpetual futures to 99.2% of Bitcoin's volume on Hyperliquid and Binance over the past week.",
+    "summary": "RWA perpetual futures volume hit $61.7B, reaching 99.2% of Bitcoin's on Hyperliquid and Binance, with early data showing a 9% lead.",
+    "content": "- **Real-world asset (RWA) perpetual futures volume reached $61.7 billion over the past week on Hyperliquid and Binance.**\n- **This RWA volume equated to 99.2% of Bitcoin perpetual volume on these platforms, led by tokenized equities.**\n- **Early data for the current week indicates RWA perpetual trading volume has already exceeded Bitcoin perpetual volume by approximately 9%.**\n\nReal-world asset (RWA) perpetual futures trading volume across Hyperliquid and Binance reached $61.7 billion over the past week, according to data from Talos. This volume nearly matched Bitcoin perpetual futures activity, equaling 99.2% of its trading on the two platforms. Tokenized equities were the primary driver of this RWA volume, accounting for 57.8% of the total.\n\nThis surge in RWA perpetual futures activity has drawn attention from industry leaders and traditional finance figures.\n\n### What is driving the RWA trading surge?\nPerpetual futures linked to tokenized stocks and commodities generated significant trading volume across major platforms. Over the past week, these instruments saw nearly as much activity as Bitcoin perpetuals on Hyperliquid and Binance, two of the largest venues for these products. Combined seven-day volume for tracked real-world asset (RWA) perpetuals reached $61.7 billion, Talos reported. This figure was equivalent to 99.2% of the Bitcoin perpetual volume on Hyperliquid and Binance, where most trading activity is concentrated, Talos told Cointelegraph in an email summary citing a Thursday data snapshot.\n\nTokenized equity contracts led this surge in RWA trading, making up 57.8% of the total RWA perpetual volume. Commodities followed, accounting for 28.2% of the volume. The overall value of onchain RWAs, excluding stablecoins, has grown to approximately $36.8 billion, according to RWA.xyz. Crypto exchanges are expanding their product offerings, increasingly listing tokenized stocks and commodities alongside digital assets to meet market demand.\n\nHyperliquid specifically recorded robust RWA perpetual trading volume during the week of July 13 to July 19. The platform registered $25.1 billion in RWA perpetuals, surpassing the combined volume of all other perpetual categories on its platform for that period. Circle co-founder and CEO Jeremy Allaire observed this development in a July 24 X post. Allaire stated that growing RWA trading on Hyperliquid signals a shift in crypto markets, moving \"away from speculating on endogenous digital commodities.\" Initial data for the current week suggests this trend is continuing. RWA perpetual trading volume has already climbed to $37.2 billion, exceeding Bitcoin perpetual volume by about 9%, according to Talos\u2019 dashboard.\n\n### How does RWA volume compare to other derivatives?\nEarly data for the current week provides a granular breakdown of RWA perpetual trading volume by asset type. Equity-linked contracts represented the largest segment, accounting for $22.8 billion of the $37.2 billion in RWA volume. Commodities followed with $9.1 billion, and indexes contributed $4.2 billion. Exchange Traded Funds (ETFs) contributed approximately $338 million. Foreign exchange, pre-IPO, and other RWA contracts made up the remainder of the trading volume.\n\nDespite recent growth and near parity with Bitcoin perpetual volume on specific venues, RWA perpetuals remain a relatively modest segment within the broader crypto derivatives market. Talos\u2019 data indicates aggregate futures trading volume across the market was approximately $821.4 billion over the past seven days. Tracked RWA perpetuals, while increasing, accounted for roughly 7.5% of this total aggregate volume. This indicates substantial room for further expansion within the overall derivatives landscape.\n\n### What is the broader outlook for RWA perpetuals?\nPantera Capital suggested earlier in July that perpetual futures could become a dominant trading instrument beyond crypto. The firm cited advantages such as 24/7 trading availability, absence of contract expiries, simpler position management, and continuous price discovery. These features are seen as beneficial for a wider range of financial products. [Coinbase reports $359M Q2 net loss as crypto trading volume drops 20%](https://cryptobead.com/article/coinbase-reports-359m-q2-net-loss-as-crypto-trading-volume-drops-20-202607311903).\n\nThe growth on platforms like Hyperliquid has drawn attention from traditional finance. Jeffrey Sprecher, CEO of Intercontinental Exchange (ICE), whose company owns the New York Stock Exchange, recently urged regulators to establish a \"level playing field\" for 24/7 onchain perpetual futures. Sprecher argued that existing market structures should not impede the development of blockchain-based trading systems. This advocacy from traditional finance leaders suggests a growing recognition of the potential impact of tokenized perpetuals.\n\n### FAQs\n### What are RWA perpetual futures?\nRWA perpetual futures are derivative contracts that allow traders to speculate on the future price of tokenized real-world assets, such as stocks or commodities, without an expiry date. They enable continuous trading and price discovery on blockchain-based platforms.\n### Which platforms saw the highest RWA perpetual trading volume?\n### What percentage of Bitcoin perpetual volume did RWA perpetuals reach?\nTickers: BTC\nDisclaimer: This article is for informational purposes only and not investment advice.",
+    "category": "DeFi",
+    "date": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T21:04:36.527568+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "RWA",
+      "Perpetual Futures",
+      "Hyperliquid",
+      "Binance",
+      "Tokenized Equities"
+    ],
+    "image": "",
+    "featured": false,
+    "wordCount": 771,
+    "keyInsights": [
+      "RWA perpetual futures volume on Hyperliquid and Binance reached $61.7 billion over the past week.",
+      "This volume achieved 99.2% of Bitcoin perpetual trading activity on the same platforms, driven by tokenized equities.",
+      "Early data for the current week shows RWA perpetual trading volume surpassing Bitcoin perpetual volume by approximately 9%."
+    ],
+    "author": {
+      "name": "Dr. Alistair Sterling",
+      "role": "Director of Policy",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "coinbase-reports-359m-q2-net-loss-as-crypto-trading-volume-drops-20-202607311903",
     "title": "Coinbase reports $359M Q2 net loss as crypto trading volume drops 20%",
     "subtitle": "The exchange's second-quarter revenue declined 14% sequentially, falling short of analyst estimates.",
