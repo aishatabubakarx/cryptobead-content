@@ -1,5 +1,63 @@
 [
   {
+    "id": "blackrock-ibit-spearheads-233m-bitcoin-etf-inflows-turning-week-green-202607311552",
+    "title": "BlackRock IBIT spearheads $233M Bitcoin ETF inflows, turning week green",
+    "subtitle": "US spot Bitcoin ETFs record strongest daily inflows in over three weeks, with BlackRock's IBIT leading the charge.",
+    "summary": "US spot Bitcoin ETFs saw $233.1M in inflows led by BlackRock IBIT, pushing weekly performance positive.",
+    "content": "- **US spot Bitcoin ETFs registered $233.1 million in net inflows on Thursday.**\n- **BlackRock\u2019s IBIT led these inflows with $183.4 million, accounting for 78.7% of the total.**\n- **These inflows pushed US spot Bitcoin ETFs to $203.84 million in net positive weekly performance.**\n\nUS spot Bitcoin exchange-traded funds (ETFs) experienced their strongest daily inflows in more than three weeks on Thursday, attracting $233.1 million, according to SoSoValue data. This significant capital influx propelled the funds back into positive territory for the current week, effectively reversing earlier periods of net outflows. The Thursday inflows represent a notable return of investor interest, following a stretch of more constrained capital movement within the digital asset investment landscape.\n\nThe surge in capital deployment was predominantly driven by BlackRock's iShares Bitcoin Trust (IBIT), which captured a substantial majority of the day's inflows. IBIT\u2019s performance played a pivotal role in shaping the overall positive shift observed across the regulated Bitcoin investment sector.\n\n### What led to the surge in Bitcoin ETF inflows?\nBlackRock\u2019s IBIT led the daily gains by attracting $183.4 million in net inflows on Thursday, as reported by SoSoValue data. This single fund's contribution accounted for 78.7% of the day\u2019s total inflows into US spot Bitcoin ETFs, underscoring its significant market presence and investor confidence since its inception. The substantial inflow into IBIT further demonstrates its continued position as a primary vehicle for both institutional and retail investors seeking exposure to Bitcoin through traditional financial products. This consistent leadership helps stabilize the broader market.\n\nBeyond BlackRock, Bitwise\u2019s BITB secured the second-highest position for the day, attracting $20.7 million in net inflows. Fidelity\u2019s FBTC followed closely, registering $15.5 million in net inflows, thereby contributing to the diversified participation across the market. Several other spot Bitcoin funds also posted smaller inflows, as per SoSoValue data, which collectively bolstered the day's robust performance. The aggregate daily inflow of $233.1 million marks a substantial uptick, confirming the strongest single-day performance for these investment vehicles in over three weeks. This influx signals a renewed appetite among investors for regulated Bitcoin products, breaking a pattern of more moderate activity seen in prior weeks.\n\n### How are July's ETF performances tracking?\nThursday's strong performance successfully flipped the overall weekly trend for US spot Bitcoin ETFs from negative to positive territory. The funds concluded the week with $203.84 million in net inflows, recovering from earlier outflows observed at the start of the period, according to SoSoValue data. This positive turnaround places the funds in a strong position to potentially close their fourth consecutive week in the green. This outcome would occur if no substantial net outflow exceeding $203.84 million materializes on Friday. Such sustained positive weekly performance would indicate a resilient and growing market for Bitcoin ETFs.\n\nThe month of July is also tracking positively, with total net inflows reaching $437.8 million following Thursday\u2019s figures, SoSoValue data indicates. This consistent inflow trajectory places July on pace to break a two-month streak that had seen multibillion-dollar outflows in previous periods. Successfully snapping this pattern would represent a significant positive shift in market sentiment and capital allocation towards Bitcoin ETFs, potentially signaling a reversal of recent bearish pressures. Investors are watching closely to see if this trend continues through the end of the month.\n\nIn broader market context, Bitcoin was trading at $64,338 at the time of writing, according to CoinGecko, reflecting a 1.8% decrease over the past week. Concurrently, spot Ether ETFs also recorded positive movement on Thursday, logging $13.3 million in net inflows. The performance of Ether ETFs has shown a notable improvement in July, registering losses in just five trading sessions throughout the month. This contrasts with June, which saw net inflows on only four trading days, indicating a growing, albeit secondary, investor interest in Ether-backed products. Ether traded at $1,905 at the time of writing, according to CoinGecko, suggesting a broader, positive, if sometimes volatile, trend for major crypto-related investment products in the regulated market.\n\n### FAQs\n### What were the total daily inflows for US spot Bitcoin ETFs?\nUS spot Bitcoin ETFs recorded $233.1 million in total net inflows on Thursday, marking their strongest daily performance in over three weeks.\n### Which Bitcoin ETF led the inflows on Thursday?\n### What is the current weekly performance for Bitcoin ETFs?\n\nTickers: BTC IBIT BITB FBTC\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Macro",
+    "date": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T15:52:44.639584+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin ETFs",
+      "BlackRock",
+      "IBIT",
+      "Crypto Inflows",
+      "SoSoValue"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/blackrock-ibit-spearheads-233m-bitcoin-etf-inflows-turning-week-green-202607311552.jpg",
+    "featured": false,
+    "wordCount": 730,
+    "keyInsights": [
+      "US spot Bitcoin ETFs garnered $233.1 million in daily inflows, marking their strongest performance in over three weeks.",
+      "BlackRock\u2019s iShares Bitcoin Trust (IBIT) contributed $183.4 million, representing 78.7% of Thursday's total inflows.",
+      "These inflows shifted the weekly net performance for Bitcoin ETFs to a positive $203.84 million."
+    ],
+    "author": {
+      "name": "Robert Vance",
+      "role": "Chief On-Chain Analyst",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "US Spot Bitcoin ETF Inflows (Thursday)",
+      "subtitle": "BlackRock's IBIT leads daily gains",
+      "yAxisLabel": "Inflows (Millions USD)",
+      "sourceLabel": "SoSoValue, Cointelegraph.com News",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "BlackRock IBIT",
+          "value": 183.4
+        },
+        {
+          "label": "Bitwise BITB",
+          "value": 20.7
+        },
+        {
+          "label": "Fidelity FBTC",
+          "value": 15.5
+        },
+        {
+          "label": "Total Daily Inflows",
+          "value": 233.1
+        }
+      ]
+    }
+  },
+  {
     "id": "new-york-attorney-general-sues-kalshi-over-alleged-illegal-gambling-op-202607311354",
     "title": "New York Attorney General sues Kalshi over alleged illegal gambling operations",
     "subtitle": "New York's Attorney General has filed a lawsuit against Kalshi, intensifying a federal-state clash over prediction market regulation.",
