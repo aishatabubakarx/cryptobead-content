@@ -1,5 +1,51 @@
 [
   {
+    "id": "coinbase-reports-359m-q2-net-loss-as-crypto-trading-volume-drops-20-202607311903",
+    "title": "Coinbase reports $359M Q2 net loss as crypto trading volume drops 20%",
+    "subtitle": "The exchange's second-quarter revenue declined 14% sequentially, falling short of analyst estimates.",
+    "summary": "Coinbase reported a $359M net loss and $1.22B revenue in Q2, missing analyst expectations as crypto trading volume fell.",
+    "content": "- **Coinbase Global reported a net loss of $359 million for its second fiscal quarter, falling short of analyst expectations.**\n- **The company's second-quarter revenue reached $1.22 billion, a 14% decrease from the prior quarter, driven by a greater than 20% drop in crypto spot trading volume.**\n- **Despite the overall loss, Coinbase registered $292 million in stablecoin revenue and saw prediction-market revenue double quarter-over-quarter.**\n\nCoinbase Global (NASDAQ: COIN) reported a net loss of $359 million for its second fiscal quarter, with total revenue reaching $1.22 billion. This figure fell below Wall Street's expectation of $1.29 billion, according to a daily newsletter analysis by Tyler Warner for Decrypt. The reported revenue represents a 14% decline from the prior quarter and a 19% decrease compared to the same period a year ago.\n\nThe firm's stock, COIN, fell approximately 5% after hours following the announcement of these results, as detailed in Warner's analysis.\n\n### What factors contributed to Coinbase's Q2 loss?\nCoinbase's Q2 revenue miss was broad, with the $1.22 billion reported falling below the $1.29 billion Wall Street expected, Warner stated. The company also posted a net loss of $1.36 per share, which was significantly worse than the roughly break-even result analysts had modeled.\n\nTotal crypto spot trading volume for Coinbase fell by more than 20% from the prior quarter, Warner's analysis indicated. This decline was attributed to sliding prices and multi-year lows in market volatility, directly contributing to a 21% decrease in transaction revenue, which reached $599 million.\n\nSubscription and services revenue also missed expectations, despite this segment being designed to be less dependent on trading activity. Coinbase cited late-closing USDC commercial agreements and lower staking revenue, resulting from falling prices, as contributing factors. Warner noted this shortfall \"undercut the idea that the diversified businesses are decoupled from the trading cycle.\"\n\n### How is Coinbase diversifying its revenue streams?\nDespite the net loss, Coinbase reported several positive indicators regarding its diversification efforts. Stablecoin revenue reached $292 million during the quarter. The average amount of USDC held on Coinbase products hit a record $20 billion, representing more than 30% of all USDC in circulation, according to the Decrypt analysis.\n\nPrediction-market revenue more than doubled quarter-over-quarter, increasing by 106%. This segment crossed a $100 million annualized run rate, demonstrating significant growth. Coinbase's share of global crypto trading volume also reached a record 10.3%, marking its third consecutive quarter of market-share gains, Warner wrote.\n\nThe company stated that 88% of its net revenue now originates from sources other than Bitcoin spot trading, a substantial increase from 45% in 2020. Coinbase also maintained $8.6 billion in cash holdings and extended a 14-quarter streak of positive adjusted EBITDA, while lowering its full-year expense outlook.\n\nIn a comparison, Warner noted that both Robinhood and Coinbase reported shrinking crypto trading revenue and surging prediction markets. However, Robinhood posted a record profit during the same period, while Coinbase reported an outright loss, suggesting Coinbase remains \"far more exposed to the trading cycle it\u2019s trying to grow beyond.\" Warner also observed that Coinbase does not yet boast 13 nine-figure product lines, unlike Robinhood.\n\n### What is the outlook for Coinbase's financial performance?\nCoinbase's guidance for the third quarter is currently described as \"fairly soft,\" according to Warner's analysis. However, Warner suggests that this guidance \"may not be accounting for Cobie taking over trading and the apps.\" The future impact of these developments on the company's performance remains to be seen.\n\n### FAQs\n### What was Coinbase's net loss in Q2?\nCoinbase reported a net loss of $359 million for its second fiscal quarter.\n### How did crypto trading volume impact Coinbase's revenue?\n### What positive trends did Coinbase report?\nTickers: COIN\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T19:03:26.936950+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Coinbase",
+      "Earnings",
+      "Q2",
+      "Crypto Trading",
+      "Market Share"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/coinbase-reports-359m-q2-net-loss-as-crypto-trading-volume-drops-20-202607311903.jpg",
+    "featured": false,
+    "wordCount": 626,
+    "keyInsights": [
+      "Coinbase reported a Q2 net loss of $359 million, significantly missing analyst expectations.",
+      "Total crypto spot trading volume for Coinbase decreased by over 20% quarter-over-quarter, leading to a 21% drop in transaction revenue.",
+      "The company's subscription and services revenue also missed forecasts, despite efforts to diversify beyond the trading cycle."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "Coinbase Net Revenue Diversification",
+      "subtitle": "Percentage from non-Bitcoin spot trading",
+      "yAxisLabel": "Percentage",
+      "sourceLabel": "Tyler Warner, Decrypt",
+      "chartType": "radial",
+      "data": [
+        {
+          "label": "Non-Bitcoin Spot Trading",
+          "value": 88.0
+        }
+      ]
+    }
+  },
+  {
     "id": "coldcard-issues-mk3-seed-risk-alert-amid-38-3m-bitcoin-wallet-sweep-co-202607311720",
     "title": "Coldcard issues Mk3 seed risk alert amid $38.3M Bitcoin wallet sweep\n- **Coinkite warned Coldcard Mk3 users to migrate funds due to a potential seed-generation risk in firmware versions 4.0.1 through 5.0.3.**\n- **Bitcoin security experts are examining a coordinated sweep of 594.48 BTC, valued at approximately $38.3 million USD, from single-signature addresses.**\n- **No definitive public evidence has established a connection between the Coldcard Mk3 issue and the recent Bitcoin wallet drain.**",
     "subtitle": "Coldcard's maker advises users to migrate funds from Mk3 devices due to a potential seed-generation vulnerability.",
