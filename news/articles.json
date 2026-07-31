@@ -1,5 +1,38 @@
 [
   {
+    "id": "coldcard-issues-mk3-seed-risk-alert-amid-38-3m-bitcoin-wallet-sweep-co-202607311720",
+    "title": "Coldcard issues Mk3 seed risk alert amid $38.3M Bitcoin wallet sweep\n- **Coinkite warned Coldcard Mk3 users to migrate funds due to a potential seed-generation risk in firmware versions 4.0.1 through 5.0.3.**\n- **Bitcoin security experts are examining a coordinated sweep of 594.48 BTC, valued at approximately $38.3 million USD, from single-signature addresses.**\n- **No definitive public evidence has established a connection between the Coldcard Mk3 issue and the recent Bitcoin wallet drain.**",
+    "subtitle": "Coldcard's maker advises users to migrate funds from Mk3 devices due to a potential seed-generation vulnerability.",
+    "summary": "Coldcard issued a Mk3 warning due to seed-generation risk as experts probe an unrelated $38.3M Bitcoin drain.",
+    "content": "Coinkite, the Canadian Bitcoin hardware maker, issued a warning to users of its Coldcard Mk3 signing device, advising them to move funds from wallets whose seed phrases were generated on specific affected firmware versions. This alert comes as Bitcoin security experts investigate an unexplained, coordinated sweep involving 594.48 BTC from single-signature addresses.\n\nThe company's warning identifies firmware versions 4.0.1 through 5.0.3 as potentially compromised, while separately, security specialists are analyzing the characteristics of the large Bitcoin transfer.\n\n### What is the Coldcard Mk3 seed generation risk?\nCoinkite urged Coldcard Mk3 users to migrate funds after identifying a potential seed-generation risk, according to a company statement released on Thursday. The firm specified that seeds created on an Mk3 running firmware version 4.0.1, released in March 2021, or any subsequent Mk3 version up to 5.0.3, may put user funds at risk. Version 5.0.3 represents the final software update officially supporting the Mk3 device.\n\nThe company's early analysis indicates its newer hardware wallet models\u2014Coldcard Mk4, Q, and Mk5\u2014are not affected by this potential vulnerability. Out of an abundance of caution, Coinkite advised affected users to generate a new seed on an unaffected device, verify its backup and receive address, send a small test transaction, and then move remaining funds.\n\nCoinkite confirmed its investigation is ongoing and committed to a formal technical review. Preliminary findings from the company also suggest that affected seeds, when used with a BIP-39 passphrase, face minimal risk. Coinkite stressed this passphrase is distinct from the Coldcard PIN.\n\n### How did the Bitcoin sweep occur?\nBitcoin security specialists are examining an unexplained, coordinated sweep involving 594.48 BTC (approximately $38.3 million USD). This significant amount of Bitcoin was transferred from numerous single-signature addresses. The $38.3 million USD valuation was based on a Bitcoin price of $64,364.07, as reported by CoinGecko at the time of writing. No definitive public evidence has established a direct connection between this sweep and the Coldcard Mk3 issue.\n\nRob Hamilton, CEO and co-founder of AnchorWatch, provided a preliminary analysis on Friday, detailing the sweep's mechanics. His analysis indicated that 1,324 unspent transaction outputs (UTXOs) were swept across 500 distinct transactions within a narrow three-block window. Hamilton also observed that all involved addresses were single-signature and that 562 BTC was subsequently consolidated into another address.\n\nHamilton wrote that \"at a glance, this looks like there was flawed entropy in wallet generation somewhere along the way,\" suggesting an underlying issue with randomness in seed creation. Kevin Loaec, CEO of Wizardsardine, proposed a hypothesis that a low-entropy random-number generator produced wallet seeds with insufficient randomness. This generator could have been situated within software, a secure element, or a specific device batch or firmware version.\n\nLoaec further suggested an attacker, aware of such a flaw, may have employed an AI-generated script to brute-force affected wallets, limiting their search to a specific range of BIP-84 derivation paths. This could explain why the sweep appears concentrated in native SegWit addresses and why some wallets were only partially drained. Loaec stressed this theory remains unconfirmed.\n\n### What are the potential implications for users?\nCoinkite has maintained that it has not yet confirmed a direct link between the Mk3 vulnerability and the observed Bitcoin sweep. The company\u2019s investigation is ongoing, and users who generated their seed using an affected Mk3 firmware version are urged to follow the recommended migration steps to protect their funds.\n\nThe sweep gained attention after a Reddit user reported funds drained from a wallet whose seed was generated on a Coldcard Mk3 purchased in May 2021. The user stated the seed was later restored onto a Coldcard Mk4 in January 2026. This self-reported account does not establish a definitive connection between Coldcard and the broader coordinated sweep, according to the source.\n\nIf Loaec's hypothesis regarding low-entropy seeds proves accurate, partially drained wallets may still face an ongoing risk of further theft. Loaec also warned that funds held in other address types could potentially be exposed if the attacker expands their scanning to include a wider range of derivation paths, highlighting a continued need for vigilance.\n\n### FAQs\n### What is the Coldcard Mk3 warning about?\nCoinkite warned that seed phrases generated on Coldcard Mk3 devices running firmware versions 4.0.1 through 5.0.3 may be at risk, advising users to migrate their funds.\n### Is the Coldcard Mk3 issue definitively linked to the recent Bitcoin drain?\n### Which Coldcard models are not affected by this warning?\nTickers: BTC\nDisclaimer: This article provides information for general knowledge and informational purposes only, and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T17:20:34.643185+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Coldcard",
+      "Bitcoin",
+      "security",
+      "hardware wallet",
+      "Coinkite"
+    ],
+    "image": "",
+    "featured": false,
+    "wordCount": 753,
+    "keyInsights": [
+      "Coinkite advised Coldcard Mk3 users to move funds due to a seed-generation risk affecting firmware versions 4.0.1 through 5.0.3.",
+      "Bitcoin security experts are analyzing an unexplained sweep of 594.48 BTC, valued at approximately $38.3 million USD, from single-signature addresses.",
+      "The company's early analysis indicates that Mk4, Q, and Mk5 devices are not affected, while investigations into the issue remain ongoing."
+    ],
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Senior Protocol Analyst",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "blackrock-ibit-spearheads-233m-bitcoin-etf-inflows-turning-week-green-202607311552",
     "title": "BlackRock IBIT spearheads $233M Bitcoin ETF inflows, turning week green",
     "subtitle": "US spot Bitcoin ETFs record strongest daily inflows in over three weeks, with BlackRock's IBIT leading the charge.",
