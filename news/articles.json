@@ -1,5 +1,55 @@
 [
   {
+    "id": "coldcard-bitcoin-loss-estimate-rises-to-70m-following-galaxy-research--202608011308",
+    "title": "Coldcard Bitcoin Loss Estimate Rises to $70M Following Galaxy Research Analysis",
+    "subtitle": "Galaxy Research identified a wider scope for the Coldcard wallet incident, increasing the estimated Bitcoin loss.",
+    "summary": "Galaxy Research data suggests over 1,000 Bitcoin, worth $70.2 million, were lost in a Coldcard wallet incident due to a firmware bug.",
+    "content": "- **Galaxy Research expanded the estimated scope of the Coldcard wallet incident, identifying 1,196 addresses.**\n- **The incident resulted in the loss of 1,082.65 Bitcoin, valued at approximately $70.2 million USD at the time of transactions.**\n- **Coinkite co-founder Rodolfo Novak confirmed a firmware bug and advised affected users to move funds.**\n\nGalaxy Research has significantly expanded its estimate for the Coldcard wallet incident, identifying a loss of 1,082.65 Bitcoin. These digital assets were valued at approximately $70.2 million USD at the specific time of the transactions. This updated analysis expands on earlier preliminary figures, indicating a much broader impact from the security vulnerability.\n\nThis revised scope comes from Galaxy Research, the dedicated research arm of the prominent crypto investment company Galaxy Digital.\n\n### What is the expanded scope of the Coldcard incident?\nGalaxy Research identified a total of 1,196 distinct addresses that were linked to the Coldcard wallet incident. The firm tracked 1,082.65 Bitcoin moving in a concentrated 41-minute window on July 30. The movements specifically occurred between 1:10 AM and 1:51 AM UTC.\n\nThese transactions spanned blocks 960,183 to 960,191 on the Bitcoin blockchain. This activity was detected approximately 30 hours before Coldcard subsequently published its first public security advisory regarding the flaw. The expanded estimate significantly surpasses initial assessments.\n\nAn earlier preliminary analysis of the Coldcard incident by AnchorWatch CEO and co-founder Rob Hamilton had estimated a smaller loss. Hamilton's analysis identified 594.48 Bitcoin, which was worth around $38 million USD, moved across 500 transactions. These transactions occurred within a concentrated three-block window, suggesting a more limited initial understanding of the compromise.\n\n### How were the Bitcoin movements identified?\nGalaxy Research successfully traced the Bitcoin movements through a shared pattern observed across all identified transactions. This distinct on-chain pattern included identical transaction fees. Specifically, each transaction carried a fee of 30 satoshis per virtual byte, according to Galaxy Research.\n\nA further key characteristic of these identified transactions was the absence of any change outputs. This consistent fingerprint allowed Galaxy Research to pinpoint and track the initial attack activity on the blockchain. The company noted, however, that future attacks against Coldcard-generated addresses might not necessarily replicate this specific on-chain signature.\n\n### What is Coinkite's response to the vulnerability?\nCoinkite co-founder Rodolfo Novak publicly addressed the incident in an X post on Friday. Novak stated clearly that the company assumes responsibility for the firmware bug that led to the security compromise. He also confirmed that Coinkite is actively engaged in efforts to determine the full scope of the ongoing issue.\n\nIn response to the vulnerability, Coinkite has released a hotfix. This update is specifically designed to remove the problematic software fallback path. However, Novak issued a significant warning to users. The hotfix does not extend protection to seeds that were previously generated on vulnerable firmware versions.\n\nNovak strongly advised all users who generated their seeds on the compromised firmware to take immediate action. He recommended they move their existing funds to a completely new and secure seed. This incident underscores ongoing security challenges for digital asset custodians, including SecondFi, which recently decided to wind down after a $2.6 million USD ADA theft that was linked to a separate wallet flaw.\n\n### FAQs\n### What is the estimated total loss from the Coldcard incident?\nGalaxy Research estimates 1,082.65 Bitcoin, worth approximately $70.2 million USD, was lost in the Coldcard wallet incident.\n### Who is Rodolfo Novak?\n### What is a firmware bug?\nTickers: BTC\nDisclaimer: This article is for informational purposes only and not investment advice.",
+    "category": "Infrastructure",
+    "date": "Aug 01, 2026",
+    "publishedAt": "2026-08-01T13:08:40.591301+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Coldcard",
+      "Bitcoin",
+      "Hardware Wallet",
+      "Security",
+      "Galaxy Research"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/coldcard-bitcoin-loss-estimate-rises-to-70m-following-galaxy-research--202608011308.jpg",
+    "featured": false,
+    "wordCount": 586,
+    "keyInsights": [
+      "Galaxy Research expanded the estimated scope of the Coldcard wallet incident to 1,082.65 Bitcoin.",
+      "The identified Bitcoin movements totaled approximately $70.2 million USD at the time of transactions.",
+      "Coinkite co-founder Rodolfo Novak attributed the issue to a firmware bug and released a hotfix."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "Coldcard Bitcoin Loss Estimates",
+      "subtitle": "Initial vs. Expanded Scope",
+      "yAxisLabel": "Bitcoin (BTC)",
+      "sourceLabel": "AnchorWatch, Galaxy Research",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Initial Estimate",
+          "value": 594.48
+        },
+        {
+          "label": "Galaxy Estimate",
+          "value": 1082.65
+        }
+      ]
+    }
+  },
+  {
     "id": "rwa-perpetual-futures-volume-nears-bitcoin-on-hyperliquid-binance-at-6-202607312104",
     "title": "RWA Perpetual Futures Volume Nears Bitcoin on Hyperliquid, Binance at $61.7B",
     "subtitle": "Tokenized equities propelled real-world asset perpetual futures to 99.2% of Bitcoin's volume on Hyperliquid and Binance over the past week.",
