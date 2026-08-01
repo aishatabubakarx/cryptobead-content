@@ -1,5 +1,39 @@
 [
   {
+    "id": "us-bitcoin-etfs-log-172-4m-july-inflows-despite-5-3b-year-to-date-defi-202608011451",
+    "title": "US Bitcoin ETFs log $172.4M July inflows despite $5.3B year-to-date deficit",
+    "subtitle": "Spot Bitcoin exchange-traded funds recorded their first positive month since April, attracting $172.4 million in net inflows during July.",
+    "summary": "US spot Bitcoin ETFs recorded $172.4 million in net inflows during July, reversing two months of outflows but remaining $5.3 billion negative year-to-date.",
+    "content": "- **US spot Bitcoin ETFs recorded $172.4 million in net inflows during July, according to SoSoValue data.**\n- **The products experienced a $265.4 million net outflow on a single Friday in late July, marking the largest daily withdrawal since July 13.**\n- **Despite the positive monthly performance, spot Bitcoin ETFs remained $5.3 billion negative in net flows year-to-date.**\n\nUS-listed spot Bitcoin exchange-traded funds (ETFs) attracted $172.4 million in net inflows during July, concluding the month in positive territory, according to SoSoValue data. This performance reversed a trend of two consecutive months of outflows for the investment products. The return to positive flows emerged despite a late-month wave of selling pressure and notable Bitcoin price volatility.\n\nThe monthly inflows represented a significant improvement for Bitcoin ETF flows after nearly $7 billion in combined outflows were recorded over the previous two months. SoSoValue reports that this included the largest monthly outflow of 2026, which occurred in June. However, the cautious approach of investors remained evident, with a weak finish to July observed heading into August.\n\n### What characterized Bitcoin ETF flows in July?\nSpot Bitcoin ETFs registered a modest $172.4 million in net inflows during July, effectively reversing the outflows experienced in May and June, as detailed by SoSoValue data. The month's performance showcased a shift back to positive investor sentiment for these products.\n\nThe positive monthly total was achieved despite substantial selling pressure observed towards the close of July. These funds logged a $265.4 million net outflow on a single Friday, an event that marked their largest daily withdrawal since July 13, according to SoSoValue.\n\nThis late-month activity caused weekly flows for Bitcoin ETFs to turn negative. SoSoValue data indicates that for the week ending July 31, Bitcoin ETFs recorded a $61.53 million net outflow, interrupting a prior streak of three consecutive weeks of inflows.\n\n### How do July's figures compare to overall 2026 performance?\nDespite the positive net inflow recorded in July, US-listed spot Bitcoin ETFs have accumulated around $5.3 billion in net outflows year-to-date, SoSoValue data reveals. This overall deficit reflects the broader challenges faced by the products through 2026.\n\nThe prior months of May and June were particularly challenging, registering nearly $7 billion in combined outflows. Specifically, June alone saw $4.5 billion in outflows, marking the largest monthly outflow for Bitcoin ETFs in 2026, according to SoSoValue. Outflows in May amounted to approximately $2.5 billion based on these combined figures.\n\nThe year 2026 has seen a fluctuating performance profile for these investment vehicles. March, April, and July have been the only positive months for spot Bitcoin ETFs, generating a combined $3.46 billion in inflows. Conversely, January, February, May, and June collectively posted approximately $8.75 billion in outflows, SoSoValue data shows.\n\nSince their initial launch, the products have attracted $51.32 billion in cumulative net inflows, underscoring their long-term appeal. Total net assets for these Bitcoin ETFs stood at $76.29 billion at the close of July, as reported by SoSoValue.\n\n### What was the performance of other crypto ETFs?\nWhile spot Bitcoin ETFs contended with renewed selling pressure at the end of July, several altcoin ETFs demonstrated more consistent inflow patterns. Ether ETFs, in particular, stood out by posting four consecutive weeks of inflows, according to SoSoValue data.\n\nEther ETFs concluded July with a substantial $365.2 million net inflow, representing their second month of positive flows for the year. This followed an earlier positive performance in April, which saw Ether ETFs attract $356 million in inflows, SoSoValue reports.\n\nDespite these two months of recovery, Ether ETF products remained at approximately $1.1 billion in net outflows year-to-date. XRP ETFs also exhibited steady demand throughout July, maintaining positive flow trends.\n\nXRP ETFs recorded $27.3 million in net inflows for July, marking their fifth positive month in 2026. These products have amassed approximately $343 million in net inflows year-to-date, positioning them as one of the stronger-performing crypto ETF categories during the current year, according to SoSoValue data.\n\n### FAQs\n### What were the total net inflows for spot Bitcoin ETFs in July?\nUS-listed spot Bitcoin ETFs attracted $172.4 million in net inflows during July, according to data from SoSoValue.\n### How do Bitcoin ETF flows compare year-to-date in 2026?\n### Which months saw positive net inflows for Bitcoin ETFs in 2026?\n\nTickers: BTC ETH XRP\nDisclaimer: This article provides information for informational purposes only and does not constitute financial or investment advice.",
+    "category": "Macro",
+    "date": "Aug 01, 2026",
+    "publishedAt": "2026-08-01T14:51:49.182857+00:00",
+    "readTime": "4 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin ETF",
+      "Spot ETF",
+      "Inflows",
+      "Outflows",
+      "Crypto Market",
+      "SoSoValue"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/us-bitcoin-etfs-log-172-4m-july-inflows-despite-5-3b-year-to-date-defi-202608011451.jpg",
+    "featured": false,
+    "wordCount": 729,
+    "keyInsights": [
+      "US spot Bitcoin ETFs attracted $172.4 million in net inflows during July, according to SoSoValue data.",
+      "Despite the monthly gain, the products recorded approximately $5.3 billion in net outflows year-to-date.",
+      "Ether ETFs saw $365.2 million in July net inflows, while XRP ETFs recorded $27.3 million for the month."
+    ],
+    "author": {
+      "name": "Marcus Aurelius",
+      "role": "Chief Macro Strategist",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "coldcard-bitcoin-loss-estimate-rises-to-70m-following-galaxy-research--202608011308",
     "title": "Coldcard Bitcoin Loss Estimate Rises to $70M Following Galaxy Research Analysis",
     "subtitle": "Galaxy Research identified a wider scope for the Coldcard wallet incident, increasing the estimated Bitcoin loss.",
