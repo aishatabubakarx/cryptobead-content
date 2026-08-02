@@ -1,5 +1,55 @@
 [
   {
+    "id": "coldcard-hack-sparks-39-600-small-btc-transfers-reaching-ftx-era-level-202608021310",
+    "title": "Coldcard Hack Sparks 39,600 Small BTC Transfers, Reaching FTX-Era Levels",
+    "subtitle": "Bitcoin transactions under 1 BTC surged to their highest daily level since late 2022 as a suspected Coldcard hardware wallet exploit continued to affect users.",
+    "summary": "Small Bitcoin transfers hit daily highs not seen since FTX collapse, driven by the ongoing Coldcard hack.",
+    "content": "- **Bitcoin users moved 39,600 BTC in small transactions, a daily high since November 2022.**\n- **The transfers coincided with an ongoing suspected Coldcard hack, which has caused estimated losses of 1,367 BTC (approximately $88.6 million).**\n- **The incident reignited debate about the security and benefits of Bitcoin self-custody versus third-party platforms like ETFs.**\n\nBitcoin users executed 39,600 small transactions, pushing the daily total of sub-1 BTC transfers to levels not observed since the collapse of cryptocurrency exchange FTX. This surge on Friday occurred amid the ongoing suspected Coldcard hack, which researchers warned remained active.\n\nData shared by CryptoQuant head of research Julio Moreno on Saturday indicated that this volume was comparable to transfers seen in November 2022.\n\n### What impact did the Coldcard hack have on Bitcoin transfers?\nBitcoin transfers below 1 BTC reached their highest daily level on Friday since November 2022, with 39,600 BTC moved. This figure was just 300 BTC below the 39,900 BTC transferred on Nov. 16, 2022, days after FTX filed for bankruptcy, according to Moreno. The CryptoQuant head of research noted that \"The Bitcoin plebs had not moved this amount of BTC in a day since the FTX collapse,\" adding that he was encouraged to see users \"taking action.\"\n\nThe surge in small Bitcoin transfers aligns with researchers continuing to identify new victims of the suspected Coldcard hack. This incident first surfaced in late July and appeared to remain active as of the publication time.\n\n### How have Coldcard hack losses been assessed?\nGalaxy Research, the research arm of crypto investment company Galaxy Digital, reported Saturday that the most recent identified wave of the attack drained an additional 207.7 BTC, valued at approximately $13.2 million. This theft brought the estimated total losses to 1,367 BTC, equivalent to approximately $88.6 million, across 4,585 affected addresses.\n\nAlex Thorn, Galaxy Digital\u2019s head of firmwide research, warned in an X post on Sunday that the attack remained active. He urged users to move funds from Coldcard-generated addresses immediately if they had not already done so. Thorn stated that his team continued to identify new victim and attacker addresses, with user reports assisting researchers and authorities in tracking the stolen funds.\n\n### What is the ongoing debate regarding Bitcoin self-custody?\nThe suspected Coldcard hack has reignited the discussion surrounding the risks and benefits of Bitcoin self-custody, a fundamental principle of cryptocurrency that allows users to control their own funds without relying on third parties. Nick Neuman, CEO of Bitcoin security company Casa, pushed back against claims suggesting that \"self-custody is over.\" He argued that its distributed nature provides users with time to react to such incidents.\n\nNeuman estimated that potentially 10 times more Bitcoin was protected through self-custody than the amount stolen and identified in the attack so far. The debate also drew responses from traditional finance proponents. Eric Balchunas, a senior ETF analyst at Bloomberg, contended that Bitcoin exchange-traded funds (ETFs) offer a safer and more convenient alternative for many users, citing the long operating history of the ETF industry. Others argued that the Coldcard incident represented a failure of a specific wallet provider rather than a failure of self-custody as a concept.\n\n### FAQs\n### What is the Coldcard hack?\nThe Coldcard hack is an ongoing security incident involving a suspected exploit targeting Coldcard hardware wallets, which has led to a significant amount of Bitcoin being drained from affected addresses since late July.\n### How many addresses were affected by the Coldcard hack?\n### Who are the key figures involved in tracking the Coldcard incident?\n\nTickers: BTC\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 02, 2026",
+    "publishedAt": "2026-08-02T13:10:49.655954+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "Coldcard",
+      "Self-Custody",
+      "CryptoQuant",
+      "Galaxy Digital"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/coldcard-hack-sparks-39-600-small-btc-transfers-reaching-ftx-era-level-202608021310.jpg",
+    "featured": false,
+    "wordCount": 603,
+    "keyInsights": [
+      "Bitcoin users moved 39,600 BTC in small transactions on Friday, marking the highest daily volume since November 2022.",
+      "The suspected Coldcard hack has led to estimated losses of 1,367 BTC, totaling approximately $88.6 million across 4,585 addresses.",
+      "The ongoing incident has intensified the debate between Bitcoin self-custody advocates and proponents of exchange-traded funds as safer alternatives."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "Small Bitcoin Transfers (Below 1 BTC)",
+      "subtitle": "Daily volume comparisons",
+      "yAxisLabel": "BTC Transferred",
+      "sourceLabel": "CryptoQuant",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Friday (Coldcard)",
+          "value": 39600.0
+        },
+        {
+          "label": "2022 (FTX)",
+          "value": 39900.0
+        }
+      ]
+    }
+  },
+  {
     "id": "russia-expands-crypto-mining-ban-to-moscow-through-2032-202608011649",
     "title": "Russia expands crypto mining ban to Moscow through 2032",
     "subtitle": "New regulations target Moscow, Moscow Region, and parts of Kursk due to escalating electricity demand.",
