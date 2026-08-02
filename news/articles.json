@@ -1,5 +1,56 @@
 [
   {
+    "id": "trump-media-transfers-2-628-btc-to-crypto-com-total-sales-reach-7-281--202608021453",
+    "title": "Trump Media transfers 2,628 BTC to Crypto.com, total sales reach 7,281 BTC",
+    "subtitle": "The company's Bitcoin holdings decline to 4,261 BTC amidst legislative scrutiny and a new paid data service launch.",
+    "summary": "Trump Media transferred 2,628 BTC to Crypto.com, bringing total sales to 7,281 BTC and leaving 4,261 BTC in holdings.",
+    "content": "- **Trump Media & Technology Group transferred 2,628 Bitcoin to Crypto.com.**\n- **This sale reduces the company's Bitcoin holdings to 4,261 BTC, valued at $269.8 million.**\n- **Reported sales over seven months now total 7,281 BTC, worth approximately $545 million.**\n\nTrump Media & Technology Group, the company behind Truth Social, recently transferred another 2,628 Bitcoin to Crypto.com, extending its series of significant cryptocurrency divestments. This transaction brings its reported Bitcoin holdings down to 4,261 BTC, a figure valued at approximately $269.8 million at publishing time, according to wallet data analyzed by Arkham.\n\nThis latest divestment follows prior large-scale transfers and occurs amidst ongoing legislative scrutiny and public debate surrounding the Digital Asset Market Clarity (CLARITY) Act.\n\n### What led to Trump Media's recent Bitcoin sales?\nTrump Media executed the transfer of 2,628 Bitcoin (BTC) to Crypto.com, an event that blockchain analytics platform Lookonchain reported in a Sunday X post, citing data obtained from Arkham. This specific move involved Bitcoin worth about $165 million. The recent transaction is a continuation of a series of asset sales the company has undertaken over the past seven months.\n\nThe latest transfers were identified through Arkham\u2019s wallet data, which showed two distinct transactions from Trump Media-linked wallets directed to Crypto.com. These included one substantial transaction of 2,429 BTC and another separate transfer of 198.9 BTC. These movements indicate a systematic reduction in the company's Bitcoin treasury.\n\nThe current transfers follow earlier reported Bitcoin movements to Crypto.com, which occurred on May 22. At that time, Trump Media-linked wallets collectively transferred 2,650 BTC, a sum valued at approximately $205 million, to the same exchange. This pattern suggests a strategic shift in the company's asset management.\n\n### How have Trump Media's Bitcoin holdings changed?\nLookonchain's analysis indicates that Trump Media initially acquired 11,542 BTC at an average price of $118,522. The company began selling portions of its holdings approximately seven months ago. The recent transfer of 2,628 BTC contributes to a total reported Bitcoin sales figure over this period.\n\nThese cumulative sales, now totaling 7,281 BTC, are estimated to be worth about $545 million, according to Lookonchain\u2019s detailed analysis. This calculation is based on an average selling price of $74,855 per BTC across all reported transactions. Following these recent divestments, Arkham\u2019s wallet data confirms that Trump Media\u2019s remaining Bitcoin holdings stand at 4,261 BTC, valued at approximately $269.8 million as of publication. The consistent transfers to Crypto.com highlight a deliberate approach to liquidating significant portions of their Bitcoin reserves.\n\n### What are the broader implications for Trump-linked crypto ventures?\nThe Bitcoin sales coincide with an environment of intensified scrutiny directed at crypto ventures associated with Donald Trump. Lawmakers are actively debating the Digital Asset Market Clarity (CLARITY) Act, which includes provisions addressing ethics and digital asset ownership. This legislative effort aims to clarify regulations within the digital asset space. Critics have voiced concerns regarding potential conflicts of interest for public officials, specifically referencing President Trump's various crypto-related initiatives.\n\nDiscussions around the CLARITY Act have recently focused on establishing tighter ethics provisions within the digital asset space. These proposed rules encompass guidelines around officials' involvement in issuing or sponsoring digital assets. The broader legislative push underscores ongoing efforts to address the intersection of political influence and digital assets. However, the current iteration of the legislation under consideration does not legally compel companies to divest any existing cryptocurrency holdings. Senator Schumer has also publicly proposed the creation of a new agency aimed at tackling corruption, specifically citing Trump\u2019s crypto ventures as a relevant area of concern.\n\nCritics have specifically referenced several Trump-linked crypto ventures in ongoing discussions about political influence and private crypto interests. These include the Official Trump (TRUMP) and Melania (MELANIA) memecoins. World Liberty Financial\u2019s WLFI governance token and its associated USD1 stablecoin have also been noted. The timing of these substantial Bitcoin transactions aligns with Trump Media's introduction of its new paid data service, \"Truth API,\" which offers faster access to President Trump\u2019s Truth Social posts for up to $100,000 per month.\n\n### FAQs\n### What are Trump Media's current Bitcoin holdings?\nTrump Media & Technology Group holds 4,261 BTC, valued at approximately $269.8 million, according to Arkham data.\n### What is the CLARITY Act?\n### How much Bitcoin has Trump Media sold in total?\n\nTickers: BTC\nDisclaimer: This article is for informational purposes only and not investment advice.",
+    "category": "Regulation",
+    "date": "Aug 02, 2026",
+    "publishedAt": "2026-08-02T14:53:39.473367+00:00",
+    "readTime": "4 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "Trump Media",
+      "Crypto.com",
+      "CLARITY Act",
+      "Asset Sales"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/trump-media-transfers-2-628-btc-to-crypto-com-total-sales-reach-7-281--202608021453.jpg",
+    "featured": false,
+    "wordCount": 722,
+    "keyInsights": [
+      "Trump Media transferred 2,628 Bitcoin, valued at approximately $165 million, to Crypto.com.",
+      "The company's total Bitcoin holdings have decreased to 4,261 BTC, worth $269.8 million.",
+      "Trump Media has reported total Bitcoin sales of 7,281 BTC, valued at $545 million, over seven months."
+    ],
+    "author": {
+      "name": "Robert Vance",
+      "role": "Chief On-Chain Analyst",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "tweetUrl": "https://twitter.com/lookonchain/status/1802271847144132049",
+    "chartData": {
+      "title": "Trump Media's Bitcoin Holdings Overview",
+      "subtitle": "Distribution of initial acquired Bitcoin into sold and remaining assets",
+      "yAxisLabel": "NONE",
+      "sourceLabel": "Lookonchain, Arkham data",
+      "chartType": "pie",
+      "data": [
+        {
+          "label": "Bitcoin Sold",
+          "value": 7281.0
+        },
+        {
+          "label": "Bitcoin Remaining",
+          "value": 4261.0
+        }
+      ]
+    }
+  },
+  {
     "id": "coldcard-hack-sparks-39-600-small-btc-transfers-reaching-ftx-era-level-202608021310",
     "title": "Coldcard Hack Sparks 39,600 Small BTC Transfers, Reaching FTX-Era Levels",
     "subtitle": "Bitcoin transactions under 1 BTC surged to their highest daily level since late 2022 as a suspected Coldcard hardware wallet exploit continued to affect users.",
