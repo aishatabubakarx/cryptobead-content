@@ -1,5 +1,51 @@
 [
   {
+    "id": "south-korean-exchanges-record-367m-stablecoin-outflow-amid-regulatory--202608031429",
+    "title": "South Korean Exchanges Record $367M Stablecoin Outflow Amid Regulatory Reassessment",
+    "subtitle": "Stablecoin outflows from South Korean platforms have continued for 18 consecutive months as lawmakers call for enhanced oversight.",
+    "summary": "South Korea experienced $367M in stablecoin outflows in June, extending an 18-month streak as regulators consider new rules.",
+    "content": "- **South Korean exchanges experienced $367 million in stablecoin outflows to overseas platforms in June.**\n- **This marks the eighteenth consecutive month of net stablecoin outflows from the country.**\n- **Lawmakers and regulators are calling for reassessment of investor protection and new stablecoin regulations.**\n\nSouth Korean exchanges recorded approximately $367 million in stablecoin outflows to overseas platforms in June, extending a streak of 18 consecutive months of net stablecoin transfers. This figure represents 560.3 billion won in outflows, according to data from the Financial Supervisory Service (FSS) obtained by Yonhap News Agency. The consistent monthly outflows signal an ongoing trend in the country's crypto market.\n\nThe continued transfers occur as South Korean regulators work to establish a comprehensive legal framework for digital assets.\n\n### What factors contribute to the stablecoin outflows?\n\nSouth Korea\u2019s five major crypto exchanges\u2014Upbit, Bithumb, Coinone, Korbit, and Gopax\u2014transferred 2.7 trillion won (approximately $1.81 billion USD) in stablecoins offshore in June, as reported by the FSS data. Concurrently, these same platforms received 2.2 trillion won (approximately $1.44 billion USD) from foreign platforms during the same month. This activity resulted in a net outflow exceeding $367 million for June alone.\n\nMarket participants cited by Yonhap News Agency attribute these transfers to a persistent demand for products currently unavailable or restricted on domestic exchanges. These include overseas derivatives, various tokenized real-world assets (RWAs), decentralized finance (DeFi) applications, and staking products, according to their report. The desire for these diverse offerings appears to drive investors towards international platforms. The ongoing outflows therefore highlight a continued preference among investors for a broader range of crypto opportunities.\n\nPeople Power Party lawmaker Lee Jong-wook has expressed significant concern over these persistent outflows. He emphasized the urgent need for the government to re-evaluate how it protects investors and supervises cross-border crypto activity, according to statements reported by The Korea Times. Lee\u2019s remarks underscore the regulatory challenges posed by unfulfilled domestic market demand and the movement of capital overseas.\n\n### How are South Korean authorities addressing these outflows?\n\nThe Financial Intelligence Unit (FIU) proposed expanding Travel Rule reporting requirements for crypto transfers on June 22. This proposal seeks to extend reporting obligations to transactions below 1 million won (about $650 USD), aiming to enhance oversight of smaller, cross-border transfers. The FIU's initiative seeks to close potential loopholes and ensure more comprehensive tracking within existing regulatory frameworks.\n\nThe FIU also advocated for stronger action against unregistered overseas exchanges that continue to serve South Koreans, according to the report. The agency identified uneven licensing and supervision across different jurisdictions as a source of opportunities for regulatory arbitrage. Such arbitrage is a significant concern that the agency believes is further highlighted by the country\u2019s continued stablecoin outflows.\n\nLawmaker Lee Jong-wook has called on the government to comprehensively examine its investor protection and supervisory frameworks again. He urged swift action to improve regulations, according to his statement reported by The Korea Times. This push for regulatory enhancement comes amid the country\u2019s ongoing efforts to finalize its broader digital asset framework. The government faces pressure to adapt its policies to the evolving crypto landscape.\n\n### What is the outlook for future stablecoin regulation?\n\nSouth Korea is currently working to complete a comprehensive legal framework for digital assets, which includes provisions for stablecoins. On Thursday, a policy report recommended that authorities introduce interim licensing guidance and phase in stablecoin regulations before the Digital Asset Basic Act (DABA) is finalized. This phased approach aims to manage the transition to a full regulatory regime while providing clarity to the market.\n\nThe proposed Digital Asset Basic Act is specifically designed to create the country\u2019s first comprehensive digital asset framework. This framework would encompass detailed rules for stablecoin issuance, disclosures, and overall market activity. However, disagreements among lawmakers over which institutions should be allowed to issue won-pegged stablecoins have contributed to significant delays in its finalization. These legislative hurdles present a challenge to implementing a cohesive regulatory environment.\n\nThe ongoing regulatory discussions reflect an attempt by authorities to balance fostering market innovation with robust investor protection. The FIU\u2019s stated concerns about regulatory arbitrage underscore the complexity of creating effective cross-border supervision in the digital asset space. Resolving the current legislative disagreements remains a critical step for solidifying South Korea's future stablecoin regulatory landscape.\n\n### FAQs\n### What is the current state of stablecoin flows in South Korea?\nSouth Korea has experienced 18 consecutive months of net stablecoin outflows from its exchanges, with June 2024 seeing approximately $367 million transferred to overseas platforms. This trend is driven by demand for crypto products not available domestically.\n\n### Who is lawmaker Lee Jong-wook?\n### What is the Digital Asset Basic Act?\n\nTickers: NONE\nDisclaimer: This article is for informational purposes only and not intended as financial or investment advice.",
+    "category": "Regulation",
+    "date": "Aug 03, 2026",
+    "publishedAt": "2026-08-03T14:29:32.975150+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "South Korea",
+      "Stablecoins",
+      "Regulation",
+      "FSS",
+      "FIU"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/south-korean-exchanges-record-367m-stablecoin-outflow-amid-regulatory--202608031429.jpg",
+    "featured": false,
+    "wordCount": 791,
+    "keyInsights": [
+      "South Korean exchanges recorded $367 million in stablecoin outflows in June 2024.",
+      "The country has experienced 18 consecutive months of net stablecoin outflows to overseas platforms.",
+      "Regulators are working to finalize a Digital Asset Basic Act and expand Travel Rule reporting requirements."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "South Korean Stablecoin Net Outflow",
+      "subtitle": "June 2024",
+      "yAxisLabel": "Amount (USD millions)",
+      "sourceLabel": "Financial Supervisory Service (FSS) via Yonhap News Agency",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Net Outflow",
+          "value": 367.0
+        }
+      ]
+    }
+  },
+  {
     "id": "bnb-chain-pursues-legal-action-after-former-employee-s-alleged-638k-me-202608021648",
     "title": "BNB Chain pursues legal action after former employee's alleged $638K memecoin sales",
     "subtitle": "The blockchain ecosystem stated a former employee used an unauthorized company tutorial wallet to launch a new token.",
