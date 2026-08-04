@@ -1,5 +1,55 @@
 [
   {
+    "id": "coldcard-bitcoin-theft-tops-100m-across-three-confirmed-attack-waves-202608042113",
+    "title": "Coldcard Bitcoin Theft Tops $100M Across Three Confirmed Attack Waves",
+    "subtitle": "Galaxy Research confirms 1,596 BTC stolen from approximately 7,300 addresses in a multi-wave attack on hardware wallets.",
+    "summary": "Confirmed Coldcard wallet losses exceed $100M from 1,596 BTC stolen across three waves, with 90% unmoved.",
+    "content": "- **Confirmed losses from the Coldcard wallet incident have exceeded $100 million (approximately $100,000,000 USD).**\n- **Galaxy Research confirmed 1,596 Bitcoin (BTC) were stolen from about 7,300 addresses across three major attack waves and 14 smaller incidents.**\n- **Approximately 90% of the stolen Bitcoin remains unmoved as investigators examine a suspected fourth wave that could increase total losses to $130 million.**\n\nConfirmed losses from the Coldcard hardware wallet incident have surpassed $100 million, with 1,596 Bitcoin (BTC) stolen from approximately 7,300 addresses across three separate major attack waves, according to a recent update from Galaxy Research. This significant security breach also encompasses 14 smaller, individual incidents that collectively contributed to the overall loss figure reported by the research firm.\n\nThe new findings from Galaxy Digital's research arm represent a notable increase from its prior estimate, published just days before, and highlight ongoing security vulnerabilities within the ecosystem.\n\n### What are the confirmed details of the Coldcard theft?\nGalaxy Research reported that a total of 73 distinct victims had proactively contacted its researchers, providing crucial information and firsthand accounts. These victim reports were instrumental in helping corroborate the details of the first three major attack waves. Furthermore, the detailed reports from these victims assisted investigators in identifying additional, smaller \"footprints\" of theft, which Galaxy suggested likely represent opportunistic attackers who exploited the same underlying vulnerability in a less coordinated manner.\n\nThe confirmed total of 1,596 BTC stolen originates from approximately 7,300 unique affected addresses. This comprehensive figure now encompasses the three large-scale attacks alongside the 14 individual smaller incidents. The total confirmed loss of Bitcoin has significantly raised Galaxy's estimate from a previous figure of 1,367 BTC, which was initially traced across 4,585 addresses in an earlier update published on Saturday. This progression in confirmed figures indicates a deepening understanding of the attack's scope.\n\nGalaxy Research continues to issue explicit warnings regarding the ongoing nature of these security compromises. The research group specifically urged any Coldcard users who are uncertain about the current security status of their funds to migrate their Bitcoin to a safe, new address without delay. This proactive security measure is designed to prevent further potential losses for the remaining user base who might still be exposed to the vulnerability.\n\n### How are investigators tracking the stolen funds?\nA key observation highlighted by Galaxy Research is that a substantial portion, specifically approximately 90%, of the stolen Bitcoin has remained entirely unmoved since the initial incidents occurred. This includes all funds definitively attributed to the initial three confirmed major attacks. The static nature of these significant funds is considered a critical advantage for ongoing investigative efforts, as it limits the ability of the attackers to launder or further distribute the stolen assets.\n\nTo facilitate asset recovery and strengthen prevention against future exploits of a similar nature, attacker and victim addresses have been broadly disseminated. According to Galaxy Research, these critical data points, including wallet addresses associated with both the perpetrators and the affected users, have been shared with a wide array of relevant entities. These entities include prominent US federal law enforcement agencies, various major cryptocurrency exchanges, and a network of specialized cyber-investigation companies. This coordinated information sharing aims to significantly improve the traceability of the stolen assets and increase the likelihood of their eventual recovery through collaborative efforts.\n\nThe collaborative effort extends beyond mere reporting to active monitoring. Investigators are actively tracking these known addresses for any signs of movement or attempted transactions, which could provide further clues about the perpetrators, their methods, and potential paths for fund recovery.\n\n### What is the current status of the unconfirmed fourth wave?\nIn addition to the already confirmed losses, Galaxy Research has also identified a suspected fourth wave of attacks. If these potential new incidents were to be confirmed, this wave could potentially increase the total amount of stolen Bitcoin to an alarming 2,055 BTC. This larger figure, if substantiated, would be valued at approximately $130 million (approximately $130,000,000 USD) at the time of the report, representing a significant escalation of the total financial impact.\n\nHowever, Galaxy has deliberately chosen to exclude this potential fourth wave from its officially confirmed estimate at this time. The primary reason for this exclusion is the current lack of direct confirmation from victims who are believed to have been affected by this specific set of incidents. Despite the absence of formal victim confirmation, Galaxy stated its expert assessment that there is \"medium-high\" confidence that this unconfirmed wave largely represents genuine attacker activity, rather than other unrelated transactions.\n\nThe investigation into this suspected fourth wave remains active and is critically ongoing. Researchers are currently and actively seeking additional victim reports that could provide the necessary substantiation and confirmation to formally include these potential losses in the total confirmed figures. The ultimate resolution and confirmation of this unconfirmed wave will significantly impact the final reported total of the Coldcard theft, potentially pushing the total value of stolen assets even higher.\n\n### FAQs\n### What is the total confirmed loss from the Coldcard incident?\nThe total confirmed loss from the Coldcard wallet incident has exceeded $100 million (approximately $100,000,000 USD), with 1,596 Bitcoin (BTC) stolen from approximately 7,300 addresses.\n### How many Coldcard wallets were affected?\n### Has the stolen Bitcoin been moved?\nTickers: BTC\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 04, 2026",
+    "publishedAt": "2026-08-04T21:13:08.219751+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Coldcard",
+      "Bitcoin",
+      "Theft",
+      "Hardware Wallet",
+      "Galaxy Research"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/coldcard-bitcoin-theft-tops-100m-across-three-confirmed-attack-waves-202608042113.jpg",
+    "featured": false,
+    "wordCount": 892,
+    "keyInsights": [
+      "Confirmed Coldcard wallet losses from three attack waves have exceeded $100 million (approximately $100,000,000 USD).",
+      "Galaxy Research confirmed 1,596 Bitcoin were stolen from approximately 7,300 addresses, impacting 73 reported victims.",
+      "Approximately 90% of the stolen Bitcoin remains unmoved, aiding ongoing investigations by law enforcement and cyber-investigation companies."
+    ],
+    "author": {
+      "name": "Dr. Alistair Sterling",
+      "role": "Director of Policy",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "Coldcard Bitcoin Theft Volume",
+      "subtitle": "Confirmed vs. Suspected Stolen BTC (as per Galaxy Research)",
+      "yAxisLabel": "Bitcoin (BTC)",
+      "sourceLabel": "Galaxy Research",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Confirmed Stolen",
+          "value": 1596.0
+        },
+        {
+          "label": "Suspected Total",
+          "value": 2055.0
+        }
+      ]
+    }
+  },
+  {
     "id": "hashdex-liquidates-14-3m-spot-bitcoin-etf-first-major-us-fund-closure-202608041916",
     "title": "Hashdex liquidates $14.3M spot Bitcoin ETF, first major US fund closure",
     "subtitle": "Asset manager Hashdex is shutting down its spot Bitcoin ETF after failing to attract sufficient investor assets.",
