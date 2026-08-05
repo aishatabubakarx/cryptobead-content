@@ -1,5 +1,51 @@
 [
   {
+    "id": "bitwise-cio-hougan-predicts-crypto-progress-despite-clarity-act-hurdle-202608051909",
+    "title": "Bitwise CIO Hougan predicts crypto progress despite CLARITY Act hurdles",
+    "subtitle": "Matt Hougan argues that regulatory guidance from the SEC and CFTC would sustain the industry's momentum even without new legislation.",
+    "summary": "Bitwise CIO Matt Hougan states crypto will advance despite CLARITY Act legislative delays.",
+    "content": "Bitwise Chief Investment Officer Matt Hougan stated that the crypto industry's momentum will continue its march forward even if Congress fails to pass the CLARITY Act this year. Hougan said a failure to pass the bill this week would put it in a \u201cwalking dead\u201d state. He noted that despite calling it a \u201cmake or break\u201d week, the industry has advanced too much to \"go back in the bottle.\"\n\nHis comments come as the Senate faces an August 5 deadline to advance the landmark crypto market structure bill before its summer recess.\n\n### Why is the CLARITY Act facing delays?\nMarket observers are increasingly pessimistic about the CLARITY Act\u2019s passage this year, with a potential legislative stall. Hougan noted that Washington is consistently late to major technology shifts, suggesting this pattern has rarely mattered as much as people feared for long-term progress. In July, Galaxy Research lowered its probability for the CLARITY Act passing in 2026 to 30%.\n\nPolymarket currently shows a 23% chance of the bill being signed into law this year, a decrease from 82% in February. NYDIG global head of research Greg Cipolaro stated on July 24 that the latest draft of the bill was more complete, but still lacked sufficient bipartisan support. Cipolaro concluded that Republicans have produced a substantially more complete bill, but not yet one with a credible path to 60 votes in the Senate.\n\nSources speaking to Punchbowl News indicated that Senate Democrats will deny cloture for the crypto bill without signs of progress from the White House. This includes movement on a bipartisan ethics deal, as well as illicit finance and stablecoin yield. This potential failure could see the bill pushed into next year as lawmakers focus on the midterm elections in November.\n\n### How would a CLARITY Act failure impact crypto regulation?\nIf the CLARITY Act fails to pass this year, Hougan stated that the industry will fall back on the SEC-CFTC\u2019s joint interpretation issued in March. This interpretation classifies Bitcoin and other assets as digital commodities and replaces the SEC\u2019s 2019 staff guidance. SEC Chair Paul Atkins reinforced this position last week, saying his agency is \u201cready, willing, and able to come out with rules that address the same issues as CLARITY and other aspects of the crypto market.\u201d\n\nHowever, Atkins acknowledged in March that the rules issued by the two regulators are not as durable as legislation. He noted that they could be challenged in court or reversed by a future administration. Atkins stated that only Congress can ensure regulation in this area is \"future-proofed through comprehensive market structure legislation.\"\n\nWisdomTree chief legal officer Ryan Louvar has argued that the absence of legislation would continue to impede the market, despite regulatory efforts. Louvar said at a July congressional hearing that a market cannot function well when its participants cannot tell in advance which agency\u2019s rules apply to them. The current regulatory environment lacks definitive guidance, causing uncertainty for market participants.\n\n### What is the long-term outlook for crypto's growth?\nDespite potential legislative setbacks, Hougan stated that \"crypto will be fine.\" He noted that the reliance on the SEC-CFTC interpretation would still give the industry approximately two and a half years to accelerate. This period would precede a new administration potentially installing a new SEC. [Ethereum researchers propose EIP-8363 to taper validator rewards as staking grows](https://cryptobead.com/article/ethereum-researchers-propose-eip-8363-to-taper-validator-rewards-as-st-202608051720).\n\nHougan criticized the legislative process, stating that Washington is dysfunctional. He found it concerning that comprehensive legislation cannot pass to improve investor protections and spark new innovation. However, he emphasized that this political dysfunction is \"not a referendum on crypto\u2019s validity as a pillar of the global financial infrastructure.\"\n\nHougan concluded that crypto has enough momentum at this point to reshape finance for decades. He believes this will occur regardless of what happens with the CLARITY Act in the next few days or weeks. The industry's progress is too significant to be halted by legislative delays.\n\n### FAQs\n### Who is Matt Hougan?\nMatt Hougan is the Chief Investment Officer (CIO) of Bitwise, an asset management firm focused on cryptocurrency index funds and other digital asset investment products. He frequently shares insights on market trends and regulatory developments in the crypto space.\n\n### What is the CLARITY Act?\n### What is Polymarket?\n\nTickers: BTC ETH\nDisclaimer: This article is for informational purposes only and does not constitute financial or investment advice.",
+    "category": "Regulation",
+    "date": "Aug 05, 2026",
+    "publishedAt": "2026-08-05T19:09:49.234652+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitwise",
+      "CLARITY Act",
+      "SEC",
+      "CFTC",
+      "Matt Hougan"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/bitwise-cio-hougan-predicts-crypto-progress-despite-clarity-act-hurdle-202608051909.jpg",
+    "featured": false,
+    "wordCount": 727,
+    "keyInsights": [
+      "Bitwise Chief Investment Officer Matt Hougan stated that the crypto industry has made too much progress to \"go back in the bottle\" even if the CLARITY Act fails.",
+      "The CLARITY Act faces an August 5 Senate deadline, with Polymarket currently showing a 23% chance of it passing this year.",
+      "If the CLARITY Act does not pass, the industry will rely on the SEC-CFTC\u2019s March joint interpretation classifying Bitcoin and other assets as digital commodities."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "Polymarket Odds for CLARITY Act Passage",
+      "subtitle": "Chance of Bill Signed Into Law This Year",
+      "yAxisLabel": "Probability (%)",
+      "sourceLabel": "Polymarket",
+      "chartType": "radial",
+      "data": [
+        {
+          "label": "Probability",
+          "value": 23.0
+        }
+      ]
+    }
+  },
+  {
     "id": "ethereum-researchers-propose-eip-8363-to-taper-validator-rewards-as-st-202608051720",
     "title": "Ethereum researchers propose EIP-8363 to taper validator rewards as staking grows",
     "subtitle": "A group including Ethereum Foundation researchers has put forth a proposal to adjust the network\u2019s issuance policy, aiming to curb staking growth.",
