@@ -1,5 +1,38 @@
 [
   {
+    "id": "us-bitcoin-etfs-log-382m-inflows-amid-coldcard-hack-and-custody-debate-202608051357",
+    "title": "US Bitcoin ETFs log $382M inflows amid Coldcard hack and custody debate",
+    "subtitle": "US spot Bitcoin ETFs attracted $382 million in inflows as a Coldcard hack renewed focus on digital asset security and institutional custody solutions.",
+    "summary": "US spot Bitcoin ETFs attracted $382 million in inflows as a Coldcard hack renewed focus on digital asset security and institutional custody.",
+    "content": "- **US spot Bitcoin ETFs recorded $382 million in total net inflows over two days.**\n- **The inflows coincided with the Coldcard hardware wallet incident, which reportedly caused $130 million in Bitcoin losses.**\n- **Analysts suggest the Coldcard hack may encourage investors to favor institutional custody solutions offered by ETFs.**\n\nUS-listed spot Bitcoin exchange-traded funds (ETFs) attracted $382 million in fresh capital inflows over two days, according to data from SoSoValue. This accumulation occurred as a high-profile cryptocurrency custody incident prompted renewed attention on digital asset security. Spot Bitcoin ETFs recorded $211.5 million in net inflows on Tuesday, adding to Monday\u2019s $170 million, SoSoValue data shows.\n\nThese inflows arrived as the ongoing Coldcard hack drew attention from analysts, raising questions about digital asset security.\n\n### What fueled the recent Bitcoin ETF inflows?\nBlackRock\u2019s iShares Bitcoin Trust (IBIT) led the recent ETF recovery, recording $111 million in inflows on Monday and an additional $170 million on Tuesday, according to Farside Investors data. Fidelity\u2019s Wise Origin Bitcoin Fund (FBTC) followed, adding approximately $33 million and roughly $20 million on the respective days. The inflows signal renewed investor interest in regulated Bitcoin investment vehicles.\n\nInvesco Galaxy Bitcoin ETF (BTCO) also recorded $6.7 million in inflows on Monday, marking its first positive daily flow since July 1, Farside reports. This Monday inflow represented about 3.9% of BTCO\u2019s cumulative net inflows, which totaled $172 million. These inflows suggest a shift in investor preference towards established financial products for Bitcoin exposure.\n\n### How did the Coldcard incident impact custody perceptions?\nThe Coldcard incident, involving suspected Bitcoin losses, has been a key factor in this renewed focus on security. Galaxy Research estimates that the attack may have affected as many as 7,300 addresses, resulting in about $130 million in suspected Bitcoin (BTC) losses from users of the hardware wallet. [Coldcard Bitcoin Theft Tops $100M Across Three Confirmed Attack Waves](https://cryptobead.com/article/coldcard-bitcoin-theft-tops-100m-across-three-confirmed-attack-waves-202608042113) The developments have renewed a long-running debate in crypto over whether institutional custody solutions offered through regulated financial products could become more attractive as investors weigh the risks and responsibilities of self-custody.\n\nGalaxy Research, the research arm of crypto investment company Galaxy Digital, has emerged as a prominent source tracking the Coldcard incident. Alex Thorn, Galaxy Digital\u2019s head of firmwide research, and his team have regularly published estimates on affected addresses and potential losses linked to the incident. Eric Balchunas, senior ETF analyst at Bloomberg Intelligence, suggested the Coldcard hack could encourage greater migration toward Bitcoin ETFs, as investors reconsider the role of institutional custody.\n\nIn a post on Tuesday, Balchunas said ETFs\u2019 reliance on traditional financial institutions to safeguard assets could increasingly be seen as an advantage. He wrote that what was once considered a \u201cbug\u201d by some crypto users may \u201call the sudden seem like a feature\u201d as investors compare institutional custodians with smaller crypto companies. Crypto commentator Shagun also wrote in an X post on Sunday that large fund movements would likely attract scrutiny from blockchain researchers, exchanges, and other market participants.\n\n### What is the broader outlook for Bitcoin ETFs and custody?\nBalchunas also pointed to broader changes in the ETF market beyond the Coldcard incident, including the closure of Hashdex\u2019s spot Bitcoin ETF and BlackRock\u2019s planned reverse split for its Ethereum ETF. These shifts indicate a dynamic environment for crypto investment products. The market's response to security incidents will likely continue to shape preferences between self-custody and institutional solutions.\n\nBitcoin remained relatively stable as traders assessed the Coldcard incident and other sources of selling pressure, including the latest 1,638 BTC sale by Michael Saylor\u2019s Strategy. At publishing time, BTC traded at $64,113, down around 0.8% over the past seven days, according to CoinGecko. The asset\u2019s lowest price during that period fell below $62,500.\n\n### FAQs\n### What were the total inflows for US spot Bitcoin ETFs?\nUS spot Bitcoin ETFs recorded $382 million in net inflows across two days, with $211.5 million on Tuesday and an additional $170 million on Monday.\n### How much Bitcoin was reportedly lost in the Coldcard incident?\n### Which ETF led the recent inflows?\n\nTickers: BTC, IBIT, FBTC, BTCO\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 05, 2026",
+    "publishedAt": "2026-08-05T13:57:41.842394+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin ETFs",
+      "Coldcard",
+      "Custody",
+      "Inflows",
+      "Security"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/us-bitcoin-etfs-log-382m-inflows-amid-coldcard-hack-and-custody-debate-202608051357.jpg",
+    "featured": false,
+    "wordCount": 695,
+    "keyInsights": [
+      "US spot Bitcoin ETFs received $382 million in two-day net inflows according to SoSoValue data.",
+      "The Coldcard hardware wallet incident is estimated by Galaxy Research to have caused $130 million in Bitcoin losses.",
+      "BlackRock\u2019s iShares Bitcoin Trust led the recovery with $281 million in inflows across Monday and Tuesday."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "coldcard-bitcoin-theft-tops-100m-across-three-confirmed-attack-waves-202608042113",
     "title": "Coldcard Bitcoin Theft Tops $100M Across Three Confirmed Attack Waves",
     "subtitle": "Galaxy Research confirms 1,596 BTC stolen from approximately 7,300 addresses in a multi-wave attack on hardware wallets.",
