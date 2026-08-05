@@ -1,5 +1,55 @@
 [
   {
+    "id": "glassnode-heatmap-signals-bitcoin-s-longest-capitulation-since-ftx-col-202608051553",
+    "title": "Glassnode heatmap signals Bitcoin's longest capitulation since FTX collapse",
+    "subtitle": "On-chain analytics firm reports Bitcoin in longest \"coldest stretch\" since November 2022 bottom.",
+    "summary": "Glassnode reports Bitcoin is in its longest capitulation phase since the FTX collapse in 2022, while on-chain activity strengthens.",
+    "content": "- **Glassnode's Bitcoin Cycle Position Heatmap indicates the longest capitulation phase for Bitcoin since the November 2022 FTX collapse.**\n- **The composite tool, developed by Rafael Schultze-Kraft, integrates 45 indicators to assess market health and identify cycle phases.**\n- **Despite the capitulation signal, Glassnode reported a material strengthening of on-chain activity and network engagement.**\n\nGlassnode's aggregate Bitcoin Cycle Position Heatmap tool has confirmed Bitcoin is experiencing its longest capitulation phase since the collapse of cryptocurrency exchange FTX in late 2022. This phase has been signaled throughout 2026, according to the on-chain analytics platform's report released on Monday.\n\nThe heatmap, a composite BTC price metric overview tool, combines data from 45 indicators to present a comprehensive market health picture as Bitcoin price cycles repeat, according to Glassnode co-founder Rafael Schultze-Kraft.\n\n### What does the Bitcoin Cycle Position Heatmap indicate?\nThe Bitcoin Cycle Position Heatmap serves as an aggregate overview tool, designed to signal various phases within Bitcoin price cycles. Rafael Schultze-Kraft, co-founder of Glassnode, developed this composite metric, which integrates data from 45 distinct indicators. These indicators collectively present an overall picture of market health as Bitcoin price cycles naturally repeat, according to Glassnode. A majority blue heatmap indicates a period identified as \u201ccapitulation\u201d within the cycle, while a red coloration points to the euphoria often characteristic of momentum toward cycle peaks, as described by the analytics platform.\n\nFollowing a period of euphoric market sentiment in November 2021, the heatmap subsequently flipped to a predominant blue coloration for the majority of 2022. The collapse of the cryptocurrency exchange FTX in November 2022 coincided with Bitcoin\u2019s last bear-market bottom, when the asset reached a price of $15,600. Schultze-Kraft commented on the Heatmap\u2019s latest readings, noting that it currently \"sits in its coldest stretch since FTX: late in the bear, but not yet the unanimous deep blue that previously marked a floor.\u201d\n\nIn addition to basic price gauges such as market capitalization, the heatmap places considerable focus on the profitability of the Bitcoin investor base. It divides this base into short-term holders (STH) and long-term holders (LTH) for more granular analysis. Schultze-Kraft notes that certain metrics, such as dormancy, change their behavior over time, necessitating a more nuanced reading when used for cycle signals. Dormancy refers to the number of days a unit of BTC has spent idle when used in an on-chain transaction.\n\n### How does Glassnode define market phases?\nGlassnode defines Bitcoin market phases through the continuous analysis of its Bitcoin Cycle Position Heatmap, which integrates diverse on-chain data. The tool's framework is built upon the collective behavior and trends observed across its 45 underlying indicators. These indicators track various aspects of the Bitcoin network, from investor profitability to transactional volumes. The heatmap's color-coding system\u2014blue for capitulation and red for euphoria\u2014provides a visual representation of the market\u2019s prevailing sentiment and activity level.\n\nThe platform uses metrics that specifically address the profitability of different investor cohorts. By differentiating between short-term holders and long-term holders, Glassnode aims to capture the varied responses of market participants to price movements. This distinction is crucial because the economic incentives and holding behaviors of newer investors typically differ from those who have held Bitcoin for extended periods. The long-term aging of the investor base, for instance, influences metrics like dormancy, where the average time Bitcoin remains idle before being moved tends to increase over successive cycles.\n\nGlassnode reports that this evolving behavior of specific metrics requires dynamic interpretation. The platform continuously refines its analysis to account for these shifts, ensuring the heatmap accurately reflects the market\u2019s underlying health. The goal is to provide a comprehensive picture that goes beyond simple price action, offering insight into the structural integrity and participant conviction within the Bitcoin ecosystem.\n\n### What is the current state of on-chain activity?\nIn its latest Market Pulse report, released on Monday, Glassnode provided observations regarding the resilience of market participants, despite the ongoing capitulation signal. The report noted that on-chain activity had \"strengthened materially.\" Specifically, daily active addresses and entity-adjusted transfer volumes moved above their upper statistical bands. This movement indicated a notable increase in both network engagement and overall economic throughput on the Bitcoin blockchain.\n\nThe report also highlighted the stabilization of capital outflows. This stabilization occurred despite a \"knee-jerk reaction\" by certain investors following the disclosure of a low-entropy bug exploit in Coldcard hardware wallets. Such events can typically trigger a period of uncertainty and increased selling pressure, but the market's response indicated underlying stability.\n\nFurther data from analytics platform CryptoQuant corroborated observations regarding increased activity, likening the uptick in on-chain transactions of 1 BTC or less to the aftermath of the FTX implosion. On July 31, the daily tally for these smaller Bitcoin transactions reached 39,600 BTC. This figure stands in close comparison to the 39,900 Bitcoin recorded on November 16, 2022, which was a period immediately following the FTX event, according to CryptoQuant's analysis. [US Bitcoin ETFs log $382M inflows amid Coldcard hack and custody debate](https://cryptobead.com/article/us-bitcoin-etfs-log-382m-inflows-amid-coldcard-hack-and-custody-debate-202608051357)\n\n### FAQs\n### What is Glassnode's Bitcoin Cycle Position Heatmap?\nGlassnode's Bitcoin Cycle Position Heatmap is a composite on-chain analytics tool that integrates data from 45 indicators to provide an overall picture of Bitcoin market health and identify phases within its price cycles, such as capitulation or euphoria.\n\n### Who created the Bitcoin Cycle Position Heatmap?\n### What is the significance of \"dormancy\" in Glassnode's analysis?\nTickers: BTC\nDisclaimer: This article is for informational purposes only and does not constitute financial or investment advice.",
+    "category": "Macro",
+    "date": "Aug 05, 2026",
+    "publishedAt": "2026-08-05T15:53:17.294713+00:00",
+    "readTime": "5 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "Glassnode",
+      "On-chain Analytics",
+      "Market Cycle",
+      "Capitulation"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/glassnode-heatmap-signals-bitcoin-s-longest-capitulation-since-ftx-col-202608051553.jpg",
+    "featured": false,
+    "wordCount": 909,
+    "keyInsights": [
+      "Glassnode's Bitcoin Cycle Position Heatmap indicates Bitcoin is experiencing its longest capitulation phase since November 2022.",
+      "The heatmap, developed by Rafael Schultze-Kraft, combines 45 indicators to assess market health.",
+      "Despite capitulation signals, Glassnode reported that daily active addresses and entity-adjusted transfer volumes strengthened materially."
+    ],
+    "author": {
+      "name": "Marcus Aurelius",
+      "role": "Chief Macro Strategist",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "Daily Bitcoin Transactions (1 BTC or less)",
+      "subtitle": "Comparison of post-exploit activity to FTX implosion",
+      "yAxisLabel": "Number of Bitcoin",
+      "sourceLabel": "CryptoQuant data",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "2026",
+          "value": 39600.0
+        },
+        {
+          "label": "2022",
+          "value": 39900.0
+        }
+      ]
+    }
+  },
+  {
     "id": "us-bitcoin-etfs-log-382m-inflows-amid-coldcard-hack-and-custody-debate-202608051357",
     "title": "US Bitcoin ETFs log $382M inflows amid Coldcard hack and custody debate",
     "subtitle": "US spot Bitcoin ETFs attracted $382 million in inflows as a Coldcard hack renewed focus on digital asset security and institutional custody solutions.",
