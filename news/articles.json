@@ -1,5 +1,39 @@
 [
   {
+    "id": "us-bitcoin-etfs-secure-244-4m-in-daily-inflows-hitting-626m-3-day-stre-202608062347",
+    "title": "US Bitcoin ETFs secure $244.4M in daily inflows, hitting $626M 3-day streak",
+    "subtitle": "Spot Bitcoin exchange-traded funds attracted substantial capital on Wednesday, continuing a positive trend into August.",
+    "summary": "US Bitcoin ETFs secured $244.4M on Wednesday, part of a $626M three-day inflow streak this August.",
+    "content": "- **US-listed spot Bitcoin ETFs attracted $244.4 million in net inflows on Wednesday.**\n- **This marked three consecutive inflow days, totaling $626 million to begin August.**\n- **BlackRock\u2019s iShares Bitcoin Trust ETF (IBIT) led with $479 million over the three-session period.**\n\nUS-listed spot Bitcoin exchange-traded funds (ETFs) attracted $244.4 million in net inflows on Wednesday. This specific influx marked the third consecutive day of positive investor sentiment for these products. The three-day inflow streak at the beginning of August has accumulated a total of $626 million, according to data compiled by SoSoValue.\n\nThis consistent positive movement in inflows suggests a renewed interest in Bitcoin-backed financial products, with BlackRock\u2019s iShares Bitcoin Trust ETF (IBIT) notably contributing to the overall gains.\n\n### What fueled the Bitcoin ETF inflows?\n\nBlackRock\u2019s iShares Bitcoin Trust ETF (IBIT) demonstrated substantial investor interest during this recent three-day period. The fund specifically attracted $479 million over the three-session stretch, as detailed by Farside Investors data. This significant contribution has subsequently elevated IBIT's cumulative net inflows to nearly $61 billion since its inception, positioning it as a leading vehicle for institutional and retail Bitcoin exposure.\n\nThe sustained inflows into these US-listed Bitcoin ETFs coincided with a noticeable upward movement in Bitcoin's spot price. On Wednesday, the flagship cryptocurrency briefly climbed above the $64,920 threshold. At the time of publication, Bitcoin was trading at $64,744.53. This represented a 0.7% increase over the preceding 24 hours, data from CoinGecko indicated. The positive price action may have played a role in attracting new capital into the ETF products.\n\nDespite the recent positive inflows and price performance, the broader market sentiment gauge, the Crypto Fear & Greed Index, continued to indicate caution. The index remained entrenched in \"Extreme Fear\" territory, registering a score of 25 on Wednesday. This figure represented a slight decline from the 27 reported a day earlier. The persistent \"Extreme Fear\" reading suggests that while capital is flowing into specific products, overall market participants retain a conservative outlook.\n\nThe consistent demand for spot Bitcoin ETFs may also reflect evolving investor considerations regarding the security and custody of digital assets. These regulated financial products offer an alternative to direct self-custody, providing a framework for secure asset management. Such an emphasis on robust custodial solutions is particularly relevant in light of ongoing discussions about potential vulnerabilities within the broader cryptocurrency ecosystem. Instances like the [Coldcard Hackers Transfer 64 BTC and 200 ETH to Cryptocurrency Mixers](https://cryptobead.com/article/coldcard-hackers-transfer-64-btc-and-200-eth-to-cryptocurrency-mixers-202608061354) can highlight the critical importance of secure holding mechanisms. Investors are increasingly evaluating the custodial strength behind their crypto exposure vehicles.\n\n### How did other crypto ETFs perform?\n\nPerformance among other US-listed spot crypto ETFs exhibited divergence on Wednesday. Spot Ether ETFs, in particular, experienced their second consecutive day of net inflows. These specific funds collectively attracted $60.9 million on Wednesday alone. This latest injection of capital brought their two-day total net inflows to $114.6 million, according to figures provided by SoSoValue data. The consistent positive flows suggest a developing interest in Ether-backed investment vehicles.\n\nIn contrast to Ether-focused products, XRP ETFs recorded net outflows during the same Wednesday trading session. These funds saw $3.58 million in capital exit. This outflow led to a reduction in their total net assets, bringing the figure down to $993.4 million. Despite this recent daily outflow, the cumulative net inflows for XRP ETFs since their launch stood at $1.51 billion. This indicates a mixed sentiment for XRP-based investment products in the current market.\n\n### FAQs\n### What were the total net inflows for US Bitcoin ETFs in early August?\nUS-listed spot Bitcoin ETFs recorded a combined $626 million in net inflows over three consecutive days at the start of August, with $244.4 million occurring on Wednesday alone.\n### Which Bitcoin ETF led the recent inflows?\n### What was Bitcoin's price performance during the inflow period?\nTickers: BTC IBIT ETH XRP\nDisclaimer: This article provides factual market information and is not intended as financial or investment advice.",
+    "category": "Macro",
+    "date": "Aug 06, 2026",
+    "publishedAt": "2026-08-06T23:47:05.171111+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin ETFs",
+      "Inflows",
+      "BlackRock",
+      "IBIT",
+      "Ether ETFs",
+      "XRP ETFs"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/us-bitcoin-etfs-secure-244-4m-in-daily-inflows-hitting-626m-3-day-stre-202608062347.jpg",
+    "featured": false,
+    "wordCount": 655,
+    "keyInsights": [
+      "US-listed spot Bitcoin ETFs recorded $244.4 million in net inflows on Wednesday, contributing to a $626 million three-day streak in early August.",
+      "BlackRock\u2019s iShares Bitcoin Trust ETF (IBIT) attracted $479 million over three sessions, pushing its cumulative net inflows to nearly $61 billion.",
+      "Spot Ether ETFs secured $60.9 million in inflows on Wednesday, reaching $114.6 million over two days, while XRP ETFs experienced $3.58 million in outflows."
+    ],
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Senior Protocol Analyst",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "coldcard-hackers-transfer-64-btc-and-200-eth-to-cryptocurrency-mixers-202608061354",
     "title": "Coldcard Hackers Transfer 64 BTC and 200 ETH to Cryptocurrency Mixers",
     "subtitle": "A portion of stolen funds from the Coldcard exploit has moved to Wasabi and Tornado Cash, while the majority remains in attacker-controlled wallets.",
