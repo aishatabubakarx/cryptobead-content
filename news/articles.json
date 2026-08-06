@@ -1,5 +1,40 @@
 [
   {
+    "id": "coldcard-hackers-transfer-64-btc-and-200-eth-to-cryptocurrency-mixers-202608061354",
+    "title": "Coldcard Hackers Transfer 64 BTC and 200 ETH to Cryptocurrency Mixers",
+    "subtitle": "A portion of stolen funds from the Coldcard exploit has moved to Wasabi and Tornado Cash, while the majority remains in attacker-controlled wallets.",
+    "summary": "Coldcard hackers sent 64 BTC ($4.17M) and 200 ETH ($380k) to mixers, as the exploit\u2019s total losses near $130M.",
+    "content": "Hackers behind the Coldcard exploit transferred 64 Bitcoin, valued at $4.17 million, and 200 Ether, valued at $380,000, to various cryptocurrency mixing protocols this week. These transfers were observed following the recent exploit that targeted Coldcard wallets, an incident now considered the third-largest cryptocurrency hack of 2026.\n\nBlockchain security platform CertiK identified the movement of these digital assets to mixing services, providing specific details on the protocols and timings involved.\n\n### What assets were moved and how?\nThe Bitcoin transfer, amounting to 64 BTC, was sent from address bc1q0 to the crypto mixing protocol Wasabi on Tuesday, according to blockchain data meticulously shared by CertiK. A CertiK spokesperson relayed to Cointelegraph that this particular activity might indicate the involvement of a smaller exploiter. This suggests the presence of \"a few copycats after the initial exploit,\" potentially operating independently from the primary perpetrators of the larger attack, rather than a single unified hacking entity.\n\nThe 200 Ether (ETH) was subsequently transferred to Tornado Cash on Wednesday, as explicitly detailed in a CertiK X post. Cryptocurrency mixing protocols like Tornado Cash are designed to obfuscate transaction trails by pooling and scrambling digital assets from multiple users. This process effectively disrupts the publicly traceable onchain link between senders and recipients, making it exceedingly difficult to trace the stolen funds and thereby significantly reducing the chances of asset recovery by victims or law enforcement agencies. These recent transfers represent a calculated effort to further anonymize a portion of the funds associated with the wider Coldcard breach.\n\n### What caused the Coldcard vulnerability?\nThe Coldcard exploit capitalized on a critical firmware bug that originated in March 2021, which systematically weakened seed randomness on certain Coldcard wallets, according to an in-depth analysis by blockchain intelligence company TRM Labs. This fundamental cryptographic flaw effectively reduced the key strength from the industry-standard 128 bits to a mere 40 bits, rendering these specific wallets \"brute-forceable without physical access,\" as TRM Labs reported in its comprehensive Thursday analysis. The vulnerability permitted attackers to compromise affected wallets by computationally guessing or calculating the weakened seed phrases.\n\nDragonfly managing partner Haseeb Qureshi made a notable observation, suggesting that \"roughly '$2 of AI hardening'\" could have potentially prevented the exploit. Qureshi, referencing various social media reports, indicated that some advanced AI models were reportedly able to rediscover the exact vulnerability that ultimately led to the attack in a remarkably short timeframe, under 20 minutes. This rapid rediscovery by AI systems underscores the evolving landscape of cybersecurity and highlights potential areas for proactive improvement in hardware wallet security and audit processes.\n\n### What is the scale of the Coldcard exploit?\nThe Coldcard exploit has rapidly ascended to become the third-largest cryptocurrency hack so far in 2026, draining at least $100 million in Bitcoin across three confirmed attack waves. This substantial loss directly impacted approximately 7,300 victim wallets, according to detailed reports provided by Galaxy Digital. The company further identified a suspected fourth attack wave that, if fully confirmed, could potentially elevate the total losses to an estimated $130 million in BTC, indicating the expansive scope of the compromise.\n\nOnchain tracing meticulously conducted by TRM Labs showed that the vast majority of the victim funds remained consolidated in a limited number of attacker-controlled addresses, suggesting restricted and targeted attempts at mixing rather than widespread distribution. TRM Labs' recent report specifically noted \"differences in transaction construction\" observed during each distinct attack wave, a critical detail that strongly hints at the involvement of multiple, coordinated attackers behind the exploit. This analytical finding is highly consistent with Galaxy's prior investigations, which had already identified at least 15 different individuals or groups exploiting the Coldcard vulnerability to compromise wallets. For context, in April of the same year, the hacker responsible for a separate $293 million Kelp DAO hack laundered approximately 75,700 Ether, then valued at $175 million, primarily through decentralized protocols like THORChain and the Umbra privacy protocol, generating about $910,000 in fee revenue for THORChain in the process.\n\n### FAQs\n### What is a cryptocurrency mixer?\nA cryptocurrency mixer is a service or protocol designed to obscure the origins and destinations of cryptocurrency transactions by pooling and scrambling funds from multiple users, thereby breaking the onchain link between senders and recipients.\n### What is the Coldcard exploit?\n### How many victims were affected by the Coldcard exploit?\nTickers: BTC ETH\nDisclaimer: This article provides factual information based on current reports and should not be considered financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 06, 2026",
+    "publishedAt": "2026-08-06T13:54:51.174922+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Coldcard",
+      "Bitcoin",
+      "Ether",
+      "Hack",
+      "Cryptocurrency Mixer",
+      "CertiK",
+      "TRM Labs"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/coldcard-hackers-transfer-64-btc-and-200-eth-to-cryptocurrency-mixers-202608061354.jpg",
+    "featured": false,
+    "wordCount": 739,
+    "keyInsights": [
+      "Hackers transferred 64 Bitcoin (worth $4.17 million) and 200 Ether (worth $380,000) to Wasabi and Tornado Cash mixers.",
+      "The Coldcard exploit stemmed from a March 2021 firmware bug that reduced wallet key strength to 40 bits from 128 bits.",
+      "Galaxy Digital reports the Coldcard exploit is the third-largest hack of 2026, draining at least $100 million from 7,300 wallets."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "ethereum-eip-8363-draft-targets-staking-rewards-as-ratio-nears-50-202608052108",
     "title": "Ethereum EIP-8363 draft targets staking rewards as ratio nears 50%",
     "subtitle": "A new proposal aims to reduce Ether's issuance and address concentration risks in the staking ecosystem.",
