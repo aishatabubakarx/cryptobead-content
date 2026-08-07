@@ -1,5 +1,52 @@
 [
   {
+    "id": "bitcoin-red-team-identifies-nearly-5-000-issues-in-rapid-ai-assisted-a-202608070052",
+    "title": "Bitcoin Red Team identifies nearly 5,000 issues in rapid AI-assisted audit",
+    "subtitle": "A volunteer security group detected thousands of potential vulnerabilities across 390 projects within the Bitcoin ecosystem.",
+    "summary": "A 16-volunteer Bitcoin Red Team found nearly 5,000 potential security issues using AI-assisted review.",
+    "content": "- **Bitcoin Red Team, a 16-volunteer security group, identified 4,962 potential issues across 390 projects.**\n- **The group used AI tools and human review for a rapid security audit of the Bitcoin ecosystem.**\n- **Bitcoin developer Calle reported an average of one critical exploit per hour per person during the operation.**\n\nA volunteer security group, Bitcoin Red Team, has identified nearly 5,000 potential issues within the Bitcoin ecosystem after a rapid AI-assisted review. The team, composed of 16 volunteers, conducted its operation over 29.8 hours, finding 4,962 potential issues across 390 projects.\n\nThis intensive security campaign arrives amidst increasing concerns about vulnerabilities within the crypto space.\n\n### What prompted this security initiative?\nBitcoin developer Calle noted that there is significant \"chaos right now in the ecosystem,\" with many individuals \"being bombarded with security issues,\" according to Cointelegraph. The launch of the Bitcoin security review campaign followed the Coldcard hardware wallet hack, which resulted in over $100 million in Bitcoin being stolen. Galaxy previously reported that at least 15 attackers exploited the Coldcard vulnerability.\n\n### What are the key findings from the audit?\nIn its initial 29.8 hours of operation, the Bitcoin Red Team found 4,962 potential issues across 390 Bitcoin-related projects. Of these, 720 issues are classified as high- or critical-level, as reported by Bitcoin developer Calle. So far, 21.4% of the identified findings have been successfully reproduced by the team.\n\nCalle stated in a post to X on Wednesday that the team was \"averaging on the order of 1 critical exploit per hour per person.\" The Bitcoin Red Team, which includes Rob Hamilton, CEO of AnchorWatch, is a volunteer effort focused on security.\n\n### How was the audit conducted?\nThe Bitcoin Red Team, a volunteer security effort, utilized a combination of AI tools and human review to scan open-source Bitcoin-related repositories. This method allowed the 16 volunteers to rapidly identify a large number of potential vulnerabilities across various projects. The comprehensive review aims to bolster the overall security posture of the Bitcoin ecosystem.\n\n### FAQs\n### What is the Bitcoin Red Team?\nThe Bitcoin Red Team is a volunteer security group comprising 16 individuals, including Bitcoin developer Calle and Rob Hamilton, CEO of AnchorWatch. It conducts rapid AI-assisted and human reviews of open-source Bitcoin ecosystem projects to identify vulnerabilities.\n### How many issues did the audit find?\n### Who is Calle?\n\nTickers: BTC\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 07, 2026",
+    "publishedAt": "2026-08-07T00:52:59.897685+00:00",
+    "readTime": "2 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "Security",
+      "Audit",
+      "Vulnerability",
+      "AI"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/bitcoin-red-team-identifies-nearly-5-000-issues-in-rapid-ai-assisted-a-202608070052.jpg",
+    "featured": false,
+    "wordCount": 408,
+    "keyInsights": [
+      "Bitcoin Red Team, a volunteer security group of 16, identified 4,962 potential issues.",
+      "The audit spanned 390 projects within the Bitcoin ecosystem over 29.8 hours using AI tools.",
+      "Bitcoin developer Calle reported 720 high- or critical-level issues, with 21.4% confirmed reproducible."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "tweetUrl": "https://x.com/callebtc/status/1803565561008064843",
+    "chartData": {
+      "title": "Bitcoin Red Team Audit Reproducibility",
+      "subtitle": "Percentage of identified issues confirmed reproducible",
+      "yAxisLabel": "None",
+      "sourceLabel": "Bitcoin Red Team, Bitcoin developer Calle",
+      "chartType": "radial",
+      "data": [
+        {
+          "label": "Reproducible",
+          "value": 21.4
+        }
+      ]
+    }
+  },
+  {
     "id": "us-bitcoin-etfs-secure-244-4m-in-daily-inflows-hitting-626m-3-day-stre-202608062347",
     "title": "US Bitcoin ETFs secure $244.4M in daily inflows, hitting $626M 3-day streak",
     "subtitle": "Spot Bitcoin exchange-traded funds attracted substantial capital on Wednesday, continuing a positive trend into August.",
