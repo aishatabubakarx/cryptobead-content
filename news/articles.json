@@ -1,5 +1,38 @@
 [
   {
+    "id": "us-court-grants-bybit-expedited-discovery-to-trace-1-5b-north-korea-ha-202608081421",
+    "title": "US Court Grants Bybit Expedited Discovery to Trace $1.5B North Korea Hack Funds",
+    "subtitle": "A federal judge approved Bybit's request for expedited discovery in a lawsuit against North Korea and related entities to recover stolen crypto assets.",
+    "summary": "Bybit secured US court order for expedited discovery to trace $1.5B hack funds.",
+    "content": "- **A US federal judge granted crypto exchange Bybit expedited discovery to trace assets from a $1.5 billion North Korea-linked hack.**\n- **Bybit filed a lawsuit on June 18 against North Korea and the Lazarus Group, seeking account information from platforms with US operations.**\n- **As of June 18, 9.8% of the stolen assets remained traceable, with 5.3%, or approximately $75.5 million, already frozen or recovered.**\n\nUnited States court records unsealed on Thursday show that a federal judge backed crypto exchange Bybit\u2019s effort to trace assets stolen in the $1.5 billion North Korea-linked hack by granting the company expedited discovery. This legal action provides Bybit a practical route to identify alleged intermediaries and pursue a portion of the stolen assets.\n\nThe court's decision followed a sealed lawsuit filed by Bybit on June 18, naming North Korea and its affiliates as primary defendants.\n\n### What prompted Bybit's legal action?\nThe incident central to Bybit\u2019s lawsuit occurred on February 21, 2025, when attackers compromised Safe Wallet\u2019s infrastructure. Forensic investigators later determined that compromised credentials belonging to a Safe developer allowed malicious code to be injected into its cloud infrastructure. The FBI officially attributed the theft to North Korea on February 26, 2025.\n\nBybit subsequently filed its lawsuit against North Korea, its Reconnaissance General Bureau, the Lazarus Group, and 20 unidentified defendants. The complaint alleged that some of the traceable stolen assets had reached exchanges operating or maintaining infrastructure within the US jurisdiction. The crypto exchange is seeking the return of the stolen assets, approximately $1.5 billion in compensatory damages, punitive damages, and treble damages under the US Racketeer Influenced and Corrupt Organizations Act.\n\n### How does expedited discovery aid asset recovery?\nThe court granted Bybit's request for expedited discovery on June 19, which allows the exchange to seek specific account identities, balances, and transaction histories from platforms with US operations. This discovery authority gives Bybit a practical route to identify alleged intermediaries, pursuing a small portion of the stolen assets that remain traceable rather than relying solely on a judgment against North Korea. The company stated in its complaint that certain platforms had indicated they would cooperate after receiving a formal court order.\n\nTo further protect potential assets, Bybit also obtained a temporary restraining order on June 19, which prevents the unidentified defendants from transferring certain traceable assets. The court renewed this order on July 16, and partially granted Bybit\u2019s request for a preliminary injunction on July 30, reinforcing the legal framework for asset preservation. Some exhibits and other records pertaining to the case remain sealed by the court.\n\n### What is the current status of the stolen funds?\nAs of the June 18 filing, Bybit stated that 90.2% of the stolen assets had become untraceable. These funds reportedly passed through various obfuscation methods, including mixers, cross-chain bridges, and over-the-counter dealers, making their trail difficult to follow.\n\nThe remaining 9.8% of the assets had been successfully traced to identifiable wallets. Of this traceable portion, 5.3% of the total stolen amount, approximately $75.5 million, had been frozen or recovered through collaborative efforts. These figures represent a notable decline in traceability compared to more than a year ago, when Bybit CEO Ben Zhou said at the time that 68.57% of the funds remained traceable. Bybit continues its efforts to recover the remaining traceable funds.\n\n### FAQs\n### What is expedited discovery?\nExpedited discovery is a legal process that allows a party to obtain information, such as account identities and transaction histories, from other entities more quickly than usual court procedures, typically under court order.\n### Who are the defendants in Bybit's lawsuit?\n### What portion of the stolen assets are traceable?\nTickers: BTC\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Regulation",
+    "date": "Aug 08, 2026",
+    "publishedAt": "2026-08-08T14:21:11.128723+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bybit",
+      "North Korea",
+      "Lazarus Group",
+      "Crypto Hack",
+      "Legal Action"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/us-court-grants-bybit-expedited-discovery-to-trace-1-5b-north-korea-ha-202608081421.jpg",
+    "featured": false,
+    "wordCount": 623,
+    "keyInsights": [
+      "A US federal court granted crypto exchange Bybit expedited discovery to trace $1.5 billion from a North Korea-linked hack.",
+      "Bybit's lawsuit, filed June 18, seeks account information and damages from North Korea, the Lazarus Group, and unidentified defendants.",
+      "As of June 18, 9.8% of the stolen funds remained traceable, with approximately $75.5 million already frozen or recovered."
+    ],
+    "author": {
+      "name": "Elena Rostova",
+      "role": "Senior Protocol Analyst",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "imf-official-domestic-stablecoins-may-accelerate-digital-dollar-adopti-202608081237",
     "title": "IMF Official: Domestic Stablecoins May Accelerate Digital Dollar Adoption",
     "subtitle": "IMF First Deputy Managing Director Dan Katz suggests local stablecoins could unintentionally boost demand for dollar-backed tokens.",
