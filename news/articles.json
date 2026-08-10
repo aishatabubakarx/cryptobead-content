@@ -1,5 +1,38 @@
 [
   {
+    "id": "quantus-founder-states-first-quantum-attack-may-mask-as-unexplained-br-202608101839",
+    "title": "Quantus Founder States First Quantum Attack May Mask as Unexplained Breaches",
+    "subtitle": "Christopher Smith, CEO of Quantus Network, suggests initial quantum attacks on crypto may appear as ordinary wallet compromises.",
+    "summary": "The first quantum attacks on crypto may be disguised as normal breaches, according to Quantus Network's CEO.",
+    "content": "- **Crypto's first quantum attacks may manifest as unexplained wallet breaches, according to Quantus Network CEO Christopher Smith.**\n- **Smith indicates that bad actors with quantum capabilities are unlikely to announce their breach by targeting high-profile wallets such as Satoshi Nakamoto's.**\n- **Advancements in quantum algorithms, aided by AI, have reportedly reduced estimates for computing resources required to attack elliptic-curve cryptography.**\n\nThe first signs of quantum computing breaking modern cryptography will likely not be a public, splashy theft of high-profile Bitcoin wallets, but rather a series of ordinary-looking crypto wallet breaches, stated Christopher Smith, CEO and co-founder of blockchain startup Quantus Network. Smith informed Cointelegraph that when a key is compromised, there is no memo detailing the method of attack.\n\nThis scenario makes \"Q-day,\" the hypothetical moment when quantum computers can break standard public-key cryptography, particularly difficult to detect.\n\n### How might quantum attacks manifest?\nA sufficiently powerful quantum computer could derive a private key from public keys exposed onchain, enabling an attacker to move funds without directly compromising a wallet, device, or exchange's internal systems, according to Smith. In instances of theft from highly secure organizations, the only forensic evidence might be the absence of any other breach indicators, Smith added. This warning follows recent advances in quantum algorithms, which have reportedly lowered the estimated computing resources needed to attack the elliptic-curve cryptography used by major blockchains.\n\nSmith also suggested that attackers might disguise quantum theft as an ordinary compromise, providing plausible deniable explanations such as \"somebody just lost their keys somehow.\" Sean Cheetham, a security researcher at Blockchain Capital, supported this perspective, stating that attackers would more likely target hot wallets at exchanges that would not immediately trigger alarm bells, rather than attempting to steal Satoshi Nakamoto's coins.\n\n### What are potential targets beyond Bitcoin?\nWhile much of the fear surrounding Q-day in crypto centers on a quantum computer cracking the keys securing Satoshi Nakamoto\u2019s estimated Bitcoin holdings, valued at $63 billion at the time of writing, Smith indicated that initial targets might involve military systems and state secrets. For crypto-focused attackers, even more valuable keys could be prioritized. Smith posited that if an attacker were to focus on blockchain, the single most valuable key would likely be Tether\u2019s minting key.\n\nA quantum attacker could potentially mint tokens from an administrative wallet and then dump them on the market before the issuer could implement a response. USDT, a multi-chain stablecoin, is already deployed on some networks that are actively working on post-quantum migration strategies.\n\n### When could quantum attacks become a reality?\nDespite growing urgency, there is no broad consensus on when a quantum computer capable of breaking modern cryptography will be fully developed. Christopher Smith, whose company is developing a quantum-resistant blockchain network, estimated a \"50-50\" chance of this occurring by 2028. He attributed this possibility to continued AI-assisted improvements in quantum algorithms and hardware research, which are making future forecasts less reliable.\n\nIn March, Google accelerated its post-quantum migration timeline to 2029 following an AI-assisted breakthrough that demonstrated elliptic curve cryptography could be cracked with fewer physical qubits than previously anticipated. Roy Blackstone, CEO of NGRAVE, stated that earlier quantum forecasts had not accounted for the parallel development of AI. Sean Cheetham projected the early 2030s as an \"almost a certainty\" for such capabilities, with an earlier arrival having a \"more of a trailing probability.\" Michael Coates, chief information security officer for the Solana Foundation, declined to provide an estimate in an earlier interview, asserting that \"there\u2019s no way to know\" and that \"If you talk to people in the industry, it is always five years away, and it\u2019s been that way for 10 years or more now.\" Despite this uncertainty, Coates added that delaying action is not advisable. Blackstone emphasized that blockchains are already migrating to post-quantum signatures, stating that \"The damage would be catastrophic if they didn\u2019t.\"\n\n### FAQs\n### What is Q-day in cryptocurrency?\nQ-day refers to a hypothetical future point when quantum computers become powerful enough to break standard public-key cryptography, which underpins the security of most modern blockchains and digital assets.\n### How could a quantum computer attack a blockchain?\n### Which blockchains are preparing for quantum attacks?\nTickers: BTC USDT\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "category": "Emerging Tech",
+    "date": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T18:39:23.700894+00:00",
+    "readTime": "4 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Quantum Computing",
+      "Cryptography",
+      "Blockchain Security",
+      "Q-day",
+      "Wallet Breaches"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/quantus-founder-states-first-quantum-attack-may-mask-as-unexplained-br-202608101839.jpg",
+    "featured": false,
+    "wordCount": 714,
+    "keyInsights": [
+      "Christopher Smith, CEO of Quantus Network, stated that the first quantum attacks might appear as unexplained wallet breaches.",
+      "Bad actors are unlikely to target high-profile wallets like Satoshi Nakamoto's for an initial quantum attack, Smith suggests.",
+      "Estimates for the arrival of \"Q-day\" vary, with some experts predicting a 50-50 chance by 2028 due to AI-assisted advancements."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "btcpay-server-tightens-lightning-access-after-critical-lnd-vulnerabili-202608101643",
     "title": "BTCPay Server tightens Lightning access after critical LND vulnerability exploit",
     "subtitle": "The move follows attackers leveraging a flaw to obtain credentials and move funds from affected nodes.",
