@@ -1,5 +1,55 @@
 [
   {
+    "id": "sweden-s-h100-group-triples-bitcoin-treasury-to-3-506-btc-after-acquis-202608101448",
+    "title": "Sweden's H100 Group triples Bitcoin treasury to 3,506 BTC after acquisition",
+    "subtitle": "H100 Group completed an all-share acquisition of Norwegian Bitcoin companies, boosting its holdings to become Europe's second largest treasury.",
+    "summary": "Sweden's H100 Group acquired 2,455 BTC, tripling its treasury to 3,506 BTC through an all-share deal.",
+    "content": "- **H100 Group more than tripled its Bitcoin holdings to 3,506 BTC through a recent acquisition.**\n- **The Sweden-listed company acquired 2,455 BTC from privately held Norwegian firms Moonshot and Never Say Die.**\n- **The transaction, valued at about 1.47 billion kronor (approximately $155 million), involved issuing 790.5 million new shares to sellers.**\n\nH100 Group, a Sweden-listed health-tech and Bitcoin treasury company, significantly increased its Bitcoin holdings to 3,506 BTC after completing the acquisition of Norwegian Bitcoin companies. The deal, which was initially announced with a letter of intent in March, involved the transfer of 2,455 BTC, according to a Monday press release from the company.\n\nThis acquisition positions H100 Group as a major player in the European Bitcoin treasury market, according to data from BitcoinTreasuries.\n\n### How did H100 Group finance the acquisition?\n\nThe acquisition of the Norwegian Bitcoin companies involved no cash consideration, H100 Group stated in its press release. Instead, H100 issued 790.5 million new shares to the sellers of the acquired entities. These newly issued shares diluted existing shareholders by approximately 70%, the company reported.\n\nH100 Group priced the new shares at 1.86 Swedish kronor (approximately $0.20) each. This pricing valued the overall transaction at about 1.47 billion kronor (approximately $155 million), as per the company's disclosure. The consideration was calculated on a 1:1 \"Bitcoin-for-Bitcoin\" basis, meaning the number of shares issued was determined by the sellers\u2019 proportionate share of the combined Bitcoin holdings of H100 and the acquired companies. Other assets and liabilities held by the acquired companies were specifically excluded from this calculation.\n\nThe completion of this share-based deal allows H100 Group to expand its digital asset treasury without directly expending its cash reserves, impacting its shareholder structure instead.\n\n### What is H100 Group's new position in the European Bitcoin treasury market?\n\nFollowing the acquisition, H100 Group\u2019s total Bitcoin holdings now stand at 3,506 BTC. This significant increase in its digital asset portfolio has elevated the value of H100\u2019s Bitcoin holdings to approximately $228 million, the company indicated.\n\nAccording to data compiled by BitcoinTreasuries, this makes H100 Group Europe\u2019s second-largest Bitcoin treasury company by holdings. The only company with a larger Bitcoin treasury in Europe is Germany\u2019s Bitcoin Group SE, which holds 3,605 BTC. This move by H100 Group indicates a strategic focus on expanding its presence within the digital asset space, aligning its business model with a substantial Bitcoin treasury. [Bitcoin hits August high as markets eye inflation, Fed rate pause odds](https://cryptobead.com/article/bitcoin-hits-august-high-as-markets-eye-inflation-fed-rate-pause-odds-202608101257) This strategic expansion positions H100 to potentially capitalize on future movements in the cryptocurrency market.\n\n### FAQs\n\n### What is the H100 Group?\nH100 Group is a Sweden-listed company operating in both the health-tech sector and as a Bitcoin treasury company, actively managing a portfolio of Bitcoin.\n\n### What companies did H100 Group acquire?\n\n### How many new shares did H100 issue?\n\nTickers: BTC H100\nDisclaimer: This article is for informational purposes only and does not constitute financial or investment advice.",
+    "category": "Infrastructure",
+    "date": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T14:48:51.870665+00:00",
+    "readTime": "2 min read",
+    "sentiment": "bullish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "Treasury",
+      "Acquisition",
+      "H100 Group",
+      "Europe"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/sweden-s-h100-group-triples-bitcoin-treasury-to-3-506-btc-after-acquis-202608101448.jpg",
+    "featured": false,
+    "wordCount": 490,
+    "keyInsights": [
+      "H100 Group increased its Bitcoin holdings to 3,506 BTC following a strategic acquisition",
+      "The transaction involved the issuance of 790.5 million new shares to the sellers, valuing the deal at approximately $155 million",
+      "H100 Group now holds Europe's second-largest Bitcoin treasury, behind Germany's Bitcoin Group SE."
+    ],
+    "author": {
+      "name": "Sarah Jenkins",
+      "role": "Lead Blockchain Architect",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "Top European Bitcoin Treasuries",
+      "subtitle": "H100 Group becomes Europe's second-largest by BTC holdings.",
+      "yAxisLabel": "Bitcoin Holdings (BTC)",
+      "sourceLabel": "BitcoinTreasuries.com",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "H100 Group",
+          "value": 3506.0
+        },
+        {
+          "label": "Bitcoin Group SE",
+          "value": 3605.0
+        }
+      ]
+    }
+  },
+  {
     "id": "bitcoin-hits-august-high-as-markets-eye-inflation-fed-rate-pause-odds-202608101257",
     "title": "Bitcoin hits August high as markets eye inflation, Fed rate pause odds",
     "subtitle": "CME Group's FedWatch Tool shows a 56% chance of the Federal Reserve pausing rate hikes at its September 16 meeting.",
