@@ -1,5 +1,38 @@
 [
   {
+    "id": "cryptoquant-bitcoin-sell-pressure-nears-exhaustion-after-4b-usdt-marke-202608111253",
+    "title": "CryptoQuant: Bitcoin Sell Pressure Nears Exhaustion After $4B USDT Market Cap Drop",
+    "subtitle": "Onchain analytics firm CryptoQuant reports Tether's market capitalization contraction suggests Bitcoin selling pressure is subsiding.",
+    "summary": "CryptoQuant data indicates Bitcoin selling pressure is near exhaustion after a $4B USDT market cap drop.",
+    "content": "- **CryptoQuant analysis suggests Bitcoin sell pressure is approaching exhaustion.**\n- **Tether's (USDT) market capitalization has decreased by $4 billion over a two-month period.**\n- **Historically, significant stablecoin market cap contractions have coincided with the final phases of market downturns.**\n\nBitcoin analysis from onchain analytics platform CryptoQuant suggests that sell pressure will not increase, given the historically large contraction in the Tether (USDT) market cap over a 60-day period. The biggest stablecoin, USDT, has shed $4 billion in market capitalization in just two months, according to CryptoQuant data.\n\nThis contraction echoes previous crypto bear markets and rivals some of the largest seen historically, potentially signaling an upcoming shift.\n\n### What indicates a market shift?\nCryptoQuant flagged the USDT market cap as \"undergoing one of its sharpest contractions on record\" in a blog post last week. The platform noted that this deterioration accelerated recently, with nearly $870 million of USDT supply disappearing over an 11-day period, indicating the contraction is not merely a lingering effect from earlier redemptions.\n\nCryptoQuant data showed the 30-day simple moving average (SMA) of the 60-day USDT market-cap change at minus $4.88 billion as of August 10. The steepest 60-day contraction period for USDT market cap concluded on July 13, when it reached minus $5.72 billion.\n\nAnalysts emphasized that the extent of this drawdown is comparable to severe crypto bear markets. Such significant contractions typically have implications for Bitcoin and the broader market recovery, according to the firm.\n\n### What are the implications for Bitcoin?\nStablecoins serve as a crucial source of liquidity in the crypto market. When this liquidity diminishes, less capital, often referred to as \"dry powder,\" becomes available for deployment. This indicates a reduced interest among investors in buying at current price levels.\n\nCryptoQuant analysts cautioned that while there is a correlation between USDT flows and Bitcoin price, it does not necessarily imply causality. They added that both factors likely respond to the same \"risk-off\" market conditions, with redemptions accelerating alongside spot selling rather than strictly preceding it.\n\nZooming out, CryptoQuant notes that the most pronounced contraction phases in USDT market cap have historically occurred during the final stages of macro market downturns. The firm stated that \"Historically, the market\u2019s deepest USDT contraction phases have also marked points where selling pressure was closer to exhaustion than to further acceleration.\"\n\n### What is the broader market outlook?\nThese findings contribute to a growing body of evidence suggesting the current bear market is in its concluding phases. Cointelegraph continues to report that market participants increasingly favor a new Bitcoin macro bottom forming before the end of 2026.\n\nBoth comparisons to previous bear markets and various onchain indicators suggest the downturn may continue in the short term. Independent analyst William Clemente echoed this prognosis in his August 8 Bitcoin outlook, where he described the Bitcoin network as \"fundamentally healthy.\"\n\nClemente summarized his view, stating, \u201cI think Bitcoin is \u2018cheap\u2019 although we could have a leg lower at some point throughout the year.\u201d Two days later, he highlighted an unfolding bullish divergence between BTC/USD and the relative strength index (RSI) on weekly time frames. This pattern is considered a classic leading indicator for a market reversal, similar to one observed at the end of the 2022 bear market, according to Clemente on X.com.\n\n### FAQs\n### What is the significance of USDT market cap contraction?\nA significant contraction in Tether's (USDT) market capitalization, as identified by CryptoQuant, historically signals that selling pressure in the broader crypto market, particularly for Bitcoin, may be nearing its exhaustion point.\n### How much has USDT market cap declined recently?\n### Who is William Clemente?\nTickers: BTC USDT\nDisclaimer: This article provides factual market analysis and is not financial advice.",
+    "category": "Macro",
+    "date": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T12:53:26.617978+00:00",
+    "readTime": "3 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin",
+      "USDT",
+      "CryptoQuant",
+      "Market Analysis",
+      "Stablecoins"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/cryptoquant-bitcoin-sell-pressure-nears-exhaustion-after-4b-usdt-marke-202608111253.jpg",
+    "featured": false,
+    "wordCount": 617,
+    "keyInsights": [
+      "CryptoQuant analysis indicates Bitcoin sell pressure is nearing exhaustion.",
+      "Tether's USDT market capitalization has contracted by $4 billion over two months, a historically sharp decline.",
+      "Deepest USDT contraction phases have historically marked points where selling pressure was closer to exhaustion."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    }
+  },
+  {
     "id": "standard-chartered-forecasts-link-to-reach-200-by-2030-on-4t-rwa-growt-202608102042",
     "title": "Standard Chartered forecasts LINK to reach $200 by 2030 on $4T RWA growth",
     "subtitle": "The bank projects a 25-fold increase for Chainlink's token driven by the expanding real-world asset market.",
