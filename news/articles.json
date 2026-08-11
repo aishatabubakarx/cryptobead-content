@@ -1,5 +1,63 @@
 [
   {
+    "id": "keel-exits-us-bitcoin-mining-reports-141m-q2-operating-loss-202608111843",
+    "title": "Keel exits US Bitcoin mining, reports $141M Q2 operating loss",
+    "subtitle": "The digital infrastructure company pivoted to AI and high-performance computing after its revenue fell 50% year-on-year.",
+    "summary": "Keel Infrastructure shut down US Bitcoin mining, shifting to AI/HPC, reporting a $141M Q2 operating loss and selling 1,085 BTC for $75M.",
+    "content": "- **Keel Infrastructure completed the shutdown of its US Bitcoin mining operations.**\n- **The company reported a $141 million operating loss in Q2, compared to $11 million operating income last year.**\n- **Keel sold 1,085 Bitcoin for $75 million since April 1 as it shifts towards AI and high-performance computing.**\n\nKeel Infrastructure has completed the shutdown of its US Bitcoin mining operations. The company reported a $141 million operating loss in its second-quarter report published on Monday. This digital infrastructure firm is now actively pivoting towards artificial intelligence (AI) and high-performance computing (HPC) infrastructure.\n\nThis strategic redirection follows a significant decline in its financial performance, according to details disclosed within the second-quarter report.\n\n### What prompted Keel's comprehensive operational shift?\nKeel Infrastructure has fully decommissioned all its US Bitcoin mining operations. This action was confirmed in its latest second-quarter report. The company specifically identified this process as preparation for the construction of new high-performance computing (HPC) sites. This comprehensive shift signifies a complete departure from its prior US Bitcoin mining focus. It marks a new strategic direction for the digital infrastructure firm.\n\nThe pivot aligns with Keel's intent to capitalize on the growing demand for AI and HPC capabilities. The decision to halt mining operations included the specific shutdown of its Moses Lake crypto mining operations. This shutdown occurred in April 2026. Keel's move positions it among a smaller segment of companies that have opted for a full exit from US Bitcoin mining. In contrast, some other firms, such as Bit Digital and Crusoe, have also started integrating AI infrastructure into their business models. These companies have done so by pausing or shifting existing mining operations.\n\n### How did recent financial results influence this strategic shift?\nKeel reported a notable decline in its financial results for the second quarter. This information was extensively outlined in its recently published report. The company generated $30 million in revenue during this period. This figure represents a substantial 50% decrease when compared to the revenue from the same period in the previous year. This significant drop in revenue was primarily attributed to two factors. First, a decrease occurred in the average Bitcoin (BTC) price throughout the quarter. Second, the shutdown of the Moses Lake mining operations in April 2026 also contributed considerably to this revenue reduction.\n\nFurthermore, the digital infrastructure firm disclosed a $141 million operating loss for the second quarter. This result marks a distinct reversal from the prior year's performance. In the identical period last year, Keel had reported an operating income of $11 million. The reported operating loss for this quarter specifically included $84 million in non-cash depreciation. This accounting entry significantly impacted the overall financial standing presented in the report.\n\nIn conjunction with its strategic pivot towards AI and HPC, Keel has been actively managing its Bitcoin holdings. Since April 1, the company successfully sold 1,085 BTC. These sales generated $75 million in proceeds. As of Friday, Keel reported holding 1,861 BTC in its treasury. Despite these operational changes and the reported financial losses, Keel maintains a substantial liquidity position. Approximately $819 million in overall liquidity was reported. This figure includes $698 million in unrestricted cash. Following the publication of its second-quarter report, Keel\u2019s stock price experienced a 12% decline on Monday, according to data from Yahoo Finance. [Strategy sells 1,690 Bitcoin for $108.6M to repurchase STRC shares](https://cryptobead.com/article/strategy-sells-1-690-bitcoin-for-108-6m-to-repurchase-strc-shares-202608111648) provides additional context on how other firms are also adjusting their crypto portfolios or operations in response to market conditions or strategic shifts.\n\n### FAQs\n### What is Keel's new strategic focus?\nKeel's new strategic focus is on AI and high-performance computing (HPC) infrastructure, following the complete shutdown of its US Bitcoin mining operations.\n### How much revenue did Keel report in Q2?\n### What was Keel's operating loss in Q2?\n\nTickers: BTC\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T18:43:24.397175+00:00",
+    "readTime": "3 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin mining",
+      "AI",
+      "High-Performance Computing",
+      "Keel Infrastructure",
+      "Q2 earnings"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/keel-exits-us-bitcoin-mining-reports-141m-q2-operating-loss-202608111843.jpg",
+    "featured": false,
+    "wordCount": 643,
+    "keyInsights": [
+      "Keel Infrastructure fully decommissioned its US Bitcoin mining operations to pivot toward AI and high-performance computing.",
+      "The company reported a Q2 operating loss of $141 million, a significant reversal from $11 million operating income last year.",
+      "Keel sold 1,085 Bitcoin for $75 million since April 1 as part of its strategic shift and wind-down of crypto holdings."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "Keel Infrastructure Q2 Financials (Year-on-Year)",
+      "subtitle": "Revenue and Operating Income/Loss comparison",
+      "yAxisLabel": "Amount ($ millions)",
+      "sourceLabel": "Keel Infrastructure Q2 Report",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Q2 2026 Revenue",
+          "value": 30.0
+        },
+        {
+          "label": "Q2 2025 Revenue",
+          "value": 60.0
+        },
+        {
+          "label": "Q2 2026 Operating Loss",
+          "value": -141.0
+        },
+        {
+          "label": "Q2 2025 Operating Income",
+          "value": 11.0
+        }
+      ]
+    }
+  },
+  {
     "id": "strategy-sells-1-690-bitcoin-for-108-6m-to-repurchase-strc-shares-202608111648",
     "title": "Strategy sells 1,690 Bitcoin for $108.6M to repurchase STRC shares",
     "subtitle": "The company's fourth Bitcoin sale of 2026 reduces its outstanding preferred stock.",
