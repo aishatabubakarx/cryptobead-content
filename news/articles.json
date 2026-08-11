@@ -1,5 +1,51 @@
 [
   {
+    "id": "riot-platforms-secures-9b-20-year-ai-compute-deal-with-anthropic-202608112043",
+    "title": "Riot Platforms secures $9B, 20-year AI compute deal with Anthropic",
+    "subtitle": "Bitcoin miner to supply 191 megawatts from Texas campus to support AI development.",
+    "summary": "Riot Platforms reportedly struck a $9 billion, 20-year compute deal with AI firm Anthropic for 191 megawatts of capacity.",
+    "content": "- **Bitcoin miner Riot Platforms reportedly secured a $9 billion compute deal with AI company Anthropic.**\n- **The 20-year agreement will provide 191 megawatts of capacity from Riot's Rockdale, Texas, campus.**\n- **The partnership follows a broader trend of Bitcoin miners expanding into AI and high-performance computing.**\n\nRiot Platforms, a major Bitcoin mining company, reportedly struck a $9 billion compute deal with AI firm Anthropic, securing a 20-year agreement for 191 megawatts of capacity from its Rockdale campus in Texas. This agreement was reported by Bloomberg on Monday, citing people familiar with the matter, following Riot's own press release announcing a deal with an unnamed \"leading frontier AI\" company.\n\nThe substantial agreement underscores a growing trend of Bitcoin miners diversifying their energy-intensive operations to support the booming demand for artificial intelligence computing power.\n\n### What are the terms of the Anthropic-Riot compute deal?\nThe reported agreement between Anthropic and Bitcoin miner Riot Platforms is valued at approximately $9 billion. This long-term arrangement spans 20 years and specifies Riot's provision of 191 megawatts of electrical capacity. The capacity will be supplied from Riot's expansive Rockdale campus located in Texas, a key operational site for the mining company.\n\nRiot Platforms officially announced on Monday that it had secured a 20-year agreement to supply 191 megawatts of capacity from its Rockdale, Texas, campus. The company's press release stated the customer was a \"leading frontier AI\" company, but did not disclose the client's name. Bloomberg subsequently identified the customer as Anthropic, citing multiple sources familiar with the transaction, confirming the approximate $9 billion valuation.\n\nThis reported deal is not Anthropic's only recent move to secure extensive data center infrastructure. The AI company also entered into a separate $19 billion deal with another Bitcoin miner, TeraWulf, on July 6. That agreement similarly involves a 20-year lease for data center space, indicating Anthropic's significant investment in scaling its computational capabilities. Cointelegraph has approached both Anthropic and Riot Platforms for official comments regarding the specific details of the reported partnership.\n\n### Why are Bitcoin miners entering AI infrastructure?\nThe strategic pivot by Riot Platforms into AI infrastructure reflects a broader industry movement among Bitcoin miners. Companies like Bitdeer, CleanSpark, MARA Holdings, Core Scientific, Hut 8, and IREN have also begun expanding their operations to include high-performance computing services for AI development. This diversification leverages the substantial energy infrastructure and land assets that Bitcoin mining operations have already established, [Keel exits US Bitcoin mining, reports $141M Q2 operating loss](https://cryptobead.com/article/keel-exits-us-bitcoin-mining-reports-141m-q2-operating-loss-202608111843), providing new revenue streams beyond cryptocurrency mining.\n\nThese facilities are equipped to handle high power loads and demanding computational environments, making them suitable for AI data centers. A report published by Bernstein on July 23, and shared with Cointelegraph, emphasized the critical role of these partnerships. Bernstein stated that collaborations between AI companies and Bitcoin miners are \"necessary\" to alleviate the severe \"power crunch\" currently restraining the growth of AI data centers.\n\nThe energy demands of advanced AI models and training are immense, often requiring hundreds of megawatts for a single facility. Bitcoin miners, by their nature, operate at scale with access to significant power resources, often located in regions with abundant and affordable electricity. This synergy allows AI firms to rapidly expand their compute capacity without the extensive lead times and capital expenditure required to build new power infrastructure from scratch.\n\n### What are the market implications for Riot Platforms?\nRiot Platforms holds a significant position in the cryptocurrency mining sector, currently ranking as the world's fourth-largest Bitcoin mining company. According to data from CompaniesMarketCap, the firm commands a market capitalization of $7.33 billion. The announcement of the reported deal had immediate, albeit mixed, effects on Riot's stock performance.\n\nOn the Monday of the report, Riot\u2019s shares saw a decline of 5.4%. However, the stock demonstrated a strong rebound, rising more than 21% in overnight trading following the initial dip. This volatility indicates market reaction to the strategic shift and potential for new revenue streams. Overall, Riot's stock has shown robust growth this year, reporting an increase of more than 53% year-to-date, according to Yahoo Finance data.\n\nThe move to provide high-performance computing capacity to AI companies represents a substantial strategic diversification for Riot. By monetizing its vast energy infrastructure beyond cryptocurrency mining, Riot aims to create more stable and predictable revenue streams less dependent on Bitcoin price fluctuations. This integration into the AI supply chain could provide long-term growth opportunities for the company, as the demand for AI compute continues to accelerate. It also positions Riot within a critical component of the rapidly expanding AI industry, potentially attracting new investor interest in the firm's broader technological capabilities.\n\n### FAQs\n### What is the estimated value of the compute deal between Anthropic and Riot?\nThe compute deal between Anthropic and Riot Platforms is reportedly valued at approximately $9 billion over a 20-year period.\n### How much power capacity will Riot supply to Anthropic?\n### What is the primary motivation for Bitcoin miners to partner with AI companies?\n\nTickers: RIOT BTC\nDisclaimer: This article is for informational purposes only and not financial advice.",
+    "category": "Infrastructure",
+    "date": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T20:43:41.604382+00:00",
+    "readTime": "4 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "Riot Platforms",
+      "Anthropic",
+      "Bitcoin mining",
+      "AI",
+      "Data Centers"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/riot-platforms-secures-9b-20-year-ai-compute-deal-with-anthropic-202608112043.jpg",
+    "featured": false,
+    "wordCount": 844,
+    "keyInsights": [
+      "Riot Platforms reportedly secured a $9 billion, 20-year deal to supply 191 megawatts of capacity to AI firm Anthropic.",
+      "The partnership highlights a growing trend of Bitcoin miners diversifying into high-performance computing to address AI's power demands.",
+      "Riot's shares initially fell 5.4% but rose over 21% overnight, demonstrating market reaction to the strategic shift."
+    ],
+    "author": {
+      "name": "Sarah Jenkins",
+      "role": "Lead Blockchain Architect",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80"
+    },
+    "chartData": {
+      "title": "Riot Platforms Share Performance (YTD)",
+      "subtitle": "Stock Price Change",
+      "yAxisLabel": "Percentage Change",
+      "sourceLabel": "Yahoo Finance data",
+      "chartType": "radial",
+      "data": [
+        {
+          "label": "Year-to-Date",
+          "value": 53.0
+        }
+      ]
+    }
+  },
+  {
     "id": "keel-exits-us-bitcoin-mining-reports-141m-q2-operating-loss-202608111843",
     "title": "Keel exits US Bitcoin mining, reports $141M Q2 operating loss",
     "subtitle": "The digital infrastructure company pivoted to AI and high-performance computing after its revenue fell 50% year-on-year.",
