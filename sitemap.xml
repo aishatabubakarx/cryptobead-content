@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cryptobead.com/</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://cryptobead.com/</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://cryptobead.com/article/bitcoin-policy-institute-urges-ai-labs-to-grant-early-access-for-cyber-202608121258</loc><lastmod>2026-08-12</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://cryptobead.com/article/riot-platforms-secures-9b-20-year-ai-compute-deal-with-anthropic-202608112043</loc><lastmod>2026-08-11</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://cryptobead.com/article/keel-exits-us-bitcoin-mining-reports-141m-q2-operating-loss-202608111843</loc><lastmod>2026-08-11</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://cryptobead.com/article/strategy-sells-1-690-bitcoin-for-108-6m-to-repurchase-strc-shares-202608111648</loc><lastmod>2026-08-11</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -104,14 +105,14 @@
   <url><loc>https://cryptobead.com/article/michael-saylor-details-110-reasons-against-bitcoin-s-bip-110-sparking--202607192050</loc><lastmod>2026-07-19</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://cryptobead.com/article/us-regulators-falter-on-stablecoin-clarity-as-genius-act-deadline-miss-202607191946</loc><lastmod>2026-07-19</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://cryptobead.com/article/crypto-today-ethereum-etfs-edge-closer-to-launch-bitcoin-holds-above-7-202607191934</loc><lastmod>2026-07-19</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://cryptobead.com/guide/how-blockchain-technology-works-a-beginner-s-guide-to-decentralization-20260730</loc><lastmod>2026-08-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cryptobead.com/guide/understanding-smart-contracts-the-building-blocks-of-defi-and-web3-20260723</loc><lastmod>2026-08-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cryptobead.com/coin/BTC</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/ETH</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/SOL</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/LINK</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/ADA</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/DOT</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/UNI</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://cryptobead.com/coin/AAVE</loc><lastmod>2026-08-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/guide/how-blockchain-technology-works-a-beginner-s-guide-to-decentralization-20260730</loc><lastmod>2026-08-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cryptobead.com/guide/understanding-smart-contracts-the-building-blocks-of-defi-and-web3-20260723</loc><lastmod>2026-08-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://cryptobead.com/coin/BTC</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/ETH</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/SOL</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/LINK</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/ADA</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/DOT</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/UNI</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://cryptobead.com/coin/AAVE</loc><lastmod>2026-08-12</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
 </urlset>
