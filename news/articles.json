@@ -1,5 +1,38 @@
 [
   {
+    "id": "cftc-invokes-emergency-powers-orders-kalshi-to-continue-new-york-opera-202608121449",
+    "title": "CFTC invokes emergency powers, orders Kalshi to continue New York operations",
+    "subtitle": "The US Commodity Futures Trading Commission declared New York's legal action against prediction market Kalshi a \"market emergency\" in an escalating jurisdictional fight.",
+    "summary": "CFTC invoked emergency powers to order Kalshi to keep operating despite NY's lawsuit alleging illegal gambling.",
+    "content": "The US Commodity Futures Trading Commission (CFTC) invoked its emergency authority on Tuesday, ordering prediction market Kalshi to continue operating despite an ongoing legal challenge from New York State. The federal regulator described New York's enforcement action, which includes a request for a temporary restraining order, as a \"market emergency\" that could prevent Kalshi from offering all event contracts nationwide because the company is based in New York, according to the CFTC.\n\nThis action escalates a broader jurisdictional dispute concerning whether states can treat federally regulated event contracts as illegal gambling.\n\n### What prompted the CFTC's emergency order?\nNew York filed a lawsuit on July 31, alleging Kalshi operates an illegal, unlicensed gambling business by offering contracts tied to sports, elections, culture, and other events. The state is seeking restitution, disgorgement, damages, and penalties, including a penalty equal to three times Kalshi\u2019s alleged gains and $100,000 for each unauthorized sports wagering offer or attempt in New York. According to the CFTC, New York is seeking at least $36 billion in compensatory damages, pending an accounting.\n\nThe CFTC stated that New York's enforcement action and request for a temporary restraining order themselves constituted a market emergency. The commission directed Kalshi to continue operating in accordance with its normal practices and the Commodity Exchange Act\u2019s Core Principles. CFTC Chair Michael Selig said Congress did not intend derivatives exchanges to face a \"patchwork of state gaming laws.\"\n\nThe federal regulator argues that the Commodity Exchange Act (CEA) requires the commission to provide a uniform national derivatives market. Major disruptions, according to the CFTC, threaten orderly trading and price discovery across the national market. The CFTC believes the order could prevent Kalshi from offering all event contracts nationally if its New York operations are halted.\n\n### What are the legal arguments in the preemption dispute?\nThe confrontation is part of a broader national fight over whether the Commodity Exchange Act preempts state gambling laws as applied to event contracts traded on federally regulated exchanges. Kalshi maintains that states cannot shut down a federally licensed exchange. The CFTC argues that the CEA grants it exclusive jurisdiction over transactions involving swaps traded on designated contract markets, including the event contracts Kalshi lists as swaps.\n\nIn a separate federal case, the CFTC sued New York in April to block the state from applying its gambling laws to CFTC-registered contract markets. Judge Jed Rakoff denied without prejudice the agency\u2019s emergency request for a temporary restraining order in that case. The judge found that the CFTC had not established a high likelihood of success on the merits or a likelihood of irreparable harm at that stage of the proceedings.\n\nA federal judge in a separate New York case also denied Kalshi\u2019s request for a preliminary injunction on July 7. That judge found at that stage that New York gambling laws were not preempted by the Commodity Exchange Act as applied to Kalshi\u2019s sports-event contracts. The CFTC stated that it has sued eight other states, along with New York, to defend its congressionally granted jurisdiction over such markets.\n\n### What are the potential implications of this ongoing legal battle?\nThe latest CFTC order directs Kalshi to continue operating but does not end New York\u2019s lawsuit or resolve the underlying jurisdictional dispute. It is not a judicial ruling on whether federal law preempts state gambling enforcement. The ongoing legal challenge raises questions about the scope of federal regulatory authority over derivatives markets versus state gambling laws.\n\nThe dispute extends beyond New York, with the CFTC actively litigating against multiple states to assert its jurisdiction. This widespread conflict could impact the operating environment for other federally regulated exchanges offering similar event contracts. The outcome of these cases will likely shape how prediction markets and other derivatives platforms are regulated nationally. The resolution remains unconfirmed as legal proceedings continue.\n\n### FAQs\n### Why did the CFTC issue an emergency order for Kalshi?\nThe CFTC invoked emergency authority because it deemed New York's enforcement action and request for a temporary restraining order against Kalshi a \"market emergency\" that threatened a uniform national derivatives market.\n### What is New York's primary allegation against Kalshi?\n### Has the issue of federal preemption been settled?\nTickers: NONE\nDisclaimer: This article is for informational purposes only and not financial or legal advice.",
+    "category": "Regulation",
+    "date": "Aug 12, 2026",
+    "publishedAt": "2026-08-12T14:49:48.555477+00:00",
+    "readTime": "4 min read",
+    "sentiment": "neutral",
+    "reliabilityScore": 85,
+    "tags": [
+      "CFTC",
+      "Kalshi",
+      "New York",
+      "Regulation",
+      "Event Contracts"
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/aishatabubakarx/cryptobead-content@main/news/images/cftc-invokes-emergency-powers-orders-kalshi-to-continue-new-york-opera-202608121449.jpg",
+    "featured": false,
+    "wordCount": 714,
+    "keyInsights": [
+      "The CFTC directed prediction market Kalshi to continue operations, declaring New York's legal action a \"market emergency.\"",
+      "New York is seeking at least $36 billion in compensatory damages, alleging Kalshi operates an illegal gambling business.",
+      "The dispute highlights a national conflict regarding the Commodity Exchange Act's preemption over state gambling laws for event contracts."
+    ],
+    "author": {
+      "name": "Robert Vance",
+      "role": "Chief On-Chain Analyst",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=150&h=150&q=80"
+    }
+  },
+  {
     "id": "bitcoin-policy-institute-urges-ai-labs-to-grant-early-access-for-cyber-202608121258",
     "title": "Bitcoin Policy Institute urges AI labs to grant early access for cyber defense",
     "subtitle": "A coalition of crypto firms, led by BPI, seeks advanced AI models for developers to counter escalating cyber threats.",
