@@ -1,5 +1,55 @@
 [
   {
+    "id": "bitcoin-miners-earn-under-0-7-from-fees-accelerating-ai-pivot-bitcoin--202608121844",
+    "title": "Bitcoin Miners Earn Under 0.7% from Fees, Accelerating AI Pivot\n- **Bitcoin transaction fees now account for just 0.69% of miner revenue, near 10-year lows.**\n- **This decline follows a dip to 0.52% in April, as miner profits face pressure from costs and falling Bitcoin prices.**\n- **Major Bitcoin miners are increasingly pivoting to AI and high-performance computing (HPC) operations, impacting network hash rate.**\n\nBitcoin transaction fees now account for only 0.69% of miner revenue, marking a trend near 10-year lows, according to data from onchain analytics platform Glassnode. This figure barely recovered from an April low of 0.52%, signaling ongoing pressure on mining profitability.\n\nThis \"concerning\" trend, as described by Glassnode co-founder Rafael Schultze-Kraft, coincides with a significant pivot by major players in the Bitcoin mining sector towards artificial intelligence.\n\n### Why are Bitcoin miners pivoting to AI?\nMiners are facing an ongoing squeeze on profits due to declining Bitcoin prices and rising electricity costs, forcing smaller players out of the market. The low transaction fee income means miners increasingly rely on the fixed block subsidy for revenue, which is currently 3.125 BTC per mined block. Rafael Schultze-Kraft noted on X that fee share has been below 1% for almost a year, adding that Bitcoin was priced under $400 the last time fee share was this low.\n\nBitcoin's value has fallen nearly 50% since its October 2025 all-time high, decreasing the US dollar value of the block subsidy and further tightening profit margins. The estimated average cost to produce one Bitcoin stood at $78,254 as of Tuesday, according to onchain analytics resource Checkonchain. This production cost is almost 23% above the current spot price. This profit pressure is a key factor driving miners to seek alternative revenue streams, such as AI computing.\n\nThe shift towards AI/HPC operations has proven to be a prudent business decision for public mining companies, according to independent analyst William Clemente. He acknowledged on X that this dynamic has been reinforced as Bitcoin has underperformed AI-related assets and as demand for compute power has accelerated. Bitcoin miner CleanSpark, for example, recently refocused on AI by switching to operating data centers after missing profit targets, as reported by Cointelegraph. Another miner, Keel Infrastructure, shut down all its US mining operations after experiencing a 50% revenue drop in the second quarter.\n\n### How has hash rate been impacted?\nThe Bitcoin network's hash rate, which measures the computing power securing the network, reflects the mining sector's state of flux. Hash rate has declined by 33% from its October 2025 peak of 1.3 zettahashes per second (ZH/s) to 861 exahashes per second (EH/s), as shown by Checkonchain data. This sustained decline highlights the changing operational focus within the mining industry.\n\nWilliam Clemente noted that this decline in hash rate has taken place as miner margins were squeezed after 2022 due to increased competition and higher energy prices. The pivot of many miners into AI/HPC has become conspicuous, especially as network difficulty itself begins to rise again, which would typically incentivize miners to boost activity through automated difficulty readjustments.\n\nCharles Edwards, founder of Capriole Investments, a hedge fund and AI platform, directly linked the drop in hash rate to public miners' AI pivot. He argued on X that this is one of the \"least talked about, concerning Bitcoin development in 2026,\" noting that this trend has accelerated since April. The reduced hash rate indicates a decrease in the overall computing power dedicated to securing the Bitcoin network, a direct consequence of miners reallocating resources to more lucrative AI computing.\n\n### FAQs\n### What is the primary reason Bitcoin miners are pivoting to AI?\nBitcoin miners are pivoting to AI primarily due to a significant profit squeeze caused by near 10-year lows in transaction fee revenue, declining Bitcoin prices, and rising electricity costs, making AI/HPC a more lucrative business opportunity.\n### How low did Bitcoin transaction fees drop in April?\n### What is the estimated average cost of producing one Bitcoin?\n\nTickers: BTC\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
+    "subtitle": "Bitcoin transaction fees fall to 0.69% of miner revenue, near decade lows, prompting a shift to AI.",
+    "summary": "Bitcoin miners are earning under 0.7% of revenue from fees, leading to an accelerated pivot towards AI operations.",
+    "content": "",
+    "category": "Infrastructure",
+    "date": "Aug 12, 2026",
+    "publishedAt": "2026-08-12T18:44:30.839839+00:00",
+    "readTime": "1 min read",
+    "sentiment": "bearish",
+    "reliabilityScore": 85,
+    "tags": [
+      "Bitcoin mining",
+      "AI",
+      "Hash Rate",
+      "Transaction Fees",
+      "Glassnode"
+    ],
+    "image": "",
+    "featured": false,
+    "wordCount": 0,
+    "keyInsights": [
+      "Bitcoin transaction fees constitute only 0.69% of miner revenue, a near decade-low, increasing reliance on block subsidies.",
+      "The average cost of producing one Bitcoin is estimated at $78,254, exceeding the current spot price by almost 23%.",
+      "Bitcoin's network hash rate has declined by 33% from its October 2025 peak, reflecting miners' shift to AI."
+    ],
+    "author": {
+      "name": "Aishat Abubakar",
+      "role": "Senior DeFi Journalist & Trader",
+      "avatar": "/aishat_profile.jpg"
+    },
+    "chartData": {
+      "title": "Bitcoin Transaction Fees as % of Miner Revenue",
+      "subtitle": "Near 10-Year Lows",
+      "yAxisLabel": "Percentage of Revenue",
+      "sourceLabel": "Glassnode, Rafael Schultze-Kraft",
+      "chartType": "line",
+      "data": [
+        {
+          "label": "April",
+          "value": 0.52
+        },
+        {
+          "label": "Current",
+          "value": 0.69
+        }
+      ]
+    }
+  },
+  {
     "id": "binance-redotpay-clash-over-singapore-lawsuit-status-amid-473-million--202608121646",
     "title": "Binance, RedotPay clash over Singapore lawsuit status amid $473 million dispute\n- **RedotPay states it expects Binance to discontinue its Singapore lawsuit following an August 7 hearing.**\n- **Binance denies these reports, confirming its claims in Singapore remain active against RedotPay.**\n- **The Singapore dispute is linked to a broader Hong Kong legal battle involving nearly $473 million in claimed damages.**\n\nBinance and stablecoin payments card issuer RedotPay are clashing over the status of a Singapore legal case, which stems from a larger Hong Kong dispute involving nearly $473 million in alleged damages. RedotPay indicated it expects Binance to end the Singapore proceedings after an August 7 hearing, according to a Cointelegraph report.\n\nThis disagreement marks a new development in the ongoing legal actions initiated by Binance-affiliated entities against RedotPay.\n\n### What is the nature of the Singapore dispute?\nA spokesperson for RedotPay told Cointelegraph on Tuesday that the company expects Binance to discontinue the Singapore proceedings. This expectation follows a hearing that was scheduled for August 7. RedotPay stated it would seek legal costs from Binance arising from the expected discontinuance, with parties intending to agree on these costs.\n\nHowever, Binance presented a different perspective. A spokesperson for Binance told Cointelegraph that reports suggesting the company would be withdrawing its Singapore claims are false. Binance affirmed that it is not abandoning its claims and has officially informed both the court and RedotPay of this position. The Singapore case itself was initiated by Chaintecs Consulting Singapore, one of the entities linked to Binance.\n\n### What are the allegations in the Hong Kong case?\nThe legal conflict extends beyond Singapore to include a separate Hong Kong case, where Binance-affiliated companies are seeking nearly $473 million in damages. The Hong Kong petition was filed by Nest Trading, DistributedTechnologies, and Chaintecs Consulting Singapore. These plaintiffs allege that RedotPay diverted more than 470,000 Binance Card users.\n\nThe alleged diversion occurred by enabling Binance Pay funds to be used for stablecoin card top-ups. These actions are claimed to have taken place outside the agreed-upon terms of a commercial agreement between the parties. The estimated damages total $472.8 million, a figure derived from a claimed lifetime customer value of $925 per user, as stated by the plaintiffs.\n\nRedotPay previously rejected these accusations, calling them \"unfounded allegations\" against both the company and its co-founders. At the time of the Bloomberg report on August 5, RedotPay stated its intention to defend against these claims through the legal process. The RedotPay Binance Pay partnership, announced in December 2023, initially allowed Binance Pay users to make direct deposits to RedotPay cards. Binance subsequently ended support for this integration on April 3, 2026, citing a review of its merchant partners, months before the legal dispute became public.\n\n### What are the next steps in the legal proceedings?\nThe conflicting statements from RedotPay and Binance regarding the Singapore case indicate that its resolution remains uncertain. While RedotPay anticipates a discontinuance and plans to seek legal costs, Binance maintains its claims are active. This disagreement suggests further legal clarification may be necessary to determine the definitive status of the Singapore proceedings.\n\nMeanwhile, the broader Hong Kong case, which seeks substantial damages, is expected to continue. RedotPay has publicly committed to defending against the nearly $473 million claims. The precise timeline for the resolution of these legal actions in either jurisdiction is unconfirmed, given the contested nature of the allegations and counter-claims. The alleged diversion of funds and users could have significant legal ramifications for RedotPay, similar to other complex financial cases such as [CFTC invokes emergency powers, orders Kalshi to continue New York operations](https://cryptobead.com/article/cftc-invokes-emergency-powers-orders-kalshi-to-continue-new-york-opera-202608121449).\n\n### FAQs\n### What is the core dispute between Binance and RedotPay?\nThe core dispute revolves around whether Binance will discontinue a Singapore lawsuit against RedotPay, with RedotPay claiming discontinuance is expected and Binance denying it, all part of a larger legal battle concerning nearly $473 million in damages.\n### Who initiated the legal action against RedotPay?\n### What is the alleged cause of the nearly $473 million in damages?\n\nTickers: BNB\nDisclaimer: This article is for informational purposes only and does not constitute financial advice.",
     "subtitle": "",
